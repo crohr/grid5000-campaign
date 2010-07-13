@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+
+require "grid5000"
+
+command, recipe = $*
+
+case command
+when "launch"
+  EventMachine.synchrony do
+    Grid5000::Campaign.new(recipe).launch
+    EventMachine.stop
+  end
+else
+  puts "Unrecognized command: #{command.inspect}"
+end
