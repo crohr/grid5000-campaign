@@ -64,9 +64,9 @@ module Grid5000
       def match
         compute_status_conditions
         matching_nodes = []
-        campaign.api.root.get(:sites).each do |site|
-          site.get(:clusters).each do |cluster|
-            cluster.get(:nodes).each do |node|
+        campaign.api.root.get(:sites).pget(:clusters) do |site, clusters|
+          clusters.pget(:nodes).each do |cluster, nodes|
+            nodes.each do |node|
               properties.each do |property, conditions|
                 node["status"] = site.get(:status)["items"].find{ |status|
                   status["node_uid"] == node["uid"]

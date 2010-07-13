@@ -1,3 +1,5 @@
+source :rubygems
+
 gem "json"
 gem "eventmachine", :git => "git://github.com/eventmachine/eventmachine.git"
 gem "em-http-request"

@@ -9,11 +9,12 @@ describe Http::Collection do
     
     it "should get them in parallel" do
       EM.synchrony do
-        sites = @http.get("https://localhost:3443/sid/grid5000/sites")
-        clusters = []
-        sites.each do |site|
-          site.get(:clusters).each do |cluster|
-            p cluster.get(:nodes).total
+        sites = @http.get("https://localhost:3443/sid/grid5000/sites")        
+        sites.pget(:clusters) do |site, clusters|
+          p site["uid"]
+          clusters.pget(:nodes) do |cluster, nodes|
+            p cluster["uid"]
+            p nodes.length
           end
         end
         EM.stop

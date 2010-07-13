@@ -21,6 +21,11 @@ class Http
     handle_status(uri.to_s, response)
   end # def get
   
+  def aget(uri, options = {})
+    options[:head] = default_headers.merge(options[:head] || {})
+    EventMachine::HttpRequest.new(uri.to_s).aget(options)
+  end
+  
   def root
     get("/")
   end
@@ -37,7 +42,7 @@ class Http
       end
     when 201, 202  
       # follow Location
-      self.get(URI.join(uri, response.response_header.location))
+      self.get(URI.join(uri, response.response_header.location).to_s)
     when 204
       true
     when 404
@@ -60,7 +65,7 @@ class Http
       link["rel"] == rel.to_s || link["title"] == rel.to_s
     }
     if link
-      link["href"] = URI.join(resource.uri, link["href"])
+      link["href"] = URI.join(resource.uri, link["href"]).to_s
       link
     else
       nil
