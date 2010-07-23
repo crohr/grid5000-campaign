@@ -7,7 +7,7 @@ class Http
       properties["items"].map!{|item|
         Resource.new(
           http, 
-          http.link(self, :self)["href"],
+          http.link(item, :self)["href"],
           item
         )
       }

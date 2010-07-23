@@ -34,6 +34,9 @@ module Grid5000
     def find(*args)
       Requirement.new(self, *args)
     end
+    
+    class Error < StandardError; end
+    class MatchingError < Error; end
   end # class Campaign
   
 end # module Grid5000

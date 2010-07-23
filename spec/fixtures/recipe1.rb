@@ -13,7 +13,7 @@ set :max_retries, 3
 set :error, 10/100
 
 set :api_uri, "https://api.grid5000.fr"
-set :api_version, "sid"
+set :api_root, "/sid/grid5000"
 
 # find
 # deploy
@@ -27,7 +27,8 @@ find(40.nodes).
   having(
     :processor.with(:clock_speed.gt(2.G)),
     :network_adapters.with(:enabled.eq(true)).
-      and(:rate.gt(10.G)).and(:interface.like(/infiniband/i, /ethernet/i))
+      and(:rate.gt(10.G)).and(:interface.like(/infiniband/i, /ethernet/i)),
+    :cluster_uid.in("paradent", "genepi", "chuque")
   ) do |resources|
   # this will attempt to submit the jobs on each site
   # ^ this is done locally

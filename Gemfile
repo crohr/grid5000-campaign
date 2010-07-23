@@ -9,4 +9,5 @@ group :test do
   gem "rspec"
   gem "autotest"
   gem "autotest-growl"
+  gem "webmock", :git => "git://github.com/bblimke/webmock.git"
 end

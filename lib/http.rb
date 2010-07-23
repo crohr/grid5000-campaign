@@ -12,22 +12,25 @@ class Http
 
   def initialize(config = {})
     @config = config
-    @current_uri = nil
+    [:api_uri].each do |property|
+      raise ArgumentError, ":#{property} property must be set." unless config[property]
+    end
   end # def initialize
   
   def get(uri, options = {})
+    uri = uri_for(uri).to_s
     options[:head] = default_headers.merge(options[:head] || {})
-    response = EventMachine::HttpRequest.new(uri.to_s).get(options)
-    handle_status(uri.to_s, response)
+    response = EventMachine::HttpRequest.new(uri).get(options)
+    handle_status(uri, response)
   end # def get
   
   def aget(uri, options = {})
     options[:head] = default_headers.merge(options[:head] || {})
-    EventMachine::HttpRequest.new(uri.to_s).aget(options)
+    EventMachine::HttpRequest.new(uri_for(uri).to_s).aget(options)
   end
   
   def root
-    get("/")
+    get(uri_for(config[:api_root] || "/"))
   end
   
   def handle_status(uri, response)
@@ -65,7 +68,7 @@ class Http
       link["rel"] == rel.to_s || link["title"] == rel.to_s
     }
     if link
-      link["href"] = URI.join(resource.uri, link["href"]).to_s
+      link["href"] = URI.join(config[:api_uri], link["href"]).to_s
       link
     else
       nil
@@ -77,6 +80,12 @@ class Http
       response_body["items"].kind_of?(Array) &&
       response_body.has_key?("links") &&
       response_body.has_key?("total")
+  end
+  
+  def uri_for(path)
+    uri = URI.join(config[:api_uri], path.to_s)
+    Grid5000.logger.debug [:uri, uri]
+    uri
   end
   
   class Error < StandardError; end

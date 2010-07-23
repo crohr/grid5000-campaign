@@ -35,11 +35,11 @@ class Symbol
   end
   
   def gt(value)
-    procify(value, :>)
+    procify(value, :>=)
   end
   
   def lt(value)
-    procify(value, :<)
+    procify(value, :<=)
   end
   
   def in(range_or_array)
@@ -59,8 +59,8 @@ class Symbol
     non_regexp = regexps.find{|r| !r.kind_of?(Regexp)}
     if non_regexp.nil?
       Proc.new { |hash| 
-        hash.has_key?(self) && regexps.find{|regexp|
-          regexp.match(hash[self])
+        hash.has_key?(key) && regexps.find{|regexp|
+          regexp.match(hash[key])
         }
       }
     else
@@ -87,25 +87,32 @@ class Symbol
     end
   end
   
+  def key
+    @key ||= self.to_s
+  end
+  
   private
   def procify(value, method)
     Proc.new { |hash| 
-      hash.has_key?(self) && case value
-      when Range, Array  
-        value.send(method, hash[self])
+      if hash.has_key?(key)
+        property = hash[key]
+        case value
+        when Range, Array
+          value.send(method, property)
+        else
+          property.send(method, value)
+        end
       else
-        hash[self].send(method, value)
+        false
       end
     }
   end
   
   def add_condition(expression)
     Proc.new { |node| 
-      if node.has_key?(self)
-        expression.call(node[self])
-      else
-        false
-      end
+      node.has_key?(key) && [node[key]].flatten.find{ |value|
+        expression.call(value)
+      }
     }
   end
 end

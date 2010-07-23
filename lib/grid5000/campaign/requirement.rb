@@ -1,3 +1,5 @@
+require 'set'
+
 module Grid5000
   class Campaign
     class Requirement
@@ -17,9 +19,9 @@ module Grid5000
     
       def on(*args, &block)
         @locations = if args.empty?
-          Grid5000.api.root.sites.map{|site| site["uid"].to_sym}
+          Grid5000.api.root.sites.map{|site| site["uid"]}
         else
-          args
+          args.map{|symbol_or_string| symbol_or_string.to_s}
         end
         self_or_execute(&block)
       end
@@ -48,6 +50,7 @@ module Grid5000
         end
       end
     
+      # Returns the required number of nodes on each location
       def distribution
         if @distributed == :evenly
           partition = nodes/locations.length
@@ -62,54 +65,82 @@ module Grid5000
       # Attempts to find a match between the requirements 
       # and the available nodes
       def match
-        compute_status_conditions
         matching_nodes = []
-        campaign.api.root.get(:sites).pget(:clusters) do |site, clusters|
-          clusters.pget(:nodes).each do |cluster, nodes|
-            nodes.each do |node|
-              properties.each do |property, conditions|
-                node["status"] = site.get(:status)["items"].find{ |status|
+        p campaign.api.config
+        sites = campaign.api.root.get(:sites)
+        valid_sites = sites.select{ |site|
+          locations.include?(site["uid"])
+        }
+        if valid_sites.empty?
+          raise MatchingError, "At least one location requirement cannot be satisfied (#{locations.inspect})."
+        else
+          compute_status_conditions
+          distribution_by_site = Hash[locations.zip(distribution)]
+          sites.pget(:status) do |site, status|
+            site['status'] = status
+          end
+          sites.pget(:clusters) do |site, clusters|
+            next unless distribution_by_site.has_key?(site["uid"])
+            clusters.pget(:nodes) do |cluster, nodes|
+              nodes.each do |node|
+                node["status"] = site['status']["items"].find{ |status|
                   status["node_uid"] == node["uid"]
                 }
-                if conditions.all?{ |condition|
-                  condition.call(node[property.to_s])
-                }
+                node["cluster_uid"] = cluster["uid"]
+                node["site_uid"] = site["uid"]
+                if distribution_by_site[site["uid"]] > 0 && match?(node.properties)
+                  distribution_by_site[site["uid"]] -= 1
                   matching_nodes << node
                 end
+                break if distribution_by_site[site["uid"]] <= 0
               end
             end
           end
+          matching_nodes
         end
-        matching_nodes
+
+      end
+      
+      
+      # Returns true if the 
+      def match?(hash)
+        properties.all? do |(property, conditions)|
+          passed = conditions.all?{ |condition|
+            condition.call(hash)
+          }
+          if passed
+            true
+          else
+            Grid5000.logger.debug "Cannot find a match on #{property.inspect} for #{hash["uid"]}"
+            false
+          end
+        end
       end
     
       protected
       def self_or_execute(&block)
         if block
-          match && block.call(_)
+          block.call(match)
         else
           self
         end
       end
     
+      # Adds new conditions on node status, 
+      # according to options set in the campaign
       def compute_status_conditions
         @properties[:status] ||= []
         if campaign.config[:besteffort]
-          @properties[:status] << Proc.new { |status|
-            status["system_state"] == "free"
+          @properties[:status] << Proc.new { |hash|
+            hash["status"]["system_state"] == "free"
           }
         else
-          @properties[:status] << Proc.new { |status|
-            ["free", "besteffort"].include?(status["system_state"])
+          @properties[:status] << Proc.new { |hash|
+            ["free", "besteffort"].include?(hash["status"]["system_state"])
           }
         end
         # we can also add conditions on reservations for campaigns in the future
-      end
-    
-    
-      def match?(node)
-      
-      end
+      end    
     
     end # class Requirement
     

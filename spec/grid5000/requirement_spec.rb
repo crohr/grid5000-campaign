@@ -38,7 +38,7 @@ describe Campaign::Requirement do
     
     it "should set the locations if given an array of symbols" do
       @requirement.on(:rennes, :lille).should == @requirement
-      @requirement.locations.should == [:rennes, :lille]
+      @requirement.locations.should == ["rennes", "lille"]
     end
     
     it "should populate the required properties" do
@@ -54,5 +54,62 @@ describe Campaign::Requirement do
       @requirement.properties[:network_adapters].length.should == 3
     end
     
+  end
+  
+  describe "searching" do
+    before do
+      @campaign.stub!(:config).and_return({
+        :besteffort => false,
+        :api_uri => "https://localhost:3443",
+        :api_root => "/sid/grid5000"
+      })
+      @campaign.stub!(:api).and_return(Http.new(@campaign.config))
+      @requirement = Campaign::Requirement.new(@campaign, 40).on(:rennes, :lille).distributed(10,30).having(
+        :network_adapters.
+          with(:enabled.eq true).
+          and(:rate.gt 10.G).
+          and(:interface.like [/infiniband/i, /ethernet/i])
+      ).having(:processor.with(:clock_speed.in 1.G..2.G))
+    end
+    
+    it "should return true if the node matches the requirement" do
+      @requirement.match?({
+        "processor" => {
+          "clock_speed" => 2.G
+        },
+        "network_adapters" => [
+          {
+            "enabled" => true,
+            "rate" => 10.G,
+            "interface" => "Ethernet"
+          }
+        ]
+      }).should be_true
+    end
+    
+    it "should return false if the node does not match the requirement" do
+      @requirement.match?({
+        "processor" => {
+          "clock_speed" => 2.G
+        },
+        "network_adapters" => [
+          {
+            "enabled" => true,
+            "rate" => 6.G,
+            "interface" => "Ethernet"
+          }
+        ]
+      }).should be_false
+    end
+    
+    it "should start searching nodes matching the requirements as soon as a block is passed" do
+      # EM.synchrony do
+      #   @requirement.having(:processor.with(:clock_speed.in 1.G..2.G)) do |resources|
+      #     p resources.map{|r| r["uid"]}
+      #     resources.should_not be_empty
+      #   end
+      #   EM.stop
+      # end
+    end
   end
 end
