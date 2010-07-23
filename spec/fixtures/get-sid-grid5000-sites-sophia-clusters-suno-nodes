@@ -1,0 +1,4454 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jul 2010 09:07:24 GMT
+Server: Apache/2.2.9 (Debian) Phusion_Passenger/2.2.3 mod_ssl/2.2.9 OpenSSL/0.9.8g
+X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.3
+Vary: Accept,Accept-Encoding
+ETag: "835fcdbea0c65530d9cdf3a14c13281ae48b1ef8"
+Allow: GET
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=60, s-maxage=60
+Last-Modified: Thu, 22 Jul 2010 13:39:20 GMT
+Content-Length: 132808
+Status: 200
+Content-Type: application/vnd.fr.grid5000.api.collection+json;level=1
+X-Cache: MISS from api-proxy.rennes.grid5000.fr
+X-Cache-Lookup: MISS from api-proxy.rennes.grid5000.fr:3128
+Via: 1.0 api-server.lyon.grid5000.fr, 1.0 api-proxy.rennes.grid5000.fr:3128 (squid/2.6.STABLE18)
+Via: 1.1 api-proxy.rennes.grid5000.fr:4444
+Via: 1.1 api.grid5000.fr
+
+{
+  "items": [
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-1.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.101",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-1.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.101",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-1",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-1/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-1/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-1",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-1/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-10.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.110",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-10.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.110",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-10",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-10/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-10/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-10",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-10/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-11.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.111",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-11.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.111",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-11",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-11/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-11/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-11",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-11/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-12.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.112",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-12.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.112",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-12",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-12/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-12/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-12",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-12/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-13.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.113",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-13.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.113",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-13",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-13/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-13/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-13",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-13/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-14.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.114",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-14.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.114",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-14",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-14/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-14/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-14",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-14/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-15.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.115",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-15.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.115",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-15",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-15/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-15/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-15",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-15/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-16.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.116",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-16.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.116",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-16",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-16/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-16/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-16",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-16/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-17.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.117",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-17.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.117",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-17",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-17/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-17/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-17",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-17/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-18.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.118",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-18.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.118",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-18",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-18/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-18/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-18",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-18/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-19.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.119",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-19.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.119",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-19",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-19/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-19/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-19",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-19/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-2.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.102",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-2.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.102",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-2",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-2/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-2/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-2",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-2/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-20.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.120",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-20.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.120",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-20",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-20/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-20/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-20",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-20/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-21.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.121",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-21.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.121",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-21",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-21/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-21/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-21",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-21/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-22.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.122",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-22.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.122",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-22",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-22/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-22/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-22",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-22/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-23.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.123",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-23.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.123",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-23",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-23/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-23/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-23",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-23/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-24.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.124",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-24.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.124",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-24",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-24/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-24/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-24",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-24/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-25.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.125",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-25.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.125",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-25",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-25/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-25/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-25",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-25/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-26.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.126",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-26.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.126",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-26",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-26/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-26/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-26",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-26/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-27.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.127",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-27.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.127",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-27",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-27/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-27/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-27",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-27/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-28.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.128",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-28.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.128",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-28",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-28/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-28/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-28",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-28/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-29.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.129",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-29.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.129",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-29",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-29/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-29/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-29",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-29/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-3.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.103",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-3.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.103",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-3",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-3/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-3/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-3",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-3/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-30.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.130",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-30.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.130",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-30",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-30/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-30/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-30",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-30/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-31.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.131",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-31.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.131",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-31",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-31/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-31/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-31",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-31/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-32.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.132",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-32.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.132",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-32",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-32/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-32/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-32",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-32/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-33.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.133",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-33.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.133",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-33",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-33/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-33/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-33",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-33/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-34.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.134",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-34.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.134",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-34",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-34/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-34/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-34",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-34/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-35.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.135",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-35.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.135",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-35",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-35/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-35/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-35",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-35/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-36.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.136",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-36.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.136",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-36",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-36/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-36/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-36",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-36/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-37.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.137",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-37.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.137",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-37",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-37/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-37/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-37",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-37/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-38.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.138",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-38.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.138",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-38",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-38/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-38/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-38",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-38/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-39.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.139",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-39.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.139",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-39",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-39/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-39/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-39",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-39/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-4.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.104",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-4.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.104",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-4",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-4/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-4/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-4",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-4/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-40.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.140",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-40.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.140",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-40",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-40/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-40/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-40",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-40/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-41.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.141",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-41.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.141",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-41",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-41/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-41/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-41",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-41/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-42.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.142",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-42.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.142",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-42",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-42/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-42/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-42",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-42/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-43.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.143",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-43.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.143",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-43",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-43/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-43/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-43",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-43/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-44.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.144",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-44.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.144",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-44",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-44/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-44/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-44",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-44/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-45.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.145",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-45.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.145",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-45",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-45/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-45/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-45",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-45/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-5.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.105",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-5.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.105",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-5",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-5/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-5/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-5",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-5/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-6.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.106",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-6.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.106",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-6",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-6/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-6/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-6",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-6/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-7.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.107",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-7.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.107",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-7",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-7/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-7/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-7",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-7/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-8.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.108",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-8.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.108",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-8",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-8/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-8/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-8",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-8/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "suno-9.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.109",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "fastiron",
+          "network_address": "suno-9.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtremeII BCM5716",
+          "ip": "138.96.21.109",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "suno-9",
+      "storage_devices": [
+        {
+          "size": 557675957679.749,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-9/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-9/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-9",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-9/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2260000000.0,
+        "cache_l1d": null,
+        "version": "E5520",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 8388608,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    }
+  ],
+  "total": 45,
+  "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+  "links": [
+    {
+      "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+      "title": "version",
+      "rel": "member",
+      "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/versions",
+      "title": "versions",
+      "rel": "collection",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes",
+      "rel": "self",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    }
+  ],
+  "offset": 0
+}

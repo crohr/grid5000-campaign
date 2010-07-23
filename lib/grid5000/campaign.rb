@@ -9,15 +9,13 @@ module Grid5000
   # * instantiate the selected resources;
   class Campaign
     
-    attr_reader :config
+    attr_reader :config, :recipe
     
-    def initialize(recipe)
-      recipe = File.expand_path(recipe)
-      if File.file?(recipe) && File.readable?(recipe)
-        recipe = File.read(recipe)
+    def initialize(recipe_file)
+      if recipe_file && recipe_file.respond_to?(:read)
+        @recipe = recipe_file.read
       else
-        raise ArgumentError, 
-          "The recipe file #{recipe.inspect} does not exist or is not readable."
+        raise ArgumentError, "Cannot read the given recipe."
       end
       @config = {}
     end # def initialize
@@ -33,6 +31,10 @@ module Grid5000
 
     def find(*args)
       Requirement.new(self, *args)
+    end
+    
+    def launch
+      self.instance_eval recipe
     end
     
     class Error < StandardError; end

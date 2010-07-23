@@ -1,0 +1,3566 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jul 2010 09:15:28 GMT
+Server: Apache/2.2.9 (Debian) Phusion_Passenger/2.2.3 mod_ssl/2.2.9 OpenSSL/0.9.8g
+X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.3
+Vary: Accept,Accept-Encoding
+ETag: "829c45c7fa30194e84ae8e6399d77c6d6afc90ad"
+Cache-Control: public, max-age=120
+Expires: Fri, 23 Jul 2010 09:19:28 GMT
+Allow: GET
+Content-Length: 102517
+Status: 200
+Content-Type: application/json
+X-Cache: MISS from api-proxy.rennes.grid5000.fr
+X-Cache-Lookup: MISS from api-proxy.rennes.grid5000.fr:3128
+Via: 1.0 api-server.toulouse.grid5000.fr, 1.0 api-proxy.rennes.grid5000.fr:3128 (squid/2.6.STABLE18)
+Via: 1.1 api-proxy.rennes.grid5000.fr:4444
+Via: 1.1 api.grid5000.fr
+
+{
+  "items": [
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-48",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-48/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-48",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-39",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 353973,
+          "start_time": 1279865595,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-39/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-39",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-67",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 353952,
+          "start_time": 1279868423,
+          "walltime": 10777
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-67/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-67",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "violette-1",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 353963,
+          "start_time": 1279865589,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-1/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-1",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-9",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 353952,
+          "start_time": 1279868423,
+          "walltime": 10777
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-9/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-9",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-49",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-49/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-49",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-68",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 353952,
+          "start_time": 1279868423,
+          "walltime": 10777
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-68/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-68",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "violette-2",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 353961,
+          "start_time": 1279865589,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-2/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-2",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "pastel-10",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 353991,
+          "start_time": 1279896253,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-10/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-10",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-69",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 353952,
+          "start_time": 1279868423,
+          "walltime": 10777
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-69/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-69",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "violette-3",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 353959,
+          "start_time": 1279865588,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-3/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-3",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-20",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-20/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-20",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "pastel-11",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 353991,
+          "start_time": 1279896253,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-11/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-11",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "violette-4",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 353957,
+          "start_time": 1279872082,
+          "walltime": 43118
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-4/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-4",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-21",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-21/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-21",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-50",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-50/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-50",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "violette-5",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 353957,
+          "start_time": 1279872082,
+          "walltime": 43118
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-5/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-5",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-40",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 353965,
+          "start_time": 1279865590,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-40/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-40",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "pastel-12",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 353991,
+          "start_time": 1279896253,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-12/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-12",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-22",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-22/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-22",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "violette-6",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 353957,
+          "start_time": 1279872082,
+          "walltime": 43118
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-6/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-6",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-51",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-51/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-51",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "pastel-13",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 353991,
+          "start_time": 1279896253,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-13/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-13",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-23",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-23/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-23",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-41",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 353957,
+          "start_time": 1279872082,
+          "walltime": 43118
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-41/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-41",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "violette-7",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 353957,
+          "start_time": 1279872082,
+          "walltime": 43118
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-7/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-7",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-52",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-52/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-52",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "pastel-14",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 353991,
+          "start_time": 1279896253,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-14/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-14",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-70",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 353952,
+          "start_time": 1279868423,
+          "walltime": 10777
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-70/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-70",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-24",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-24/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-24",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-42",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 353957,
+          "start_time": 1279872082,
+          "walltime": 43118
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-42/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-42",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "violette-8",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 353957,
+          "start_time": 1279872082,
+          "walltime": 43118
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-8/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-8",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "pastel-15",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 353991,
+          "start_time": 1279896253,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-15/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-15",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-71",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 353952,
+          "start_time": 1279868423,
+          "walltime": 10777
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-71/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-71",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-43",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 353957,
+          "start_time": 1279872082,
+          "walltime": 43118
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-43/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-43",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "violette-9",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 353957,
+          "start_time": 1279872082,
+          "walltime": 43118
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-9/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-9",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "pastel-16",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 353991,
+          "start_time": 1279896253,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-16/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-16",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-72",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 353952,
+          "start_time": 1279868423,
+          "walltime": 10777
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-72/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-72",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-25",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-25/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-25",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-44",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 353957,
+          "start_time": 1279872082,
+          "walltime": 43118
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-44/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-44",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "pastel-17",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 353991,
+          "start_time": 1279896253,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-17/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-17",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-73",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 353952,
+          "start_time": 1279868423,
+          "walltime": 10777
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-73/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-73",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-26",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-26/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-26",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-45",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 353957,
+          "start_time": 1279872082,
+          "walltime": 43118
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-45/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-45",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "pastel-18",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 353991,
+          "start_time": 1279896253,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-18/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-18",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-74",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 353952,
+          "start_time": 1279868423,
+          "walltime": 10777
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-74/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-74",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-27",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-27/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-27",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-46",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 353957,
+          "start_time": 1279872082,
+          "walltime": 43118
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-46/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-46",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-75",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 353952,
+          "start_time": 1279868423,
+          "walltime": 10777
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-75/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-75",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-28",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-28/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-28",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-47",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 353957,
+          "start_time": 1279872082,
+          "walltime": 43118
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-47/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-47",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "pastel-19",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 353991,
+          "start_time": 1279896253,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-19/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-19",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-76",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 353952,
+          "start_time": 1279868423,
+          "walltime": 10777
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-76/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-76",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-29",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-29/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-29",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-48",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 353957,
+          "start_time": 1279872082,
+          "walltime": 43118
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-48/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-48",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-77",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 353952,
+          "start_time": 1279868423,
+          "walltime": 10777
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-77/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-77",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-49",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 353957,
+          "start_time": 1279872082,
+          "walltime": 43118
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-49/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-49",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-78",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 353952,
+          "start_time": 1279868423,
+          "walltime": 10777
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-78/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-78",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "pastel-79",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-79/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-79",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-30",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-30/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-30",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "pastel-20",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 353991,
+          "start_time": 1279896253,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-20/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-20",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-31",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-31/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-31",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "pastel-21",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 353991,
+          "start_time": 1279896253,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-21/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-21",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-32",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-32/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-32",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-50",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 353957,
+          "start_time": 1279872082,
+          "walltime": 43118
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-50/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-50",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "pastel-22",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 353991,
+          "start_time": 1279896253,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-22/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-22",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-33",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-33/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-33",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-51",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 353957,
+          "start_time": 1279872082,
+          "walltime": 43118
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-51/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-51",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "pastel-23",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 353991,
+          "start_time": 1279896253,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-23/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-23",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "pastel-80",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-80/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-80",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-34",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-34/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-34",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-52",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 353957,
+          "start_time": 1279872082,
+          "walltime": 43118
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-52/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-52",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "pastel-24",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 353991,
+          "start_time": 1279896253,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-24/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-24",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-35",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-35/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-35",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-53",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 353957,
+          "start_time": 1279872082,
+          "walltime": 43118
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-53/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-53",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "pastel-25",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 353991,
+          "start_time": 1279896253,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-25/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-25",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-54",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 353957,
+          "start_time": 1279872082,
+          "walltime": 43118
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-54/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-54",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "pastel-26",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 353991,
+          "start_time": 1279896253,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-26/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-26",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-36",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-36/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-36",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-55",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 353957,
+          "start_time": 1279872082,
+          "walltime": 43118
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-55/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-55",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-27",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "vvangrootel",
+          "batch_id": 353989,
+          "start_time": 1279868207,
+          "walltime": 28800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-27/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-27",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-37",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-37/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-37",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-56",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 353957,
+          "start_time": 1279872082,
+          "walltime": 43118
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-56/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-56",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-28",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "vvangrootel",
+          "batch_id": 353989,
+          "start_time": 1279868207,
+          "walltime": 28800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-28/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-28",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-57",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 353957,
+          "start_time": 1279872082,
+          "walltime": 43118
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-57/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-57",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-29",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "vvangrootel",
+          "batch_id": 353989,
+          "start_time": 1279868207,
+          "walltime": 28800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-29/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-29",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-38",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-38/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-38",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-58",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 353957,
+          "start_time": 1279872082,
+          "walltime": 43118
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-58/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-58",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-39",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-39/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-39",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-59",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 353957,
+          "start_time": 1279872082,
+          "walltime": 43118
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-59/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-59",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "violette-10",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 353957,
+          "start_time": 1279872082,
+          "walltime": 43118
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-10/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-10",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "violette-11",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 353957,
+          "start_time": 1279872082,
+          "walltime": 43118
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-11/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-11",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-40",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-40/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-40",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "pastel-1",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 353991,
+          "start_time": 1279896253,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-1/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-1",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "violette-12",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 353957,
+          "start_time": 1279872082,
+          "walltime": 43118
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-12/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-12",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-30",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "vvangrootel",
+          "batch_id": 353989,
+          "start_time": 1279868207,
+          "walltime": 28800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-30/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-30",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-41",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-41/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-41",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "pastel-2",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 353991,
+          "start_time": 1279896253,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-2/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-2",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-13",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-13/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-13",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-31",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "vvangrootel",
+          "batch_id": 353989,
+          "start_time": 1279868207,
+          "walltime": 28800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-31/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-31",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-42",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-42/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-42",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-60",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 353957,
+          "start_time": 1279872082,
+          "walltime": 43118
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-60/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-60",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-3",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "vvangrootel",
+          "batch_id": 353989,
+          "start_time": 1279868207,
+          "walltime": 28800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-3/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-3",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-32",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "vvangrootel",
+          "batch_id": 353989,
+          "start_time": 1279868207,
+          "walltime": 28800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-32/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-32",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-43",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-43/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-43",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-61",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 353957,
+          "start_time": 1279872082,
+          "walltime": 43118
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-61/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-61",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-14",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-14/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-14",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-33",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "vvangrootel",
+          "batch_id": 353989,
+          "start_time": 1279868207,
+          "walltime": 28800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-33/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-33",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-44",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-44/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-44",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-4",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 353969,
+          "start_time": 1279865592,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-4/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-4",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-15",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-15/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-15",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-34",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "vvangrootel",
+          "batch_id": 353989,
+          "start_time": 1279868207,
+          "walltime": 28800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-34/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-34",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-62",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 353957,
+          "start_time": 1279872082,
+          "walltime": 43118
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-62/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-62",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-45",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-45/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-45",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-5",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 353957,
+          "start_time": 1279872082,
+          "walltime": 43118
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-5/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-5",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-16",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-16/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-16",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-35",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "vvangrootel",
+          "batch_id": 353989,
+          "start_time": 1279868207,
+          "walltime": 28800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-35/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-35",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-63",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 353957,
+          "start_time": 1279872082,
+          "walltime": 43118
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-63/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-63",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-46",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-46/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-46",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-36",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 353985,
+          "start_time": 1279865599,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-36/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-36",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-64",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 353952,
+          "start_time": 1279868423,
+          "walltime": 10777
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-64/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-64",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-6",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 353957,
+          "start_time": 1279872082,
+          "walltime": 43118
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-6/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-6",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-17",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-17/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-17",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-37",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 353981,
+          "start_time": 1279865597,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-37/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-37",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-65",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 353952,
+          "start_time": 1279868423,
+          "walltime": 10777
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-65/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-65",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-7",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 353952,
+          "start_time": 1279868423,
+          "walltime": 10777
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-7/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-7",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-18",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-18/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-18",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-47",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-47/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-47",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-38",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 353977,
+          "start_time": 1279865597,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-38/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-38",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-66",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 353952,
+          "start_time": 1279868423,
+          "walltime": 10777
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-66/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-66",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "pastel-8",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 353952,
+          "start_time": 1279868423,
+          "walltime": 10777
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-8/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/pastel/nodes/pastel-8",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "violette-19",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-19/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-19",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    }
+  ],
+  "generated_at": 1279876528,
+  "total": 132,
+  "links": [
+    {
+      "href": "/sid/grid5000/sites/toulouse/status",
+      "rel": "self",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    }
+  ],
+  "offset": 0
+}

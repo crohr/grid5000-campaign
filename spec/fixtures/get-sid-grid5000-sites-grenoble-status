@@ -1,0 +1,990 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jul 2010 09:15:28 GMT
+Server: Apache/2.2.9 (Debian) Phusion_Passenger/2.2.3 mod_ssl/2.2.9 OpenSSL/0.9.8g
+X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.3
+Vary: Accept,Accept-Encoding
+ETag: "82a4f1a456018f6a985ee177778f0e0a658fc6a3"
+Cache-Control: public, max-age=120
+Expires: Fri, 23 Jul 2010 09:19:28 GMT
+Allow: GET
+Content-Length: 27731
+Status: 200
+Content-Type: application/json
+X-Cache: MISS from api-proxy.rennes.grid5000.fr
+X-Cache-Lookup: MISS from api-proxy.rennes.grid5000.fr:3128
+Via: 1.0 api-server.bordeaux.grid5000.fr, 1.0 api-proxy.rennes.grid5000.fr:3128 (squid/2.6.STABLE18)
+Via: 1.1 api-proxy.rennes.grid5000.fr:4444
+Via: 1.1 api.grid5000.fr
+
+{
+  "items": [
+    {
+      "system_state": "unknown",
+      "node_uid": "genepi-31",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-31/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-31",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "genepi-20",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "syi",
+          "batch_id": 1081269,
+          "start_time": 1279874725,
+          "walltime": 3018
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-20/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-20",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "genepi-19",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "syi",
+          "batch_id": 1081269,
+          "start_time": 1279874725,
+          "walltime": 3018
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-19/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-19",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "genepi-1",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ytong",
+          "batch_id": 1080492,
+          "start_time": 1279793000,
+          "walltime": 86320
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-1/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-1",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "genepi-32",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ytong",
+          "batch_id": 1080492,
+          "start_time": 1279793000,
+          "walltime": 86320
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-32/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-32",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "genepi-21",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "rchakode",
+          "batch_id": 1081234,
+          "start_time": 1279864804,
+          "walltime": 43197
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-21/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-21",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "genepi-2",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "syi",
+          "batch_id": 1081269,
+          "start_time": 1279874725,
+          "walltime": 3018
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-2/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-2",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "genepi-10",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ytong",
+          "batch_id": 1080492,
+          "start_time": 1279793000,
+          "walltime": 86320
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-10/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-10",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "genepi-33",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ytong",
+          "batch_id": 1080492,
+          "start_time": 1279793000,
+          "walltime": 86320
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-33/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-33",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "genepi-3",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ytong",
+          "batch_id": 1080492,
+          "start_time": 1279793000,
+          "walltime": 86320
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-3/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-3",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "genepi-22",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-22/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-22",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "genepi-11",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ytong",
+          "batch_id": 1080492,
+          "start_time": 1279793000,
+          "walltime": 86320
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-11/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-11",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "genepi-4",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-4/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-4",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "genepi-5",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ytong",
+          "batch_id": 1080492,
+          "start_time": 1279793000,
+          "walltime": 86320
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-5/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-5",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "genepi-34",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 1081235,
+          "start_time": 1279865489,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-34/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-34",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "genepi-23",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ytong",
+          "batch_id": 1080492,
+          "start_time": 1279793000,
+          "walltime": 86320
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-23/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-23",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "genepi-12",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-12/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-12",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "genepi-6",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ytong",
+          "batch_id": 1080492,
+          "start_time": 1279793000,
+          "walltime": 86320
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-6/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-6",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "genepi-24",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 1081259,
+          "start_time": 1279865496,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-24/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-24",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "genepi-13",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ytong",
+          "batch_id": 1080492,
+          "start_time": 1279793000,
+          "walltime": 86320
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-13/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-13",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "genepi-7",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ytong",
+          "batch_id": 1080492,
+          "start_time": 1279793000,
+          "walltime": 86320
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-7/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-7",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "genepi-25",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 1081251,
+          "start_time": 1279865494,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-25/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-25",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "genepi-14",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ytong",
+          "batch_id": 1080492,
+          "start_time": 1279793000,
+          "walltime": 86320
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-14/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-14",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "genepi-8",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ytong",
+          "batch_id": 1080492,
+          "start_time": 1279793000,
+          "walltime": 86320
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-8/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-8",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "genepi-26",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 1081243,
+          "start_time": 1279865492,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-26/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-26",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "genepi-15",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ytong",
+          "batch_id": 1080492,
+          "start_time": 1279793000,
+          "walltime": 86320
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-15/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-15",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "genepi-9",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ytong",
+          "batch_id": 1080492,
+          "start_time": 1279793000,
+          "walltime": 86320
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-9/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-9",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "genepi-27",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ytong",
+          "batch_id": 1080492,
+          "start_time": 1279793000,
+          "walltime": 86320
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-27/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-27",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "genepi-16",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ytong",
+          "batch_id": 1080492,
+          "start_time": 1279793000,
+          "walltime": 86320
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-16/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-16",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "genepi-28",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ytong",
+          "batch_id": 1080492,
+          "start_time": 1279793000,
+          "walltime": 86320
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-28/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-28",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "genepi-17",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "syi",
+          "batch_id": 1081269,
+          "start_time": 1279874725,
+          "walltime": 3018
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-17/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-17",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "genepi-30",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ytong",
+          "batch_id": 1080492,
+          "start_time": 1279793000,
+          "walltime": 86320
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-30/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-30",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "genepi-29",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "ytong",
+          "batch_id": 1080492,
+          "start_time": 1279793000,
+          "walltime": 86320
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-29/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-29",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "genepi-18",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "syi",
+          "batch_id": 1081269,
+          "start_time": 1279874725,
+          "walltime": 3018
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-18/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-18",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    }
+  ],
+  "generated_at": 1279876528,
+  "total": 34,
+  "links": [
+    {
+      "href": "/sid/grid5000/sites/grenoble/status",
+      "rel": "self",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    }
+  ],
+  "offset": 0
+}

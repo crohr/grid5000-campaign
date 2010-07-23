@@ -1,0 +1,5879 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jul 2010 09:15:30 GMT
+Server: Apache/2.2.9 (Debian) Phusion_Passenger/2.2.3 mod_ssl/2.2.9 OpenSSL/0.9.8g
+X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.3
+Vary: Accept,Accept-Encoding
+ETag: "12652fbf30767b12be267b9b77a1374f088ce624"
+Cache-Control: public, max-age=120
+Expires: Fri, 23 Jul 2010 09:19:30 GMT
+Allow: GET
+Content-Length: 167444
+Status: 200
+Content-Type: application/json
+X-Cache: MISS from api-proxy.rennes.grid5000.fr
+X-Cache-Lookup: MISS from api-proxy.rennes.grid5000.fr:3128
+Via: 1.0 api-server.nancy.grid5000.fr, 1.0 api-proxy.rennes.grid5000.fr:3128 (squid/2.6.STABLE18)
+Via: 1.1 api-proxy.rennes.grid5000.fr:4444
+Via: 1.1 api.grid5000.fr
+
+{
+  "items": [
+    {
+      "system_state": "busy",
+      "node_uid": "griffon-76",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "hdoghmen",
+          "batch_id": 313384,
+          "start_time": 1279864921,
+          "walltime": 23399
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-76/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-76",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-48",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-48/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-48",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-64",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-64/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-64",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-36",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-36/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-36",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-92",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-92/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-92",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "griffon-77",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "hdoghmen",
+          "batch_id": 313384,
+          "start_time": 1279864921,
+          "walltime": 23399
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-77/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-77",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-49",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-49/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-49",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-65",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-65/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-65",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-93",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-93/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-93",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "griffon-78",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "hdoghmen",
+          "batch_id": 313384,
+          "start_time": 1279864921,
+          "walltime": 23399
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-78/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-78",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-94",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-94/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-94",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-37",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-37/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-37",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-100",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-100/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-100",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-66",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-66/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-66",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "griffon-79",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "hdoghmen",
+          "batch_id": 313384,
+          "start_time": 1279864921,
+          "walltime": 23399
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-79/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-79",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-20",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 312808,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-20/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-20",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-95",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-95/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-95",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-38",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-38/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-38",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-101",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-101/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-101",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-67",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-67/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-67",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-21",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 312808,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-21/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-21",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-96",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-96/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-96",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "grelon-39",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "pzimmermann",
+          "batch_id": 313451,
+          "start_time": 1279854961,
+          "walltime": 356400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-39/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-39",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-102",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-102/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-102",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-68",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-68/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-68",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-50",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-50/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-50",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-22",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 312808,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-22/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-22",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-97",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-97/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-97",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-103",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-103/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-103",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-10",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-10/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-10",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-69",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-69/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-69",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-51",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-51/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-51",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-23",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-23/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-23",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-98",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-98/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-98",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-104",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-104/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-104",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-11",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-11/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-11",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "griffon-80",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "hdoghmen",
+          "batch_id": 313384,
+          "start_time": 1279864921,
+          "walltime": 23399
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-80/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-80",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-52",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-52/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-52",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-24",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-24/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-24",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-99",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-99/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-99",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-105",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-105/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-105",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "grelon-40",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "pzimmermann",
+          "batch_id": 313449,
+          "start_time": 1279854957,
+          "walltime": 356400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-40/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-40",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-12",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-12/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-12",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "griffon-81",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "hdoghmen",
+          "batch_id": 313384,
+          "start_time": 1279864921,
+          "walltime": 23399
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-81/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-81",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-53",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-53/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-53",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-25",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-25/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-25",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-106",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-106/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-106",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "grelon-41",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "pzimmermann",
+          "batch_id": 313450,
+          "start_time": 1279854961,
+          "walltime": 356400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-41/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-41",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "grelon-1",
+      "uid": 1279876530,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-1/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-1",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-13",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-13/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-13",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "griffon-82",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "hdoghmen",
+          "batch_id": 313384,
+          "start_time": 1279864921,
+          "walltime": 23399
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-82/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-82",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "griffon-54",
+      "uid": 1279876530,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-54/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-54",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-26",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-26/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-26",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-42",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-42/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-42",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-2",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-2/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-2",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-14",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-14/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-14",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-70",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-70/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-70",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-107",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-107/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-107",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "griffon-83",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "hdoghmen",
+          "batch_id": 313384,
+          "start_time": 1279864921,
+          "walltime": 23399
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-83/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-83",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-55",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-55/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-55",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-27",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-27/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-27",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-43",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-43/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-43",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-3",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-3/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-3",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-71",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-71/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-71",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-108",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-108/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-108",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "griffon-84",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "hdoghmen",
+          "batch_id": 313384,
+          "start_time": 1279864921,
+          "walltime": 23399
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-84/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-84",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-56",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-56/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-56",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-28",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-28/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-28",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-1",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-1/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-1",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-44",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-44/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-44",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-4",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-4/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-4",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-15",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-15/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-15",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-72",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-72/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-72",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-109",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-109/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-109",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "griffon-85",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "hdoghmen",
+          "batch_id": 313384,
+          "start_time": 1279864921,
+          "walltime": 23399
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-85/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-85",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-57",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-57/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-57",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-29",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-29/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-29",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-2",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 312808,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-2/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-2",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-5",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-5/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-5",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-16",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-16/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-16",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-73",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-73/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-73",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-45",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-45/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-45",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "griffon-86",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "hdoghmen",
+          "batch_id": 313384,
+          "start_time": 1279864921,
+          "walltime": 23399
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-86/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-86",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-58",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-58/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-58",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-3",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-3/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-3",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-6",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-6/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-6",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-17",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-17/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-17",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-74",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-74/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-74",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-46",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-46/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-46",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "griffon-87",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "hdoghmen",
+          "batch_id": 313384,
+          "start_time": 1279864921,
+          "walltime": 23399
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-87/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-87",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-59",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-59/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-59",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-4",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-4/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-4",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-7",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-7/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-7",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-18",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-18/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-18",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-75",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-75/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-75",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-47",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-47/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-47",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "griffon-88",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "hdoghmen",
+          "batch_id": 313384,
+          "start_time": 1279864921,
+          "walltime": 23399
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-88/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-88",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-5",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-5/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-5",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-8",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-8/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-8",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-19",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-19/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-19",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-76",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-76/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-76",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-110",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-110/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-110",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "griffon-89",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "hdoghmen",
+          "batch_id": 313384,
+          "start_time": 1279864921,
+          "walltime": 23399
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-89/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-89",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-6",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-6/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-6",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-30",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-30/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-30",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-77",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-77/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-77",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-48",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-48/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-48",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-111",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-111/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-111",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-9",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-9/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-9",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "griffon-7",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "hdoghmen",
+          "batch_id": 313384,
+          "start_time": 1279864921,
+          "walltime": 23399
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-7/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-7",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-31",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-31/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-31",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-78",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-78/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-78",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-49",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-49/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-49",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-112",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-112/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-112",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "griffon-8",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "hdoghmen",
+          "batch_id": 313384,
+          "start_time": 1279864921,
+          "walltime": 23399
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-8/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-8",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-60",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-60/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-60",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-32",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-32/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-32",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-20",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-20/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-20",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-79",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-79/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-79",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-113",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-113/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-113",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "griffon-9",
+      "uid": 1279876530,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-9/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-9",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "griffon-61",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "narchana",
+          "batch_id": 313487,
+          "start_time": 1279876222,
+          "walltime": 18000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-61/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-61",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-33",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-33/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-33",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-21",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-21/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-21",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "grelon-114",
+      "uid": 1279876530,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-114/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-114",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "griffon-90",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "hdoghmen",
+          "batch_id": 313384,
+          "start_time": 1279864921,
+          "walltime": 23399
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-90/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-90",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "griffon-62",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "narchana",
+          "batch_id": 313486,
+          "start_time": 1279876222,
+          "walltime": 18000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-62/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-62",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-34",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-34/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-34",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-22",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-22/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-22",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-115",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-115/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-115",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "grelon-50",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "pzimmermann",
+          "batch_id": 313448,
+          "start_time": 1279849600,
+          "walltime": 356400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-50/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-50",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "griffon-91",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "hdoghmen",
+          "batch_id": 313384,
+          "start_time": 1279864921,
+          "walltime": 23399
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-91/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-91",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "griffon-63",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "narchana",
+          "batch_id": 313486,
+          "start_time": 1279876222,
+          "walltime": 18000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-63/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-63",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-35",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-35/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-35",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-23",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-23/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-23",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-116",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-116/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-116",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-51",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-51/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-51",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "griffon-92",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "hdoghmen",
+          "batch_id": 313384,
+          "start_time": 1279864921,
+          "walltime": 23399
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-92/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-92",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "griffon-64",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "syi",
+          "batch_id": 313485,
+          "start_time": 1279874723,
+          "walltime": 3020
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-64/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-64",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-36",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-36/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-36",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-80",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-80/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-80",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-117",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-117/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-117",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-52",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-52/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-52",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-24",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-24/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-24",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "griffon-65",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "syi",
+          "batch_id": 313485,
+          "start_time": 1279874723,
+          "walltime": 3020
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-65/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-65",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-37",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-37/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-37",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-81",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-81/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-81",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-118",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-118/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-118",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-53",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-53/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-53",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-25",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-25/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-25",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "griffon-66",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 313481,
+          "start_time": 1279865546,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-66/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-66",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-38",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-38/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-38",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-82",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-82/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-82",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-119",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-119/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-119",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-54",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-54/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-54",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "griffon-67",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 313477,
+          "start_time": 1279865546,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-67/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-67",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-39",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-39/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-39",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-83",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-83/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-83",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-55",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-55/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-55",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-26",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-26/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-26",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "griffon-68",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 313464,
+          "start_time": 1279865535,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-68/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-68",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-84",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-84/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-84",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-56",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-56/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-56",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-27",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-27/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-27",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "griffon-69",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 313455,
+          "start_time": 1279865530,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-69/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-69",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-10",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-10/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-10",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "grelon-85",
+      "uid": 1279876530,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-85/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-85",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-57",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-57/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-57",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-28",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-28/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-28",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-11",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-11/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-11",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-86",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-86/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-86",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-58",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-58/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-58",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "grelon-120",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "srhasan",
+          "batch_id": 312812,
+          "start_time": 1279525743,
+          "walltime": 959157
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-120/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-120",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-29",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-29/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-29",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-40",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-40/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-40",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-12",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-12/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-12",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-87",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-87/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-87",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-41",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-41/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-41",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-13",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-13/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-13",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-59",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-59/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-59",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-88",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-88/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-88",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "griffon-70",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "hdoghmen",
+          "batch_id": 313384,
+          "start_time": 1279864921,
+          "walltime": 23399
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-70/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-70",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-42",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-42/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-42",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-14",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-14/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-14",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-30",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-30/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-30",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-89",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-89/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-89",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "griffon-71",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "hdoghmen",
+          "batch_id": 313384,
+          "start_time": 1279864921,
+          "walltime": 23399
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-71/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-71",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-43",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-43/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-43",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-15",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-15/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-15",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-31",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-31/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-31",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "griffon-72",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "hdoghmen",
+          "batch_id": 313384,
+          "start_time": 1279864921,
+          "walltime": 23399
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-72/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-72",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-44",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-44/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-44",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-16",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 312808,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-16/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-16",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "grelon-60",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "pzimmermann",
+          "batch_id": 313447,
+          "start_time": 1279849600,
+          "walltime": 356400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-60/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-60",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "grelon-32",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "pzimmermann",
+          "batch_id": 313442,
+          "start_time": 1279839742,
+          "walltime": 356400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-32/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-32",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "griffon-73",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "hdoghmen",
+          "batch_id": 313384,
+          "start_time": 1279864921,
+          "walltime": 23399
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-73/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-73",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-45",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-45/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-45",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-17",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 312808,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-17/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-17",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "grelon-61",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "pzimmermann",
+          "batch_id": 313446,
+          "start_time": 1279849600,
+          "walltime": 356400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-61/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-61",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "grelon-33",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "pzimmermann",
+          "batch_id": 313444,
+          "start_time": 1279839747,
+          "walltime": 356400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-33/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-33",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "griffon-74",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "hdoghmen",
+          "batch_id": 313384,
+          "start_time": 1279864921,
+          "walltime": 23399
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-74/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-74",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-46",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-46/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-46",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-18",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 312808,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-18/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-18",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "grelon-62",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "pzimmermann",
+          "batch_id": 313445,
+          "start_time": 1279849600,
+          "walltime": 356400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-62/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-62",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "grelon-34",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "pzimmermann",
+          "batch_id": 313443,
+          "start_time": 1279839747,
+          "walltime": 356400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-34/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-34",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-90",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-90/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-90",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "griffon-75",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "hdoghmen",
+          "batch_id": 313384,
+          "start_time": 1279864921,
+          "walltime": 23399
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-75/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-75",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-47",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mmehdi",
+          "batch_id": 313135,
+          "start_time": 1279908000,
+          "walltime": 108000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-47/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-47",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "griffon-19",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 312808,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-19/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/griffon/nodes/griffon-19",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-63",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-63/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-63",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-35",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-35/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-35",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "grelon-91",
+      "uid": 1279876530,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 313280,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-91/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/nancy/clusters/grelon/nodes/grelon-91",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    }
+  ],
+  "generated_at": 1279876530,
+  "total": 212,
+  "links": [
+    {
+      "href": "/sid/grid5000/sites/nancy/status",
+      "rel": "self",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    }
+  ],
+  "offset": 0
+}

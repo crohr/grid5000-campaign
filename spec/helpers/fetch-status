@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+
+FIX_DIR = File.expand_path("fixtures", File.dirname(__FILE__)+"/..")
+
+require 'yaml'
+commands = []
+clusters_by_site = YAML.load_file(File.join(FIX_DIR,"clusters_by_site.yml"))
+clusters_by_site.each do |site, clusters|
+  commands << "curl -knsi https://api.grid5000.fr/sid/grid5000/sites/#{site}/status -o #{File.join(FIX_DIR, "get-sid-grid5000-sites-#{site}-status")}"
+end
+
+commands.each do |cmd|
+  puts "executing #{cmd}"
+  system cmd
+end

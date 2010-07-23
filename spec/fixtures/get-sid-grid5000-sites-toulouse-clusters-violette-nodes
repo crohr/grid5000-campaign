@@ -1,0 +1,5764 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jul 2010 09:06:59 GMT
+Server: Apache/2.2.9 (Debian) Phusion_Passenger/2.2.3 mod_ssl/2.2.9 OpenSSL/0.9.8g
+X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.3
+Vary: Accept,Accept-Encoding
+ETag: "dd45d8217bd92692ed069f8e8085437a04b51d0f"
+Allow: GET
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=60, s-maxage=60
+Last-Modified: Thu, 22 Jul 2010 13:39:20 GMT
+Content-Length: 171667
+Status: 200
+Content-Type: application/vnd.fr.grid5000.api.collection+json;level=1
+X-Cache: MISS from api-proxy.rennes.grid5000.fr
+X-Cache-Lookup: MISS from api-proxy.rennes.grid5000.fr:3128
+Via: 1.0 api-server.toulouse.grid5000.fr, 1.0 api-proxy.rennes.grid5000.fr:3128 (squid/2.6.STABLE18)
+Via: 1.1 api-proxy.rennes.grid5000.fr:4444
+Via: 1.1 api.grid5000.fr
+
+{
+  "items": [
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-1.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:3E:A1",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.3",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:3E:A2",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp003.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:3E:A3",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.3",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-1",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-1/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-1/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-1",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-1/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": false
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-10.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:35:FB",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.12",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:35:FC",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp012.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:35:FD",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.12",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-10",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-10/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-10/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-10",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-10/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-11.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:35:CB",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.13",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:35:CC",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp013.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:35:CD",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.13",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-11",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-11/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-11/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-11",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-11/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-12.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:3B:BE",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.14",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:3B:BF",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp014.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:3B:C0",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.14",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-12",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-12/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-12/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-12",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-12/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-13.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:3B:8B",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.15",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:3B:8C",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp015.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:3B:8D",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.15",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-13",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-13/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-13/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-13",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-13/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-14.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:3E:01",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.16",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:3E:02",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp016.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:3E:03",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.16",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-14",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-14/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-14/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-14",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-14/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-15.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:13:F6",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.17",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:13:F7",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp017.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:13:F8",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.17",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-15",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-15/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-15/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-15",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-15/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-16.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:3E:DB",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.18",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:3E:DC",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp018.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:3E:DD",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.18",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-16",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-16/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-16/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-16",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-16/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-17.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:37:7B",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.19",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:37:7C",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp019.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:37:7D",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.19",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-17",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-17/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-17/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-17",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-17/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-18.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:B8:9F",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.20",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:B8:A0",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp020.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:B8:A1",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.20",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-18",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-18/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-18/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-18",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-18/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-19.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:36:0D",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.21",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:36:0E",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp021.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:36:0F",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.21",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-19",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-19/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-19/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-19",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-19/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-2.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:3B:D0",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.4",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:3B:D1",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp004.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:3B:D2",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.4",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-2",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-2/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-2/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-2",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-2/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-20.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:36:0A",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.22",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:36:0B",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp022.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:36:0C",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.22",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-20",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-20/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-20/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-20",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-20/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-21.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:34:A2",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.23",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:34:A3",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp023.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:34:A4",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.23",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-21",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-21/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-21/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-21",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-21/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-22.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:13:E7",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.24",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:13:E8",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp024.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:13:E9",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.24",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-22",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-22/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-22/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-22",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-22/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-23.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:3D:8C",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.25",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:3D:8D",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp025.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:3D:8E",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.25",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-23",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-23/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-23/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-23",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-23/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-24.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:36:31",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.26",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:36:32",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp026.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:36:33",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.26",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-24",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-24/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-24/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-24",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-24/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-25.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:10:AF",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.27",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:10:B0",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp027.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:10:B1",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.27",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-25",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-25/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-25/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-25",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-25/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-26.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:13:F9",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.28",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:13:FA",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp028.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:13:FB",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.28",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-26",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-26/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-26/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-26",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-26/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-27.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:12:F1",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.29",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:12:F2",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp029.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:12:F3",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.29",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-27",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-27/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-27/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-27",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-27/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-28.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:13:C6",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.30",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:13:C7",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp030.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:13:CB",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.30",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-28",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-28/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-28/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-28",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-28/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-29.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:14:CE",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.31",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:14:CF",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp031.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:14:0D",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.31",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-29",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-29/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-29/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-29",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-29/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-3.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:3D:AD",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.5",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:3D:AE",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp005.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:3D:AF",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.5",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-3",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-3/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-3/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-3",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-3/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-30.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:14:8F",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.32",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:14:90",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp032.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:14:91",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.32",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-30",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-30/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-30/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-30",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-30/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-31.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:3B:37",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.33",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:3B:38",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp033.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:3B:39",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.33",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-31",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-31/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-31/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-31",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-31/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-32.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:7F:F2",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.34",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:7F:F7",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp034.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:7F:F8",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.34",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-32",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-32/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-32/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-32",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-32/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-33.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:45:0E",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.35",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:45:0F",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp035.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:45:10",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.35",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-33",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-33/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-33/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-33",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-33/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-34.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:66:16",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.36",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:66:17",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp036.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:66:18",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.36",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-34",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-34/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-34/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-34",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-34/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-35.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:6C:F3",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.37",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:6C:F4",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp037.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:6C:F5",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.37",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-35",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-35/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-35/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-35",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-35/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-36.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:D4:DB",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.38",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:D4:DC",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp038.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:D4:DD",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.38",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-36",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-36/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-36/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-36",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-36/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-37.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:9F:78",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.39",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:9F:79",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp039.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:9F:7A",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.39",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-37",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-37/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-37/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-37",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-37/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-38.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:3F:12",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.40",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:3F:13",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp040.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:3F:14",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.40",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-38",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-38/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-38/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-38",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-38/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-39.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:3F:D5",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.41",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:3F:D6",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp041.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:3F:D7",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.41",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-39",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-39/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-39/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-39",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-39/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-4.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:38:6E",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.6",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:38:6F",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp006.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:38:70",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.6",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-4",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-4/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-4/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-4",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-4/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-40.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:3F:39",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.42",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:3F:3A",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp042.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:3F:3B",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.42",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-40",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-40/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-40/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-40",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-40/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-41.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:3D:CC",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.43",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:3D:CD",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp043.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:3D:CE",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.43",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-41",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-41/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-41/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-41",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-41/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-42.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:77:4B",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.44",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:77:4C",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp044.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:77:4D",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.44",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-42",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-42/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-42/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-42",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-42/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-43.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:DC:2C",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.45",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:DC:2D",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp045.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:DC:2E",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.45",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-43",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-43/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-43/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-43",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-43/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-44.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:68:4F",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.46",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:68:50",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp046.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:68:51",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.46",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-44",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-44/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-44/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-44",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-44/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-45.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:6A:75",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.47",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:6A:76",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp047.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:6A:77",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.47",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-45",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-45/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-45/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-45",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-45/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-46.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:2D:79",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.48",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:2D:7A",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp048.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:2D:7B",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.48",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-46",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-46/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-46/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-46",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-46/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-47.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:3F:69",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.49",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:3F:6A",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp049.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:3F:6B",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.49",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-47",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-47/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-47/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-47",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-47/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-48.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:66:73",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.50",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:66:74",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp050.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:66:75",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.50",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-48",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-48/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-48/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-48",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-48/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-49.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:8D:D5",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.51",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:8D:D6",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp051.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:8D:D7",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": null,
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-49",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-49/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-49/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-49",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-49/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-5.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:39:82",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.7",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:39:83",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp007.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:39:84",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.7",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-5",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-5/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-5/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-5",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-5/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-50.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:DC:54",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.52",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:DC:55",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp052.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:DC:56",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.52",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-50",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-50/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-50/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-50",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-50/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-51.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:82:3D",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.53",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:82:3E",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp053.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:82:3F",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.53",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-51",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-51/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-51/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-51",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-51/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-52.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:80:91",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.54",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:80:92",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp054.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:12:80:93",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.54",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-52",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-52/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-52/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-52",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-52/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-6.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:2D:E1",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.8",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:2D:E2",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp008.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:2D:E3",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.8",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-6",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-6/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-6/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-6",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-6/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-7.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:3E:3A",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.9",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:3E:3B",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp009.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:3E:3C",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.9",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-7",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-7/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-7/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-7",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-7/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-8.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:2F:55",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.10",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:2F:56",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp010.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:2F:57",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.10",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-8",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-8/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-8/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-8",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-8/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "cict-switch",
+          "mounted": true,
+          "network_address": "violette-9.toulouse.grid5000.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:3E:07",
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "BCM5703X",
+          "ip": "192.168.22.11",
+          "vendor": "Broadcom",
+          "driver": "tg3",
+          "mountable": true
+        },
+        {
+          "switch": null,
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:3E:08",
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5703X",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "switch": "cict-switch",
+          "mounted": false,
+          "network_address": "sp011.gridmip.cict.fr",
+          "rate": 1000000000,
+          "mac": "00:09:3D:10:3E:09",
+          "interface": "IPMI",
+          "enabled": true,
+          "ip": "192.168.23.11",
+          "mountable": false
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "violette-9",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-9/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-9/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-9",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/violette-9/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2190000000,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    }
+  ],
+  "total": 52,
+  "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+  "links": [
+    {
+      "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+      "title": "version",
+      "rel": "member",
+      "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes/versions",
+      "title": "versions",
+      "rel": "collection",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/toulouse/clusters/violette/nodes",
+      "rel": "self",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    }
+  ],
+  "offset": 0
+}

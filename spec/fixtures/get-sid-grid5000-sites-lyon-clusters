@@ -1,0 +1,131 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jul 2010 08:33:40 GMT
+Server: Apache/2.2.9 (Debian) Phusion_Passenger/2.2.3 mod_ssl/2.2.9 OpenSSL/0.9.8g
+X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.3
+Vary: Accept,Accept-Encoding
+ETag: "74a94a0809d8e84c17d9003a853f5fbd34724ad0"
+Allow: GET
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=60, s-maxage=60
+Last-Modified: Thu, 22 Jul 2010 13:39:20 GMT
+Content-Length: 3853
+Status: 200
+Content-Type: application/vnd.fr.grid5000.api.collection+json;level=1
+X-Cache: HIT from api-proxy.rennes.grid5000.fr
+X-Cache-Lookup: HIT from api-proxy.rennes.grid5000.fr:3128
+Via: 1.0 api-server.toulouse.grid5000.fr, 1.0 api-proxy.rennes.grid5000.fr:3128 (squid/2.6.STABLE18)
+Via: 1.1 api-proxy.rennes.grid5000.fr:4444
+Via: 1.1 api.grid5000.fr
+
+{
+  "items": [
+    {
+      "model": "IBM eServer 325",
+      "created_at": "Wed, 01 Dec 2004 12:00:00 GMT",
+      "misc": "bios: 1.36 / bcm: 1.20.9 / bmc: 1.46",
+      "uid": "capricorne",
+      "type": "cluster",
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes",
+          "title": "nodes",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Site+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/status",
+          "title": "status",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        }
+      ]
+    },
+    {
+      "model": "Sun Fire V20z",
+      "created_at": "Sat, 01 Jul 2006 12:00:00 GMT",
+      "uid": "sagittaire",
+      "type": "cluster",
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes",
+          "title": "nodes",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Site+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/status",
+          "title": "status",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        }
+      ]
+    }
+  ],
+  "total": 2,
+  "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+  "links": [
+    {
+      "href": "/sid/grid5000/sites/lyon/clusters/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+      "title": "version",
+      "rel": "member",
+      "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/lyon/clusters/versions",
+      "title": "versions",
+      "rel": "collection",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/lyon/clusters",
+      "rel": "self",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    }
+  ],
+  "offset": 0
+}

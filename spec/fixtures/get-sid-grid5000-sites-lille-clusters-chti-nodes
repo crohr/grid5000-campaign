@@ -1,0 +1,1944 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jul 2010 09:06:47 GMT
+Server: Apache/2.2.9 (Debian) Phusion_Passenger/2.2.3 mod_ssl/2.2.9 OpenSSL/0.9.8g
+X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.3
+Vary: Accept,Accept-Encoding
+ETag: "8acfe306cd8dd25772b4e85555528da43c76f811"
+Allow: GET
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=60, s-maxage=60
+Last-Modified: Thu, 22 Jul 2010 13:39:20 GMT
+Content-Length: 56985
+Status: 200
+Content-Type: application/vnd.fr.grid5000.api.collection+json;level=1
+X-Cache: MISS from api-proxy.rennes.grid5000.fr
+X-Cache-Lookup: MISS from api-proxy.rennes.grid5000.fr:3128
+Via: 1.0 api-server.nancy.grid5000.fr, 1.0 api-proxy.rennes.grid5000.fr:3128 (squid/2.6.STABLE18)
+Via: 1.1 api-proxy.rennes.grid5000.fr:4444
+Via: 1.1 api.grid5000.fr
+
+{
+  "items": [
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi3/14",
+          "network_address": "chti-1.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.54",
+          "driver": "tg3"
+        },
+        {
+          "switch": null,
+          "network_address": "chti-1-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.54",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chti-1",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_svw"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-1/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-1/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-1",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-1/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "252",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi3/24",
+          "network_address": "chti-10.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.63",
+          "driver": "tg3"
+        },
+        {
+          "switch": null,
+          "network_address": "chti-10-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.63",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chti-10",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_svw"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-10/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-10/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-10",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-10/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "252",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi3/23",
+          "network_address": "chti-11.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.64",
+          "driver": "tg3"
+        },
+        {
+          "switch": null,
+          "network_address": "chti-11-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.64",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chti-11",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_svw"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-11/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-11/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-11",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-11/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "252",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi3/25",
+          "network_address": "chti-12.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.65",
+          "driver": "tg3"
+        },
+        {
+          "switch": null,
+          "network_address": "chti-12-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.65",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chti-12",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_svw"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-12/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-12/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-12",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-12/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "252",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi3/26",
+          "network_address": "chti-13.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.66",
+          "driver": "tg3"
+        },
+        {
+          "switch": null,
+          "network_address": "chti-13-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.66",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chti-13",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_svw"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-13/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-13/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-13",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-13/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "252",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi3/27",
+          "network_address": "chti-14.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.67",
+          "driver": "tg3"
+        },
+        {
+          "switch": null,
+          "network_address": "chti-14-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.67",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chti-14",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_svw"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-14/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-14/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-14",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-14/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "252",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi3/28",
+          "network_address": "chti-15.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.68",
+          "driver": "tg3"
+        },
+        {
+          "switch": null,
+          "network_address": "chti-15-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.68",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chti-15",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_svw"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-15/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-15/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-15",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-15/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "252",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi3/29",
+          "network_address": "chti-16.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.69",
+          "driver": "tg3"
+        },
+        {
+          "switch": null,
+          "network_address": "chti-16-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.69",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chti-16",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_svw"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-16/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-16/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-16",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-16/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "252",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi3/30",
+          "network_address": "chti-17.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.70",
+          "driver": "tg3"
+        },
+        {
+          "switch": null,
+          "network_address": "chti-17-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.70",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chti-17",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_svw"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-17/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-17/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-17",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-17/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "252",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi3/31",
+          "network_address": "chti-18.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.71",
+          "driver": "tg3"
+        },
+        {
+          "switch": null,
+          "network_address": "chti-18-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.71",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chti-18",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_svw"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-18/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-18/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-18",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-18/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "252",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi3/32",
+          "network_address": "chti-19.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.72",
+          "driver": "tg3"
+        },
+        {
+          "switch": null,
+          "network_address": "chti-19-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.72",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chti-19",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_svw"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-19/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-19/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-19",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-19/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "252",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi3/15",
+          "network_address": "chti-2.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.55",
+          "driver": "tg3"
+        },
+        {
+          "switch": null,
+          "network_address": "chti-2-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.55",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chti-2",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_svw"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-2/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-2/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-2",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-2/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "252",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi3/33",
+          "network_address": "chti-20.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.73",
+          "driver": "tg3"
+        },
+        {
+          "switch": null,
+          "network_address": "chti-20-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.73",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chti-20",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_svw"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-20/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-20/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-20",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-20/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "252",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi3/16",
+          "network_address": "chti-3.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.56",
+          "driver": "tg3"
+        },
+        {
+          "switch": null,
+          "network_address": "chti-3-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.56",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chti-3",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_svw"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-3/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-3/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-3",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-3/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "252",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi3/17",
+          "network_address": "chti-4.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.57",
+          "driver": "tg3"
+        },
+        {
+          "switch": null,
+          "network_address": "chti-4-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.57",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chti-4",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_svw"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-4/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-4/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-4",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-4/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "252",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi3/18",
+          "network_address": "chti-5.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.58",
+          "driver": "tg3"
+        },
+        {
+          "switch": null,
+          "network_address": "chti-5-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.58",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chti-5",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_svw"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-5/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-5/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-5",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-5/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "252",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi3/19",
+          "network_address": "chti-6.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.59",
+          "driver": "tg3"
+        },
+        {
+          "switch": null,
+          "network_address": "chti-6-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.59",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chti-6",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_svw"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-6/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-6/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-6",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-6/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "252",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi3/20",
+          "network_address": "chti-7.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.60",
+          "driver": "tg3"
+        },
+        {
+          "switch": null,
+          "network_address": "chti-7-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.60",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chti-7",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_svw"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-7/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-7/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-7",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-7/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "252",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi3/21",
+          "network_address": "chti-8.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.61",
+          "driver": "tg3"
+        },
+        {
+          "switch": null,
+          "network_address": "chti-8-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.61",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chti-8",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_svw"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-8/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-8/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-8",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-8/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "252",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi3/22",
+          "network_address": "chti-9.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.62",
+          "driver": "tg3"
+        },
+        {
+          "switch": null,
+          "network_address": "chti-9-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.62",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chti-9",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_svw"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-9/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-9/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-9",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-9/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "252",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    }
+  ],
+  "total": 20,
+  "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+  "links": [
+    {
+      "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+      "title": "version",
+      "rel": "member",
+      "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/versions",
+      "title": "versions",
+      "rel": "collection",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/lille/clusters/chti/nodes",
+      "rel": "self",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    }
+  ],
+  "offset": 0
+}

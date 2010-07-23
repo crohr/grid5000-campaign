@@ -1,0 +1,3509 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jul 2010 09:07:15 GMT
+Server: Apache/2.2.9 (Debian) Phusion_Passenger/2.2.3 mod_ssl/2.2.9 OpenSSL/0.9.8g
+X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.3
+Vary: Accept,Accept-Encoding
+ETag: "c10b565979a135a4c93e4fd6265d50985f28d60d"
+Allow: GET
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=60, s-maxage=60
+Last-Modified: Thu, 22 Jul 2010 13:39:20 GMT
+Content-Length: 105940
+Status: 200
+Content-Type: application/vnd.fr.grid5000.api.collection+json;level=1
+X-Cache: MISS from api-proxy.rennes.grid5000.fr
+X-Cache-Lookup: MISS from api-proxy.rennes.grid5000.fr:3128
+Via: 1.0 api-server.nancy.grid5000.fr, 1.0 api-proxy.rennes.grid5000.fr:3128 (squid/2.6.STABLE18)
+Via: 1.1 api-proxy.rennes.grid5000.fr:4444
+Via: 1.1 api.grid5000.fr
+
+{
+  "items": [
+    {
+      "network_adapters": [
+        {
+          "network_address": "paramount-1.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtreme II BCM5708",
+          "ip": "131.254.202.171",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtreme II BCM5708",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "c6509-grid",
+          "network_address": "paramount-1-myri0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.200.171",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paramount-1",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-1/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-1/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-1",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-1/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2330000000.0,
+        "cache_l1d": null,
+        "version": "5148 LV",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paramount-10.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtreme II BCM5708",
+          "ip": "131.254.202.180",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtreme II BCM5708",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "c6509-grid",
+          "network_address": "paramount-10-myri0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.200.180",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paramount-10",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-10/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-10/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-10",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-10/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2330000000.0,
+        "cache_l1d": null,
+        "version": "5148 LV",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paramount-11.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtreme II BCM5708",
+          "ip": "131.254.202.181",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtreme II BCM5708",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "c6509-grid",
+          "network_address": "paramount-11-myri0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.200.181",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paramount-11",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-11/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-11/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-11",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-11/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2330000000.0,
+        "cache_l1d": null,
+        "version": "5148 LV",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paramount-12.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtreme II BCM5708",
+          "ip": "131.254.202.182",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtreme II BCM5708",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "c6509-grid",
+          "network_address": "paramount-12-myri0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.200.182",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paramount-12",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-12/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-12/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-12",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-12/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2330000000.0,
+        "cache_l1d": null,
+        "version": "5148 LV",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paramount-13.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtreme II BCM5708",
+          "ip": "131.254.202.183",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtreme II BCM5708",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "c6509-grid",
+          "network_address": "paramount-13-myri0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.200.183",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paramount-13",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-13/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-13/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-13",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-13/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2330000000.0,
+        "cache_l1d": null,
+        "version": "5148 LV",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paramount-14.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtreme II BCM5708",
+          "ip": "131.254.202.184",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtreme II BCM5708",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "c6509-grid",
+          "network_address": "paramount-14-myri0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.200.184",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paramount-14",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-14/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-14/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-14",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-14/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2330000000.0,
+        "cache_l1d": null,
+        "version": "5148 LV",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paramount-15.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtreme II BCM5708",
+          "ip": "131.254.202.185",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtreme II BCM5708",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "c6509-grid",
+          "network_address": "paramount-15-myri0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.200.185",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paramount-15",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-15/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-15/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-15",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-15/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2330000000.0,
+        "cache_l1d": null,
+        "version": "5148 LV",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paramount-16.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtreme II BCM5708",
+          "ip": "131.254.202.186",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtreme II BCM5708",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "c6509-grid",
+          "network_address": "paramount-16-myri0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.200.186",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paramount-16",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-16/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-16/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-16",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-16/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2330000000.0,
+        "cache_l1d": null,
+        "version": "5148 LV",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paramount-17.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtreme II BCM5708",
+          "ip": "131.254.202.187",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtreme II BCM5708",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "c6509-grid",
+          "network_address": "paramount-17-myri0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.200.187",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paramount-17",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-17/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-17/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-17",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-17/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2330000000.0,
+        "cache_l1d": null,
+        "version": "5148 LV",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paramount-18.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtreme II BCM5708",
+          "ip": "131.254.202.188",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtreme II BCM5708",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "c6509-grid",
+          "network_address": "paramount-18-myri0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.200.188",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paramount-18",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-18/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-18/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-18",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-18/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2330000000.0,
+        "cache_l1d": null,
+        "version": "5148 LV",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paramount-19.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtreme II BCM5708",
+          "ip": "131.254.202.189",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtreme II BCM5708",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "c6509-grid",
+          "network_address": "paramount-19-myri0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.200.189",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paramount-19",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-19/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-19/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-19",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-19/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2330000000.0,
+        "cache_l1d": null,
+        "version": "5148 LV",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paramount-2.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtreme II BCM5708",
+          "ip": "131.254.202.172",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtreme II BCM5708",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "c6509-grid",
+          "network_address": "paramount-2-myri0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.200.172",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paramount-2",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-2/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-2/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-2",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-2/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2330000000.0,
+        "cache_l1d": null,
+        "version": "5148 LV",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paramount-20.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtreme II BCM5708",
+          "ip": "131.254.202.190",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtreme II BCM5708",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "c6509-grid",
+          "network_address": "paramount-20-myri0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.200.190",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paramount-20",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-20/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-20/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-20",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-20/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2330000000.0,
+        "cache_l1d": null,
+        "version": "5148 LV",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paramount-21.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtreme II BCM5708",
+          "ip": "131.254.202.191",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtreme II BCM5708",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "c6509-grid",
+          "network_address": "paramount-21-myri0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.200.191",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paramount-21",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-21/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-21/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-21",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-21/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2330000000.0,
+        "cache_l1d": null,
+        "version": "5148 LV",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paramount-22.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtreme II BCM5708",
+          "ip": "131.254.202.192",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtreme II BCM5708",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "c6509-grid",
+          "network_address": "paramount-22-myri0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.200.192",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paramount-22",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-22/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-22/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-22",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-22/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2330000000.0,
+        "cache_l1d": null,
+        "version": "5148 LV",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paramount-23.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtreme II BCM5708",
+          "ip": "131.254.202.193",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtreme II BCM5708",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "c6509-grid",
+          "network_address": "paramount-23-myri0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.200.193",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paramount-23",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-23/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-23/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-23",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-23/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2330000000.0,
+        "cache_l1d": null,
+        "version": "5148 LV",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paramount-24.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtreme II BCM5708",
+          "ip": "131.254.202.194",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtreme II BCM5708",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "c6509-grid",
+          "network_address": "paramount-24-myri0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.200.194",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paramount-24",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-24/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-24/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-24",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-24/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2330000000.0,
+        "cache_l1d": null,
+        "version": "5148 LV",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paramount-25.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtreme II BCM5708",
+          "ip": "131.254.202.195",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtreme II BCM5708",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "c6509-grid",
+          "network_address": "paramount-25-myri0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.200.195",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paramount-25",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-25/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-25/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-25",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-25/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2330000000.0,
+        "cache_l1d": null,
+        "version": "5148 LV",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paramount-26.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtreme II BCM5708",
+          "ip": "131.254.202.196",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtreme II BCM5708",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "c6509-grid",
+          "network_address": "paramount-26-myri0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.200.196",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paramount-26",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-26/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-26/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-26",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-26/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2330000000.0,
+        "cache_l1d": null,
+        "version": "5148 LV",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paramount-27.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtreme II BCM5708",
+          "ip": "131.254.202.197",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtreme II BCM5708",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "c6509-grid",
+          "network_address": "paramount-27-myri0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.200.197",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paramount-27",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-27/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-27/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-27",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-27/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2330000000.0,
+        "cache_l1d": null,
+        "version": "5148 LV",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paramount-28.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtreme II BCM5708",
+          "ip": "131.254.202.198",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtreme II BCM5708",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "c6509-grid",
+          "network_address": "paramount-28-myri0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.200.198",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paramount-28",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-28/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-28/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-28",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-28/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2330000000.0,
+        "cache_l1d": null,
+        "version": "5148 LV",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paramount-29.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtreme II BCM5708",
+          "ip": "131.254.202.199",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtreme II BCM5708",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "c6509-grid",
+          "network_address": "paramount-29-myri0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.200.199",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paramount-29",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-29/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-29/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-29",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-29/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2330000000.0,
+        "cache_l1d": null,
+        "version": "5148 LV",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paramount-3.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtreme II BCM5708",
+          "ip": "131.254.202.173",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtreme II BCM5708",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "c6509-grid",
+          "network_address": "paramount-3-myri0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.200.173",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paramount-3",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-3/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-3/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-3",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-3/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2330000000.0,
+        "cache_l1d": null,
+        "version": "5148 LV",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paramount-30.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtreme II BCM5708",
+          "ip": "131.254.202.200",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtreme II BCM5708",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "c6509-grid",
+          "network_address": "paramount-30-myri0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.200.200",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paramount-30",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-30/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-30/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-30",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-30/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2330000000.0,
+        "cache_l1d": null,
+        "version": "5148 LV",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paramount-31.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtreme II BCM5708",
+          "ip": "131.254.202.201",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtreme II BCM5708",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "c6509-grid",
+          "network_address": "paramount-31-myri0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.200.201",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paramount-31",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-31/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-31/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-31",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-31/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2330000000.0,
+        "cache_l1d": null,
+        "version": "5148 LV",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paramount-32.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtreme II BCM5708",
+          "ip": "131.254.202.202",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtreme II BCM5708",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "c6509-grid",
+          "network_address": "paramount-32-myri0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.200.202",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paramount-32",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-32/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-32/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-32",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-32/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2330000000.0,
+        "cache_l1d": null,
+        "version": "5148 LV",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paramount-33.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtreme II BCM5708",
+          "ip": "131.254.202.203",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtreme II BCM5708",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "c6509-grid",
+          "network_address": "paramount-33-myri0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.200.203",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paramount-33",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-33/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-33/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-33",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-33/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2330000000.0,
+        "cache_l1d": null,
+        "version": "5148 LV",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paramount-4.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtreme II BCM5708",
+          "ip": "131.254.202.174",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtreme II BCM5708",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "c6509-grid",
+          "network_address": "paramount-4-myri0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.200.174",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paramount-4",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-4/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-4/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-4",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-4/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2330000000.0,
+        "cache_l1d": null,
+        "version": "5148 LV",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paramount-5.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtreme II BCM5708",
+          "ip": "131.254.202.175",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtreme II BCM5708",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "c6509-grid",
+          "network_address": "paramount-5-myri0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.200.175",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paramount-5",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-5/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-5/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-5",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-5/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2330000000.0,
+        "cache_l1d": null,
+        "version": "5148 LV",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paramount-6.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtreme II BCM5708",
+          "ip": "131.254.202.176",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtreme II BCM5708",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "c6509-grid",
+          "network_address": "paramount-6-myri0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.200.176",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paramount-6",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-6/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-6/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-6",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-6/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2330000000.0,
+        "cache_l1d": null,
+        "version": "5148 LV",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paramount-7.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtreme II BCM5708",
+          "ip": "131.254.202.177",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtreme II BCM5708",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "c6509-grid",
+          "network_address": "paramount-7-myri0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.200.177",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paramount-7",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-7/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-7/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-7",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-7/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2330000000.0,
+        "cache_l1d": null,
+        "version": "5148 LV",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paramount-8.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtreme II BCM5708",
+          "ip": "131.254.202.178",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtreme II BCM5708",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "c6509-grid",
+          "network_address": "paramount-8-myri0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.200.178",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paramount-8",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-8/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-8/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-8",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-8/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2330000000.0,
+        "cache_l1d": null,
+        "version": "5148 LV",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paramount-9.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "NetXtreme II BCM5708",
+          "ip": "131.254.202.179",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "NetXtreme II BCM5708",
+          "vendor": "Broadcom",
+          "driver": "bnx2"
+        },
+        {
+          "switch": "c6509-grid",
+          "network_address": "paramount-9-myri0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.200.179",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paramount-9",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "raid": "0",
+          "interface": "SATA",
+          "driver": "megaraid_sas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-9/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-9/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-9",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-9/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2330000000.0,
+        "cache_l1d": null,
+        "version": "5148 LV",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    }
+  ],
+  "total": 33,
+  "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+  "links": [
+    {
+      "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+      "title": "version",
+      "rel": "member",
+      "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/versions",
+      "title": "versions",
+      "rel": "collection",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes",
+      "rel": "self",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    }
+  ],
+  "offset": 0
+}

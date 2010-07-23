@@ -55,7 +55,7 @@ module Grid5000
         if @distributed == :evenly
           partition = nodes/locations.length
           distribution = locations.map{ partition }
-          distribution.last += nodes-(partition*locations.length)
+          distribution[-1] += nodes-(partition*locations.length)
         else
           distribution = @distributed
         end
@@ -65,8 +65,7 @@ module Grid5000
       # Attempts to find a match between the requirements 
       # and the available nodes
       def match
-        matching_nodes = []
-        p campaign.api.config
+        matching_nodes = {}
         sites = campaign.api.root.get(:sites)
         valid_sites = sites.select{ |site|
           locations.include?(site["uid"])
@@ -85,18 +84,22 @@ module Grid5000
               nodes.each do |node|
                 node["status"] = site['status']["items"].find{ |status|
                   status["node_uid"] == node["uid"]
-                }
+                }.properties rescue nil
                 node["cluster_uid"] = cluster["uid"]
                 node["site_uid"] = site["uid"]
                 if distribution_by_site[site["uid"]] > 0 && match?(node.properties)
                   distribution_by_site[site["uid"]] -= 1
-                  matching_nodes << node
+                  (matching_nodes[site["uid"].to_sym] ||= []) << node
                 end
                 break if distribution_by_site[site["uid"]] <= 0
               end
             end
           end
-          matching_nodes
+          if distribution_by_site.values.all?{|count| count <= 0}
+            matching_nodes
+          else
+            raise MatchingError, "Cannot find enough nodes matching the requested distribution."
+          end
         end
 
       end
@@ -129,15 +132,10 @@ module Grid5000
       # Adds new conditions on node status, 
       # according to options set in the campaign
       def compute_status_conditions
-        @properties[:status] ||= []
         if campaign.config[:besteffort]
-          @properties[:status] << Proc.new { |hash|
-            hash["status"]["system_state"] == "free"
-          }
+          having(:status.with(:system_state.eq "free"))
         else
-          @properties[:status] << Proc.new { |hash|
-            ["free", "besteffort"].include?(hash["status"]["system_state"])
-          }
+          having(:status.with(:system_state.in ["free", "besteffort"]))
         end
         # we can also add conditions on reservations for campaigns in the future
       end    

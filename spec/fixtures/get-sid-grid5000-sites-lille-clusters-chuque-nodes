@@ -1,0 +1,4496 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jul 2010 09:06:50 GMT
+Server: Apache/2.2.9 (Debian) Phusion_Passenger/2.2.3 mod_ssl/2.2.9 OpenSSL/0.9.8g
+X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.3
+Vary: Accept,Accept-Encoding
+ETag: "14e240402a659ba385e91002bb811074c75a2e14"
+Allow: GET
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=60, s-maxage=60
+Last-Modified: Thu, 22 Jul 2010 13:39:20 GMT
+Content-Length: 132820
+Status: 200
+Content-Type: application/vnd.fr.grid5000.api.collection+json;level=1
+X-Cache: MISS from api-proxy.rennes.grid5000.fr
+X-Cache-Lookup: MISS from api-proxy.rennes.grid5000.fr:3128
+Via: 1.0 api-server.lyon.grid5000.fr, 1.0 api-proxy.rennes.grid5000.fr:3128 (squid/2.6.STABLE18)
+Via: 1.1 api-proxy.rennes.grid5000.fr:4444
+Via: 1.1 api.grid5000.fr
+
+{
+  "items": [
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-1.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.1",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-1",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-1/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-1/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-1",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-1/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-10.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.10",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-10",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-10/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-10/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-10",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-10/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-11.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.11",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-11",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-11/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-11/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-11",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-11/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-12.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.12",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-12",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-12/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-12/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-12",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-12/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-13.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.13",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-13",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-13/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-13/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-13",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-13/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-14.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.14",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-14",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-14/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-14/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-14",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-14/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-15.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.15",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-15",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-15/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-15/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-15",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-15/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-16.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.16",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-16",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-16/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-16/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-16",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-16/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-17.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.17",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-17",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-17/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-17/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-17",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-17/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-18.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.18",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-18",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-18/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-18/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-18",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-18/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-19.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.19",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-19",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-19/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-19/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-19",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-19/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-2.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.2",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-2",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-2/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-2/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-2",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-2/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-20.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.20",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-20",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-20/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-20/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-20",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-20/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-21.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.21",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-21",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-21/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-21/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-21",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-21/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-22.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.22",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-22",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-22/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-22/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-22",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-22/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-23.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.23",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-23",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-23/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-23/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-23",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-23/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-24.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.24",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-24",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-24/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-24/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-24",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-24/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-25.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.25",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-25",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-25/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-25/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-25",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-25/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-26.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.26",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-26",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-26/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-26/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-26",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-26/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-27.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.27",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-27",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-27/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-27/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-27",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-27/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-28.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.28",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-28",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-28/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-28/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-28",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-28/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-29.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.29",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-29",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-29/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-29/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-29",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-29/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-3.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.3",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-3",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-3/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-3/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-3",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-3/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-30.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.30",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-30",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-30/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-30/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-30",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-30/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-31.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.31",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-31",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-31/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-31/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-31",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-31/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-32.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.32",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-32",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-32/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-32/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-32",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-32/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-33.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.33",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-33",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-33/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-33/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-33",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-33/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-34.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.34",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-34",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-34/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-34/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-34",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-34/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-35.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.35",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-35",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-35/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-35/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-35",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-35/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-36.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.36",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-36",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-36/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-36/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-36",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-36/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-37.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.37",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-37",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-37/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-37/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-37",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-37/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-38.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.38",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-38",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-38/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-38/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-38",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-38/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-39.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.39",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-39",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-39/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-39/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-39",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-39/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-4.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.4",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-4",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-4/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-4/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-4",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-4/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-40.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.40",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-40",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-40/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-40/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-40",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-40/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-41.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.41",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-41",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-41/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-41/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-41",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-41/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-42.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.42",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-42",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-42/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-42/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-42",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-42/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-43.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.43",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-43",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-43/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-43/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-43",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-43/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-44.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.44",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-44",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-44/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-44/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-44",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-44/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-45.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.45",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-45",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-45/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-45/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-45",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-45/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-46.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.46",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-46",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-46/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-46/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-46",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-46/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-47.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.47",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-47",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-47/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-47/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-47",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-47/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-48.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.48",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-48",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-48/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-48/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-48",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-48/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-49.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.49",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-49",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-49/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-49/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-49",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-49/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-5.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.5",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-5",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-5/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-5/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-5",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-5/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-50.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.50",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-50",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-50/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-50/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-50",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-50/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-51.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.51",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-51",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-51/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-51/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-51",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-51/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-52.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.52",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-52",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-52/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-52/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-52",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-52/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-53.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.53",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-53",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-53/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-53/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-53",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-53/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-6.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.6",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-6",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-6/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-6/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-6",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-6/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-7.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.7",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-7",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-7/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-7/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-7",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-7/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-8.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.8",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-8",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-8/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-8/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-8",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-8/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "network_address": "chuque-9.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.9",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chuque-9",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": "sata_sil"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-9/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-9/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-9",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-9/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "248",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    }
+  ],
+  "total": 53,
+  "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+  "links": [
+    {
+      "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+      "title": "version",
+      "rel": "member",
+      "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/versions",
+      "title": "versions",
+      "rel": "collection",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes",
+      "rel": "self",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    }
+  ],
+  "offset": 0
+}

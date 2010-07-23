@@ -15,6 +15,7 @@ Grid5000.logger.level = Logger.const_get(ENV['DEBUG'] || 'DEBUG')
 
 include Grid5000
 
+
 # require File.expand_path("helpers/stub_server", File.dirname(__FILE__))
 
 Spec::Runner.configure do |config|
@@ -29,3 +30,5 @@ end
 def fixture(filename)
   File.expand_path(filename, FIX_DIR)
 end
+
+CLUSTERS_BY_SITE = YAML.load_file(fixture("clusters_by_site.yml"))

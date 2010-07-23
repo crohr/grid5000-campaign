@@ -1,0 +1,5544 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jul 2010 09:07:23 GMT
+Server: Apache/2.2.9 (Debian) Phusion_Passenger/2.2.3 mod_ssl/2.2.9 OpenSSL/0.9.8g
+X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.3
+Vary: Accept,Accept-Encoding
+ETag: "15ec5baf52ffd4756f9cae1e3206d941076279cb"
+Allow: GET
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=60, s-maxage=60
+Last-Modified: Thu, 22 Jul 2010 13:39:20 GMT
+Content-Length: 158985
+Status: 200
+Content-Type: application/vnd.fr.grid5000.api.collection+json;level=1
+X-Cache: MISS from api-proxy.rennes.grid5000.fr
+X-Cache-Lookup: MISS from api-proxy.rennes.grid5000.fr:3128
+Via: 1.0 api-server.nancy.grid5000.fr, 1.0 api-proxy.rennes.grid5000.fr:3128 (squid/2.6.STABLE18)
+Via: 1.1 api-proxy.rennes.grid5000.fr:4444
+Via: 1.1 api.grid5000.fr
+
+{
+  "items": [
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-1.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.1",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-1",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-1/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-1/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-1",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-1/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-10.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.10",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-10",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-10/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-10/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-10",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-10/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-11.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.11",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-11",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-11/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-11/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-11",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-11/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-12.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.12",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-12",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-12/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-12/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-12",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-12/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-13.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.13",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-13",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-13/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-13/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-13",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-13/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-14.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.14",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-14",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-14/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-14/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-14",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-14/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-15.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.15",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-15",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-15/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-15/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-15",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-15/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-16.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.16",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-16",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-16/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-16/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-16",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-16/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-17.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.17",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-17",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-17/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-17/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-17",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-17/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-18.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.18",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-18",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-18/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-18/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-18",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-18/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-19.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.19",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-19",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-19/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-19/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-19",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-19/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-2.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.2",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-2",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-2/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-2/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-2",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-2/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-20.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.20",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-20",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-20/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-20/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-20",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-20/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-21.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.21",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-21",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-21/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-21/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-21",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-21/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-22.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.22",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-22",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-22/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-22/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-22",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-22/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-23.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.23",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-23",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-23/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-23/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-23",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-23/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-24.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.24",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-24",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-24/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-24/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-24",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-24/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-25.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.25",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-25",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-25/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-25/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-25",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-25/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-26.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.26",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-26",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-26/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-26/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-26",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-26/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-27.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.27",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-27",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-27/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-27/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-27",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-27/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-28.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.28",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-28",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-28/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-28/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-28",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-28/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-29.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.29",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-29",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-29/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-29/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-29",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-29/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-3.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.3",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-3",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-3/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-3/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-3",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-3/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-30.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.30",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-30",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-30/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-30/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-30",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-30/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-31.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.31",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-31",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-31/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-31/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-31",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-31/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-32.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.32",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-32",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-32/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-32/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-32",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-32/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-33.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.33",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-33",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-33/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-33/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-33",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-33/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-34.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.34",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-34",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-34/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-34/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-34",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-34/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-35.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.35",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-35",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-35/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-35/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-35",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-35/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-36.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.36",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-36",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-36/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-36/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-36",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-36/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-37.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.37",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-37",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-37/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-37/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-37",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-37/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-38.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.38",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-38",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-38/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-38/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-38",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-38/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-39.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.39",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-39",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-39/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-39/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-39",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-39/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-4.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.4",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-4",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-4/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-4/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-4",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-4/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-40.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.40",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-40",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-40/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-40/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-40",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-40/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-41.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.41",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-41",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-41/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-41/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-41",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-41/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-42.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.42",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-42",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-42/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-42/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-42",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-42/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-43.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.43",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-43",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-43/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-43/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-43",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-43/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-44.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.44",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-44",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-44/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-44/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-44",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-44/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-45.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.45",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-45",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-45/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-45/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-45",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-45/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-46.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.46",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-46",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-46/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-46/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-46",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-46/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-47.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.47",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-47",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-47/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-47/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-47",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-47/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-48.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.48",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-48",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-48/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-48/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-48",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-48/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-49.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.49",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-49",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-49/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-49/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-49",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-49/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-5.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.5",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-5",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-5/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-5/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-5",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-5/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-50.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.50",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-50",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-50/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-50/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-50",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-50/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-6.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.6",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-6",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-6/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-6/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-6",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-6/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-7.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.7",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-7",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-7/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-7/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-7",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-7/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-8.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.8",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-8",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-8/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-8/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-8",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-8/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "fastiron",
+          "network_address": "sol-9.sophia.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "version": "MCP55 Pro",
+          "ip": "138.96.22.9",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "MCP55 Pro",
+          "vendor": "NVIDIA",
+          "driver": "forcedeth"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "version": "BCM5715c",
+          "vendor": "Broadcom",
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "sol-9",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA",
+          "driver": "sata_nv"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-9/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-9/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-9",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-9/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": null,
+        "version": "2218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    }
+  ],
+  "total": 50,
+  "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+  "links": [
+    {
+      "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+      "title": "version",
+      "rel": "member",
+      "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/versions",
+      "title": "versions",
+      "rel": "collection",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes",
+      "rel": "self",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    }
+  ],
+  "offset": 0
+}

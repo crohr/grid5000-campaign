@@ -1,0 +1,39 @@
+#!/usr/bin/env ruby
+
+LIB_DIR = File.expand_path(File.dirname(__FILE__)+"/../lib")
+
+$LOAD_PATH.unshift LIB_DIR unless $LOAD_PATH.include?(LIB_DIR)
+
+require "bundler"
+Bundler.setup
+
+require "http"
+require "grid5000"
+
+RECIPE = <<RECIPE
+
+set :api_uri, "https://localhost:3443"
+set :api_root, "/sid/grid5000"
+
+find(40.nodes).on(:rennes, :lille).
+  distributed(5, 50).
+  having(
+    :processor.with(:clock_speed.gt 2.G),
+    :network_adapters.with(:enabled.eq(true)).
+      and(:rate.gt(10.G)).
+      and(:interface.like(/infiniband/i, /ethernet/i))
+  ) do |resources|
+    resources.each do |site, nodes|
+      puts site
+      p nodes.map{|n| n["uid"]}
+    end
+  end
+
+RECIPE
+
+Grid5000.logger.level = Logger::INFO
+
+EM.synchrony do
+  Grid5000::Campaign.new(StringIO.new(RECIPE)).launch
+  EM.stop
+end

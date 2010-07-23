@@ -1,0 +1,3483 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jul 2010 09:15:29 GMT
+Server: Apache/2.2.9 (Debian) Phusion_Passenger/2.2.3 mod_ssl/2.2.9 OpenSSL/0.9.8g
+X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.3
+Vary: Accept,Accept-Encoding
+ETag: "02fbde98dd0fb51b074eba2c873a1e33c75f8dc3"
+Cache-Control: public, max-age=120
+Expires: Fri, 23 Jul 2010 09:19:29 GMT
+Allow: GET
+Content-Length: 100400
+Status: 200
+Content-Type: application/json
+X-Cache: MISS from api-proxy.rennes.grid5000.fr
+X-Cache-Lookup: MISS from api-proxy.rennes.grid5000.fr:3128
+Via: 1.0 api-server.rennes.grid5000.fr, 1.0 api-proxy.rennes.grid5000.fr:3128 (squid/2.6.STABLE18)
+Via: 1.1 api-proxy.rennes.grid5000.fr:4444
+Via: 1.1 api.grid5000.fr
+
+{
+  "items": [
+    {
+      "system_state": "unknown",
+      "node_uid": "paraquad-30",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-30/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-30",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paramount-12",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-12/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-12",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "parapide-2",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "grighetti",
+          "batch_id": 357501,
+          "start_time": 1279877400,
+          "walltime": 18000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-2/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-2",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-53",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-53/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-53",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-3",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-3/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-3",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-25",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-25/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-25",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paraquad-31",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-31/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-31",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paramount-13",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-13/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-13",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-54",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-54/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-54",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-4",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-4/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-4",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-26",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-26/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-26",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paraquad-32",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-32/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-32",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "parapide-3",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-3/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-3",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paramount-14",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-14/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-14",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-55",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-55/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-55",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-5",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-5/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-5",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-27",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-27/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-27",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "parapide-4",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-4/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-4",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-56",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-56/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-56",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-6",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-6/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-6",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-28",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-28/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-28",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paramount-15",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-15/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-15",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "parapide-5",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 357494,
+          "start_time": 1279866956,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-5/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-5",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-57",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-57/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-57",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-7",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-7/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-7",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-29",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-29/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-29",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paramount-16",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-16/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-16",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "parapide-6",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-6/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-6",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-58",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-58/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-58",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-8",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-8/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-8",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paramount-17",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-17/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-17",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "parapide-7",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-7/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-7",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-59",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-59/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-59",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-9",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-9/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-9",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paramount-18",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-18/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-18",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "parapide-8",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-8/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-8",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paramount-19",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-19/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-19",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "parapide-9",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "grighetti",
+          "batch_id": 357468,
+          "start_time": 1279868422,
+          "walltime": 21578
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-9/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-9",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-30",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-30/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-30",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paramount-1",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-1/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-1",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-31",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-31/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-31",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paramount-2",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-2/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-2",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-60",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-60/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-60",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-32",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-32/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-32",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paraquad-10",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-10/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-10",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paramount-3",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-3/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-3",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-61",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-61/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-61",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-33",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-33/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-33",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paramount-20",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-20/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-20",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paraquad-11",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-11/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-11",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-62",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-62/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-62",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-34",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-34/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-34",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paramount-21",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-21/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-21",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "parapide-10",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 357470,
+          "start_time": 1279866905,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-10/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-10",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paraquad-12",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-12/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-12",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-63",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-63/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-63",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-35",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-35/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-35",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paramount-22",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-22/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-22",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "parapide-11",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-11/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-11",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paramount-4",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-4/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-4",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paraquad-13",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-13/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-13",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-64",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-64/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-64",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-36",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-36/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-36",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paramount-23",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-23/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-23",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "parapide-12",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-12/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-12",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paramount-5",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-5/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-5",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paraquad-14",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-14/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-14",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-37",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-37/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-37",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paramount-24",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-24/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-24",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "parapide-13",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-13/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-13",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paramount-6",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-6/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-6",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paraquad-15",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-15/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-15",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-38",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-38/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-38",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paramount-25",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-25/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-25",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "parapide-14",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-14/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-14",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paramount-7",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-7/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-7",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paraquad-16",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-16/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-16",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-39",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-39/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-39",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paramount-26",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-26/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-26",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "parapide-15",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-15/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-15",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paramount-8",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-8/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-8",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paraquad-17",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-17/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-17",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paramount-27",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-27/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-27",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "parapide-16",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-16/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-16",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paramount-9",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-9/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-9",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paraquad-18",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-18/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-18",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paramount-28",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-28/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-28",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "parapide-17",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 357486,
+          "start_time": 1279866944,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-17/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-17",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-10",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-10/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-10",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paraquad-19",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-19/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-19",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paramount-29",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-29/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-29",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "parapide-18",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "grighetti",
+          "batch_id": 357501,
+          "start_time": 1279877400,
+          "walltime": 18000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-18/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-18",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-11",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-11/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-11",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-40",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-40/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-40",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "parapide-19",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "grighetti",
+          "batch_id": 357501,
+          "start_time": 1279877400,
+          "walltime": 18000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-19/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-19",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-12",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-12/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-12",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-41",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-41/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-41",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-13",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-13/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-13",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-42",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-42/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-42",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-14",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-14/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-14",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paraquad-20",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-20/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-20",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-43",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-43/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-43",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paramount-30",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-30/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-30",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-15",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-15/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-15",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paraquad-21",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-21/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-21",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-44",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-44/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-44",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paramount-31",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-31/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-31",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "parapide-20",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "grighetti",
+          "batch_id": 357501,
+          "start_time": 1279877400,
+          "walltime": 18000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-20/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-20",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-16",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-16/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-16",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paraquad-22",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-22/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-22",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-45",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-45/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-45",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paramount-32",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-32/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-32",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "parapide-21",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-21/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-21",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-17",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-17/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-17",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paraquad-23",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-23/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-23",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paraquad-1",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-1/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-1",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paramount-33",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-33/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-33",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "parapide-22",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-22/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-22",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-18",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-18/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-18",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-46",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-46/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-46",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paraquad-24",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-24/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-24",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paraquad-2",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-2/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-2",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "parapide-23",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-23/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-23",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-19",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-19/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-19",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-47",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-47/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-47",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paraquad-3",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-3/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-3",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paraquad-25",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-25/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-25",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "parapide-24",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-24/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-24",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-48",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-48/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-48",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paraquad-4",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-4/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-4",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paraquad-26",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-26/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-26",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "parapide-25",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-25/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-25",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-49",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-49/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-49",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paraquad-5",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-5/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-5",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paraquad-27",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-27/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-27",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paraquad-6",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-6/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-6",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paraquad-28",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-28/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-28",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-20",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-20/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-20",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paraquad-7",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-7/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-7",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paraquad-29",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-29/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-29",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-21",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-21/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-21",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paraquad-8",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-8/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-8",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-22",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-22/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-22",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-50",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-50/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-50",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paraquad-9",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-9/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paraquad/nodes/paraquad-9",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-23",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-23/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-23",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paramount-10",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-10/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-10",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-51",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-51/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-51",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-1",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-1/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-1",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-24",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-24/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-24",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paramount-11",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-11/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paramount/nodes/paramount-11",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "parapide-1",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 357478,
+          "start_time": 1279866922,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-1/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-1",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-52",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-52/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-52",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "paradent-2",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-2/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-2",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    }
+  ],
+  "generated_at": 1279876529,
+  "total": 154,
+  "links": [
+    {
+      "href": "/sid/grid5000/sites/rennes/status",
+      "rel": "self",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    }
+  ],
+  "offset": 0
+}

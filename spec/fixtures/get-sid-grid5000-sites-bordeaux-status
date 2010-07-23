@@ -1,0 +1,4365 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jul 2010 09:15:31 GMT
+Server: Apache/2.2.9 (Debian) Phusion_Passenger/2.2.3 mod_ssl/2.2.9 OpenSSL/0.9.8g
+X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.3
+Vary: Accept,Accept-Encoding
+ETag: "08659b5d70911fcf83fd0a793d38e193c4bfe100"
+Cache-Control: public, max-age=120
+Expires: Fri, 23 Jul 2010 09:19:33 GMT
+Allow: GET
+Content-Length: 128357
+Status: 200
+Content-Type: application/json
+X-Cache: MISS from api-proxy.rennes.grid5000.fr
+X-Cache-Lookup: MISS from api-proxy.rennes.grid5000.fr:3128
+Via: 1.0 api-server.lyon.grid5000.fr, 1.0 api-proxy.rennes.grid5000.fr:3128 (squid/2.6.STABLE18)
+Via: 1.1 api-proxy.rennes.grid5000.fr:4444
+Via: 1.1 api.grid5000.fr
+
+{
+  "items": [
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-71",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904875,
+          "start_time": 1279853828,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-71/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-71",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordeplage-47",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904868,
+          "start_time": 1279838548,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-47/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-47",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-43",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904876,
+          "start_time": 1279853838,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-43/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-43",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "bordeplage-19",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904913,
+          "start_time": 1279880860,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-19/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-19",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-14",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904911,
+          "start_time": 1279873707,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-14/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-14",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-4",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904877,
+          "start_time": 1279853849,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-4/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-4",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-72",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904911,
+          "start_time": 1279873707,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-72/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-72",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordeplage-48",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904868,
+          "start_time": 1279838548,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-48/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-48",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-15",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904911,
+          "start_time": 1279873707,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-15/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-15",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-5",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904911,
+          "start_time": 1279873707,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-5/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-5",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "borderline-1",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-1/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-1",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "bordereau-73",
+      "uid": 1279876533,
+      "hardware_state": "absent",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mdepolli",
+          "batch_id": 904805,
+          "start_time": 1279915200,
+          "walltime": 21600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-73/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-73",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-44",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904876,
+          "start_time": 1279853838,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-44/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-44",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-16",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904911,
+          "start_time": 1279873707,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-16/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-16",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-6",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904875,
+          "start_time": 1279853828,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-6/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-6",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordeplage-49",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904868,
+          "start_time": 1279838548,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-49/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-49",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "borderline-2",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-2/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-2",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-74",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904875,
+          "start_time": 1279853828,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-74/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-74",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-7",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904875,
+          "start_time": 1279853828,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-7/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-7",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-45",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904876,
+          "start_time": 1279853838,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-45/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-45",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-17",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904911,
+          "start_time": 1279873707,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-17/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-17",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "borderline-3",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-3/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-3",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-8",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904909,
+          "start_time": 1279871469,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-8/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-8",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-75",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904911,
+          "start_time": 1279873707,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-75/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-75",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-18",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904911,
+          "start_time": 1279873707,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-18/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-18",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "bordeplage-20",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904913,
+          "start_time": 1279880860,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-20/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-20",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-46",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904876,
+          "start_time": 1279853838,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-46/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-46",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "borderline-4",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-4/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-4",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-9",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904909,
+          "start_time": 1279871469,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-9/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-9",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-76",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904911,
+          "start_time": 1279873707,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-76/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-76",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-19",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904911,
+          "start_time": 1279873707,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-19/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-19",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "bordeplage-21",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904913,
+          "start_time": 1279880860,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-21/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-21",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-47",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904876,
+          "start_time": 1279853838,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-47/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-47",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "borderline-5",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-5/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-5",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordeplage-22",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904863,
+          "start_time": 1279837599,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-22/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-22",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-48",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904911,
+          "start_time": 1279873707,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-48/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-48",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "bordeplage-50",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "granquet",
+          "batch_id": 904912,
+          "start_time": 1279873707,
+          "walltime": 36000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-50/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-50",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "borderline-6",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-6/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-6",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-77",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904909,
+          "start_time": 1279871469,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-77/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-77",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordeplage-23",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904863,
+          "start_time": 1279837599,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-23/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-23",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-49",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904876,
+          "start_time": 1279853838,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-49/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-49",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "bordeplage-51",
+      "uid": 1279876533,
+      "hardware_state": "suspected",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "mdepolli",
+          "batch_id": 904805,
+          "start_time": 1279915200,
+          "walltime": 21600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-51/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-51",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "borderline-7",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-7/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-7",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-78",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904909,
+          "start_time": 1279871469,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-78/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-78",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordeplage-24",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904863,
+          "start_time": 1279837599,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-24/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-24",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "bordereau-20",
+      "uid": 1279876533,
+      "hardware_state": "suspected",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-20/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-20",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "bordeplage-1",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904913,
+          "start_time": 1279880860,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-1/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-1",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "borderline-8",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-8/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-8",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-79",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904909,
+          "start_time": 1279871469,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-79/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-79",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordeplage-25",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904863,
+          "start_time": 1279837599,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-25/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-25",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-21",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904877,
+          "start_time": 1279853849,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-21/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-21",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "bordeplage-2",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 904896,
+          "start_time": 1279865484,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-2/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-2",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "borderline-9",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-9/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-9",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordeplage-26",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904863,
+          "start_time": 1279837599,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-26/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-26",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordeplage-3",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904863,
+          "start_time": 1279837599,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-3/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-3",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-50",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904876,
+          "start_time": 1279853838,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-50/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-50",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordeplage-27",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904863,
+          "start_time": 1279837599,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-27/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-27",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-22",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904877,
+          "start_time": 1279853849,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-22/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-22",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "bordeplage-4",
+      "uid": 1279876533,
+      "hardware_state": "absent",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-4/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-4",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-51",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904911,
+          "start_time": 1279873707,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-51/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-51",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-80",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904909,
+          "start_time": 1279871469,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-80/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-80",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-23",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904877,
+          "start_time": 1279853849,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-23/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-23",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordeplage-5",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904863,
+          "start_time": 1279837599,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-5/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-5",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-52",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904876,
+          "start_time": 1279853838,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-52/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-52",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordeplage-28",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904863,
+          "start_time": 1279837599,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-28/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-28",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-81",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904909,
+          "start_time": 1279871469,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-81/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-81",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-24",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904911,
+          "start_time": 1279873707,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-24/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-24",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordeplage-6",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904863,
+          "start_time": 1279837599,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-6/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-6",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-53",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904876,
+          "start_time": 1279853838,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-53/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-53",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordeplage-29",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904863,
+          "start_time": 1279837599,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-29/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-29",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-82",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904909,
+          "start_time": 1279871469,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-82/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-82",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "bordeplage-7",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904913,
+          "start_time": 1279880860,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-7/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-7",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "bordereau-54",
+      "uid": 1279876533,
+      "hardware_state": "suspected",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-54/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-54",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "bordereau-25",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 904892,
+          "start_time": 1279865482,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-25/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-25",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-83",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904909,
+          "start_time": 1279871469,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-83/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-83",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "bordeplage-8",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904913,
+          "start_time": 1279880860,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-8/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-8",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "bordereau-26",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 904888,
+          "start_time": 1279865480,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-26/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-26",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-84",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904909,
+          "start_time": 1279871469,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-84/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-84",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-55",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904876,
+          "start_time": 1279853838,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-55/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-55",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "bordereau-27",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 904884,
+          "start_time": 1279865479,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-27/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-27",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "bordeplage-9",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904913,
+          "start_time": 1279880860,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-9/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-9",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-85",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904909,
+          "start_time": 1279871469,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-85/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-85",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-56",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904876,
+          "start_time": 1279853838,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-56/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-56",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-28",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904877,
+          "start_time": 1279853849,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-28/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-28",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordeplage-30",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904863,
+          "start_time": 1279837599,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-30/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-30",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-86",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904909,
+          "start_time": 1279871469,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-86/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-86",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-57",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904876,
+          "start_time": 1279853838,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-57/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-57",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-29",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904877,
+          "start_time": 1279853849,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-29/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-29",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "bordeplage-31",
+      "uid": 1279876533,
+      "hardware_state": "suspected",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-31/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-31",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-87",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904909,
+          "start_time": 1279871469,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-87/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-87",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-58",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904875,
+          "start_time": 1279853828,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-58/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-58",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordeplage-32",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904863,
+          "start_time": 1279837599,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-32/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-32",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-59",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904875,
+          "start_time": 1279853828,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-59/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-59",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordeplage-33",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904863,
+          "start_time": 1279837599,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-33/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-33",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "bordereau-88",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "arezmerita",
+          "batch_id": 904910,
+          "start_time": 1279871457,
+          "walltime": 28800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-88/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-88",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordeplage-34",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904863,
+          "start_time": 1279837599,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-34/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-34",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-30",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904877,
+          "start_time": 1279853849,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-30/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-30",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "bordereau-89",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "arezmerita",
+          "batch_id": 904910,
+          "start_time": 1279871457,
+          "walltime": 28800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-89/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-89",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordeplage-35",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904868,
+          "start_time": 1279838548,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-35/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-35",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-31",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904877,
+          "start_time": 1279853849,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-31/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-31",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-60",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904875,
+          "start_time": 1279853828,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-60/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-60",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordeplage-36",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904868,
+          "start_time": 1279838548,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-36/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-36",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-32",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904877,
+          "start_time": 1279853849,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-32/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-32",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-61",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904875,
+          "start_time": 1279853828,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-61/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-61",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordeplage-37",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904868,
+          "start_time": 1279838548,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-37/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-37",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "bordereau-90",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "arezmerita",
+          "batch_id": 904910,
+          "start_time": 1279871457,
+          "walltime": 28800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-90/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-90",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "bordereau-62",
+      "uid": 1279876533,
+      "hardware_state": "absent",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-62/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-62",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordeplage-38",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904868,
+          "start_time": 1279838548,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-38/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-38",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-33",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904877,
+          "start_time": 1279853849,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-33/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-33",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-91",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904909,
+          "start_time": 1279871469,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-91/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-91",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-63",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904875,
+          "start_time": 1279853828,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-63/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-63",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordeplage-39",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904868,
+          "start_time": 1279838548,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-39/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-39",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "bordereau-34",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 904880,
+          "start_time": 1279865478,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-34/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-34",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "borderline-10",
+      "uid": 1279876533,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-10/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-10",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-92",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904909,
+          "start_time": 1279871469,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-92/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-92",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-64",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904875,
+          "start_time": 1279853828,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-64/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-64",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-35",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904877,
+          "start_time": 1279853849,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-35/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-35",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "bordereau-93",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "arezmerita",
+          "batch_id": 904910,
+          "start_time": 1279871457,
+          "walltime": 28800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-93/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-93",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-65",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904875,
+          "start_time": 1279853828,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-65/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-65",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-36",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904877,
+          "start_time": 1279853849,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-36/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-36",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "bordeplage-10",
+      "uid": 1279876533,
+      "hardware_state": "absent",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-10/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-10",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-37",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904877,
+          "start_time": 1279853849,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-37/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-37",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "bordeplage-11",
+      "uid": 1279876533,
+      "hardware_state": "absent",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-11/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-11",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-66",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904875,
+          "start_time": 1279853828,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-66/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-66",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-38",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904877,
+          "start_time": 1279853849,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-38/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-38",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordeplage-40",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904868,
+          "start_time": 1279838548,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-40/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-40",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "bordeplage-12",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 904908,
+          "start_time": 1279865488,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-12/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-12",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-67",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904875,
+          "start_time": 1279853828,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-67/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-67",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "bordereau-39",
+      "uid": 1279876533,
+      "hardware_state": "absent",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 904830,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-39/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-39",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordeplage-41",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904868,
+          "start_time": 1279838548,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-41/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-41",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "bordeplage-13",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 904906,
+          "start_time": 1279865488,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-13/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-13",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "bordereau-68",
+      "uid": 1279876533,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-68/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-68",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordeplage-42",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904868,
+          "start_time": 1279838548,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-42/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-42",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "bordeplage-14",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 904904,
+          "start_time": 1279865486,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-14/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-14",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "bordereau-10",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904913,
+          "start_time": 1279880860,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-10/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-10",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-69",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904875,
+          "start_time": 1279853828,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-69/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-69",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordeplage-43",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904868,
+          "start_time": 1279838548,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-43/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-43",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "bordeplage-15",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904913,
+          "start_time": 1279880860,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-15/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-15",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordeplage-44",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904868,
+          "start_time": 1279838548,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-44/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-44",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-40",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904876,
+          "start_time": 1279853838,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-40/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-40",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "bordeplage-16",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 904902,
+          "start_time": 1279865486,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-16/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-16",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "bordereau-11",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904913,
+          "start_time": 1279880860,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-11/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-11",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "bordereau-1",
+      "uid": 1279876533,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-1/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-1",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordeplage-45",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904868,
+          "start_time": 1279838548,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-45/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-45",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-41",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904876,
+          "start_time": 1279853838,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-41/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-41",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "bordeplage-17",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 904900,
+          "start_time": 1279865486,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-17/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-17",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "bordereau-12",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904913,
+          "start_time": 1279880860,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-12/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-12",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-2",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904911,
+          "start_time": 1279873707,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-2/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-2",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-70",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904875,
+          "start_time": 1279853828,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-70/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-70",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordeplage-46",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904868,
+          "start_time": 1279838548,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-46/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-46",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-42",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904876,
+          "start_time": 1279853838,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-42/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-42",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "bordeplage-18",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 904898,
+          "start_time": 1279865484,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-18/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-18",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-13",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904911,
+          "start_time": 1279873707,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-13/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-13",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "bordereau-3",
+      "uid": 1279876533,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 904877,
+          "start_time": 1279853849,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-3/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes/bordereau-3",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    }
+  ],
+  "generated_at": 1279876533,
+  "total": 154,
+  "links": [
+    {
+      "href": "/sid/grid5000/sites/bordeaux/status",
+      "rel": "self",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    }
+  ],
+  "offset": 0
+}

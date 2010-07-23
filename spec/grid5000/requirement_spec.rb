@@ -56,20 +56,23 @@ describe Campaign::Requirement do
     
   end
   
-  describe "searching" do
+  describe "matching" do
     before do
       @campaign.stub!(:config).and_return({
         :besteffort => false,
-        :api_uri => "https://localhost:3443",
+        :api_uri => "https://api.grid5000.fr",
         :api_root => "/sid/grid5000"
       })
       @campaign.stub!(:api).and_return(Http.new(@campaign.config))
-      @requirement = Campaign::Requirement.new(@campaign, 40).on(:rennes, :lille).distributed(10,30).having(
-        :network_adapters.
-          with(:enabled.eq true).
-          and(:rate.gt 10.G).
-          and(:interface.like [/infiniband/i, /ethernet/i])
-      ).having(:processor.with(:clock_speed.in 1.G..2.G))
+      @requirement = Campaign::Requirement.new(@campaign, 40).
+        on(:rennes, :lille).
+        distributed(10,30).
+        having(
+          :network_adapters.
+            with(:enabled.eq true).
+            and(:rate.gt 10.G).
+            and(:interface.like [/infiniband/i, /ethernet/i])
+        )
     end
     
     it "should return true if the node matches the requirement" do
@@ -102,14 +105,58 @@ describe Campaign::Requirement do
       }).should be_false
     end
     
-    it "should start searching nodes matching the requirements as soon as a block is passed" do
-      # EM.synchrony do
-      #   @requirement.having(:processor.with(:clock_speed.in 1.G..2.G)) do |resources|
-      #     p resources.map{|r| r["uid"]}
-      #     resources.should_not be_empty
-      #   end
-      #   EM.stop
-      # end
-    end
+    describe "searching" do
+      before do
+        stub_http_request(:get, "https://api.grid5000.fr/sid/grid5000").
+          to_return(File.read(fixture("get-sid-grid5000")))
+        stub_http_request(:get, "https://api.grid5000.fr/sid/grid5000/sites").
+          to_return(File.read(fixture("get-sid-grid5000-sites")))
+        CLUSTERS_BY_SITE.each do |site, clusters|
+          stub_http_request(:get, "https://api.grid5000.fr/sid/grid5000/sites/#{site}/status").
+            to_return(File.read(
+              fixture("get-sid-grid5000-sites-#{site}-status")
+            ))
+          stub_http_request(:get, "https://api.grid5000.fr/sid/grid5000/sites/#{site}/clusters").
+            to_return(File.read(
+              fixture("get-sid-grid5000-sites-#{site}-clusters")
+            ))
+          clusters.each do |cluster|
+            stub_http_request(:get, "https://api.grid5000.fr/sid/grid5000/sites/#{site}/clusters/#{cluster}/nodes").
+              to_return(File.read(
+                fixture("get-sid-grid5000-sites-#{site}-clusters-#{cluster}-nodes")
+              ))
+          end
+        end
+      end
+      
+      it "should start searching nodes matching the requirements as soon as a block is passed" do      
+        EM.synchrony do
+          @requirement.having(
+            :processor.with(:clock_speed.gt 2.5.G)
+          ) do |resources|
+            resources.should be_a(Hash)
+            resources[:rennes].length.should == 10
+            resources[:lille].length.should == 30
+          end
+          EM.stop
+        end
+      end
+
+      it "should raise a MatchingError if the requirement cannot be fulfilled" do
+        EM.synchrony do
+          lambda{
+            @requirement.having(
+              :processor.with(:clock_speed.gt 50.G)
+            ) do |resources|
+              # whatever
+            end
+          }.should raise_error(Campaign::MatchingError, "Cannot find enough nodes matching the requested distribution.")
+          EM.stop
+        end
+      end
+    end # describe "searching"
+    
+
   end
+  
 end

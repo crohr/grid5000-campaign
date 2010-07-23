@@ -1,0 +1,964 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jul 2010 09:07:33 GMT
+Server: Apache/2.2.9 (Debian) Phusion_Passenger/2.2.3 mod_ssl/2.2.9 OpenSSL/0.9.8g
+X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.3
+Vary: Accept,Accept-Encoding
+ETag: "7ea728fbcee15e00bd66fd0b778f0252984dc845"
+Allow: GET
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=60, s-maxage=60
+Last-Modified: Thu, 22 Jul 2010 13:39:20 GMT
+Content-Length: 28891
+Status: 200
+Content-Type: application/vnd.fr.grid5000.api.collection+json;level=1
+X-Cache: MISS from api-proxy.rennes.grid5000.fr
+X-Cache-Lookup: MISS from api-proxy.rennes.grid5000.fr:3128
+Via: 1.0 api-server.nancy.grid5000.fr, 1.0 api-proxy.rennes.grid5000.fr:3128 (squid/2.6.STABLE18)
+Via: 1.1 api-proxy.rennes.grid5000.fr:4444
+Via: 1.1 api.grid5000.fr
+
+{
+  "items": [
+    {
+      "network_adapters": [
+        {
+          "switch": null,
+          "network_address": "borderline-1.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "172.16.1.196",
+          "vendor": "Myrinet"
+        },
+        {
+          "switch": null,
+          "network_address": "borderline-4.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "172.16.1.196",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "ClusterVision OS",
+        "version": "3.1",
+        "release": "Boron"
+      },
+      "uid": "borderline-1",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "interface": "SAS",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-1/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-1/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-1",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-1/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": false
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": 65536,
+        "version": "8218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 2097152,
+        "vendor": "AMD",
+        "instruction_set": "x86-64",
+        "cache_l1i": 65536
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 4,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25408",
+          "vendor": "Mellanox"
+        },
+        {
+          "switch": null,
+          "network_address": "borderline-10.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "172.16.1.205",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "ClusterVision OS",
+        "version": "3.1",
+        "release": "Boron"
+      },
+      "uid": "borderline-10",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "interface": "SAS",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-10/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-10/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-10",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-10/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": false
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": 65536,
+        "version": "8218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 2097152,
+        "vendor": "AMD",
+        "instruction_set": "x86-64",
+        "cache_l1i": 65536
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 4,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": null,
+          "network_address": "borderline-2.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "172.16.1.197",
+          "vendor": "Myrinet"
+        },
+        {
+          "switch": null,
+          "network_address": "borderline-3.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "172.16.1.197",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "ClusterVision OS",
+        "version": "3.1",
+        "release": "Boron"
+      },
+      "uid": "borderline-2",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "interface": "SAS",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-2/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-2/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-2",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-2/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": false
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": 65536,
+        "version": "8218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 2097152,
+        "vendor": "AMD",
+        "instruction_set": "x86-64",
+        "cache_l1i": 65536
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 4,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25408",
+          "vendor": "Mellanox"
+        },
+        {
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25408",
+          "vendor": "Mellanox"
+        }
+      ],
+      "operating_system": {
+        "name": "ClusterVision OS",
+        "version": "3.1",
+        "release": "Boron"
+      },
+      "uid": "borderline-3",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "interface": "SAS",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-3/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-3/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-3",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-3/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": false
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": 65536,
+        "version": "8218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 2097152,
+        "vendor": "AMD",
+        "instruction_set": "x86-64",
+        "cache_l1i": 65536
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 4,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25408",
+          "vendor": "Mellanox"
+        },
+        {
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25408",
+          "vendor": "Mellanox"
+        }
+      ],
+      "operating_system": {
+        "name": "ClusterVision OS",
+        "version": "3.1",
+        "release": "Boron"
+      },
+      "uid": "borderline-4",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "interface": "SAS",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-4/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-4/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-4",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-4/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": false
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": 65536,
+        "version": "8218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 2097152,
+        "vendor": "AMD",
+        "instruction_set": "x86-64",
+        "cache_l1i": 65536
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 4,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25408",
+          "vendor": "Mellanox"
+        },
+        {
+          "switch": null,
+          "network_address": "borderline-5.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "172.16.1.200",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "ClusterVision OS",
+        "version": "3.1",
+        "release": "Boron"
+      },
+      "uid": "borderline-5",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "interface": "SAS",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-5/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-5/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-5",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-5/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": false
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": 65536,
+        "version": "8218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 2097152,
+        "vendor": "AMD",
+        "instruction_set": "x86-64",
+        "cache_l1i": 65536
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 4,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25408",
+          "vendor": "Mellanox"
+        },
+        {
+          "switch": null,
+          "network_address": "borderline-6.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "172.16.1.201",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "ClusterVision OS",
+        "version": "3.1",
+        "release": "Boron"
+      },
+      "uid": "borderline-6",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "interface": "SAS",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-6/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-6/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-6",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-6/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": false
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": 65536,
+        "version": "8218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 2097152,
+        "vendor": "AMD",
+        "instruction_set": "x86-64",
+        "cache_l1i": 65536
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 4,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25408",
+          "vendor": "Mellanox"
+        },
+        {
+          "switch": null,
+          "network_address": "borderline-7.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "172.16.1.202",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "ClusterVision OS",
+        "version": "3.1",
+        "release": "Boron"
+      },
+      "uid": "borderline-7",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "interface": "SAS",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-7/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-7/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-7",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-7/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": false
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": 65536,
+        "version": "8218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 2097152,
+        "vendor": "AMD",
+        "instruction_set": "x86-64",
+        "cache_l1i": 65536
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 4,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25408",
+          "vendor": "Mellanox"
+        },
+        {
+          "switch": null,
+          "network_address": "borderline-8.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "172.16.1.203",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "ClusterVision OS",
+        "version": "3.1",
+        "release": "Boron"
+      },
+      "uid": "borderline-8",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "interface": "SAS",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-8/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-8/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-8",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-8/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": false
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": 65536,
+        "version": "8218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 2097152,
+        "vendor": "AMD",
+        "instruction_set": "x86-64",
+        "cache_l1i": 65536
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 4,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25408",
+          "vendor": "Mellanox"
+        },
+        {
+          "switch": null,
+          "network_address": "borderline-9.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "172.16.1.204",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": "ClusterVision OS",
+        "version": "3.1",
+        "release": "Boron"
+      },
+      "uid": "borderline-9",
+      "storage_devices": [
+        {
+          "size": 558793544769.287,
+          "interface": "SAS",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-9/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-9/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-9",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/borderline-9/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "amd-v",
+        "besteffort": true,
+        "deploy": false
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2600000000.0,
+        "cache_l1d": 65536,
+        "version": "8218",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 2097152,
+        "vendor": "AMD",
+        "instruction_set": "x86-64",
+        "cache_l1i": 65536
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 4,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    }
+  ],
+  "total": 10,
+  "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+  "links": [
+    {
+      "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+      "title": "version",
+      "rel": "member",
+      "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes/versions",
+      "title": "versions",
+      "rel": "collection",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes",
+      "rel": "self",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    }
+  ],
+  "offset": 0
+}

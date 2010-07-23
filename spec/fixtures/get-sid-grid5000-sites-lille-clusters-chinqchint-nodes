@@ -1,0 +1,4414 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jul 2010 09:06:44 GMT
+Server: Apache/2.2.9 (Debian) Phusion_Passenger/2.2.3 mod_ssl/2.2.9 OpenSSL/0.9.8g
+X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.3
+Vary: Accept,Accept-Encoding
+ETag: "73123009f593ac8fb29ecafcc9146f0b14e4dcca"
+Allow: GET
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=60, s-maxage=60
+Last-Modified: Thu, 22 Jul 2010 13:39:20 GMT
+Content-Length: 133850
+Status: 200
+Content-Type: application/vnd.fr.grid5000.api.collection+json;level=1
+X-Cache: MISS from api-proxy.rennes.grid5000.fr
+X-Cache-Lookup: MISS from api-proxy.rennes.grid5000.fr:3128
+Via: 1.0 api-server.orsay.grid5000.fr, 1.0 api-proxy.rennes.grid5000.fr:3128 (squid/2.6.STABLE18)
+Via: 1.1 api-proxy.rennes.grid5000.fr:4444
+Via: 1.1 api.grid5000.fr
+
+{
+  "items": [
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/1",
+          "network_address": "chinqchint-1.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.100",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-1-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.100",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-1",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-1/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-1/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-1",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-1/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/10",
+          "network_address": "chinqchint-10.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.109",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-10-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.109",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-10",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-10/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-10/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-10",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-10/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/11",
+          "network_address": "chinqchint-11.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.110",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-11-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.110",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-11",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-11/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-11/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-11",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-11/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/12",
+          "network_address": "chinqchint-12.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.111",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-12-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.111",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-12",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-12/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-12/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-12",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-12/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/13",
+          "network_address": "chinqchint-13.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.112",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-13-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.112",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-13",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-13/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-13/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-13",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-13/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": null,
+          "network_address": "chinqchint-14.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.113",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-14-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.113",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-14",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-14/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-14/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-14",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-14/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/15",
+          "network_address": "chinqchint-15.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.114",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-15-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.114",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-15",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-15/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-15/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-15",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-15/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/16",
+          "network_address": "chinqchint-16.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.115",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-16-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.115",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-16",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-16/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-16/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-16",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-16/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/17",
+          "network_address": "chinqchint-17.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.116",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-17-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.116",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-17",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-17/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-17/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-17",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-17/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/18",
+          "network_address": "chinqchint-18.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.117",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-18-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.117",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-18",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-18/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-18/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-18",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-18/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/19",
+          "network_address": "chinqchint-19.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.118",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-19-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.118",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-19",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-19/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-19/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-19",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-19/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/2",
+          "network_address": "chinqchint-2.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.101",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-2-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.101",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-2",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-2/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-2/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-2",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-2/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/20",
+          "network_address": "chinqchint-20.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.119",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-20-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.119",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-20",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-20/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-20/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-20",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-20/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/21",
+          "network_address": "chinqchint-21.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.120",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-21-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.120",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-21",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-21/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-21/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-21",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-21/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/22",
+          "network_address": "chinqchint-22.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.121",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-22-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.121",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-22",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-22/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-22/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-22",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-22/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/23",
+          "network_address": "chinqchint-23.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.122",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-23-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.122",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-23",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-23/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-23/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-23",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-23/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/24",
+          "network_address": "chinqchint-24.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.123",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-24-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.123",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-24",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-24/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-24/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-24",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-24/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/25",
+          "network_address": "chinqchint-25.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.124",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-25-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.124",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-25",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-25/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-25/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-25",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-25/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/26",
+          "network_address": "chinqchint-26.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.125",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-26-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.125",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-26",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-26/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-26/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-26",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-26/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/27",
+          "network_address": "chinqchint-27.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.126",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-27-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.126",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-27",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-27/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-27/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-27",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-27/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/28",
+          "network_address": "chinqchint-28.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.127",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-28-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.127",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-28",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-28/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-28/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-28",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-28/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/29",
+          "network_address": "chinqchint-29.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.128",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-29-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.128",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-29",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-29/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-29/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-29",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-29/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/3",
+          "network_address": "chinqchint-3.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.102",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-3-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.102",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-3",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-3/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-3/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-3",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-3/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/30",
+          "network_address": "chinqchint-30.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.129",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-30-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.129",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-30",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-30/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-30/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-30",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-30/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/31",
+          "network_address": "chinqchint-31.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.130",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-31-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.130",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-31",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-31/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-31/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-31",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-31/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/32",
+          "network_address": "chinqchint-32.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.131",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-32-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.131",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-32",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-32/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-32/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-32",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-32/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": null,
+          "network_address": "chinqchint-33.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.132",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-33-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.132",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-33",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-33/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-33/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-33",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-33/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/34",
+          "network_address": "chinqchint-34.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.133",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-34-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.133",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-34",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-34/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-34/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-34",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-34/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/35",
+          "network_address": "chinqchint-35.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.134",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-35-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.134",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-35",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-35/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-35/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-35",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-35/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/36",
+          "network_address": "chinqchint-36.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.135",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-36-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.135",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-36",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-36/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-36/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-36",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-36/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/37",
+          "network_address": "chinqchint-37.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.136",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-37-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.136",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-37",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-37/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-37/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-37",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-37/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/38",
+          "network_address": "chinqchint-38.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.137",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-38-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.137",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-38",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-38/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-38/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-38",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-38/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/39",
+          "network_address": "chinqchint-39.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.138",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-39-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.138",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-39",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-39/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-39/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-39",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-39/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/4",
+          "network_address": "chinqchint-4.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.103",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-4-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.103",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-4",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-4/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-4/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-4",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-4/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/40",
+          "network_address": "chinqchint-40.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.139",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-40-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.139",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-40",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-40/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-40/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-40",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-40/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi3/1",
+          "network_address": "chinqchint-41.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.140",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-41-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.140",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-41",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-41/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-41/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-41",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-41/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi3/2",
+          "network_address": "chinqchint-42.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.141",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-42-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.141",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-42",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-42/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-42/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-42",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-42/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi3/3",
+          "network_address": "chinqchint-43.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.142",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-43-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.142",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-43",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-43/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-43/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-43",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-43/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi3/4",
+          "network_address": "chinqchint-44.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.143",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-44-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.143",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-44",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-44/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-44/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-44",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-44/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi3/5",
+          "network_address": "chinqchint-45.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.144",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-45-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.144",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-45",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-45/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-45/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-45",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-45/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi3/6",
+          "network_address": "chinqchint-46.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.145",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-46-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.145",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-46",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-46/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-46/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-46",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-46/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/5",
+          "network_address": "chinqchint-5.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.104",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-5-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.104",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-5",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-5/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-5/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-5",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-5/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/6",
+          "network_address": "chinqchint-6.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.105",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-6-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.105",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-6",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-6/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-6/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-6",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-6/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/7",
+          "network_address": "chinqchint-7.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.106",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-7-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.106",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-7",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-7/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-7/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-7",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-7/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/8",
+          "network_address": "chinqchint-8.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.107",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-8-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.107",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-8",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-8/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-8/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-8",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-8/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "gw",
+          "switch_port": "Gi2/9",
+          "network_address": "chinqchint-9.lille.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "192.168.159.108",
+          "driver": "e1000"
+        },
+        {
+          "switch": null,
+          "network_address": "chinqchint-9-myri0.lille.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Myrinet 10G",
+          "enabled": true,
+          "version": "10G-PCIE-8A-C",
+          "ip": "192.168.162.108",
+          "vendor": "Myrinet"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "chinqchint-9",
+      "storage_devices": [
+        {
+          "size": 232830643653.87,
+          "interface": "SATA II",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-9/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-9/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-9",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-9/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2830000000.0,
+        "cache_l1d": null,
+        "version": "E5440 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 4194304,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    }
+  ],
+  "total": 46,
+  "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+  "links": [
+    {
+      "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+      "title": "version",
+      "rel": "member",
+      "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/versions",
+      "title": "versions",
+      "rel": "collection",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes",
+      "rel": "self",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    }
+  ],
+  "offset": 0
+}

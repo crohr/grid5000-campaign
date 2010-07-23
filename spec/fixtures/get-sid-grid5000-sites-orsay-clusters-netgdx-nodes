@@ -1,0 +1,3104 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jul 2010 09:07:41 GMT
+Server: Apache/2.2.9 (Debian) Phusion_Passenger/2.2.3 mod_ssl/2.2.9 OpenSSL/0.9.8g
+X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.3
+Vary: Accept,Accept-Encoding
+ETag: "4a07468ad92904a5f7e5d333c8c30ef6e572e3d4"
+Allow: GET
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=60, s-maxage=60
+Last-Modified: Thu, 22 Jul 2010 13:39:20 GMT
+Content-Length: 90865
+Status: 200
+Content-Type: application/vnd.fr.grid5000.api.collection+json;level=1
+X-Cache: MISS from api-proxy.rennes.grid5000.fr
+X-Cache-Lookup: MISS from api-proxy.rennes.grid5000.fr:3128
+Via: 1.0 api-server.bordeaux.grid5000.fr, 1.0 api-proxy.rennes.grid5000.fr:3128 (squid/2.6.STABLE18)
+Via: 1.1 api-proxy.rennes.grid5000.fr:4444
+Via: 1.1 api.grid5000.fr
+
+{
+  "items": [
+    {
+      "network_adapters": [
+        {
+          "switch": null,
+          "network_address": "netgdx-1.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.110.1",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-1-eth1.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.240.1",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-1-eth2.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.190.1",
+          "driver": null
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "netgdx-1",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-1/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-1/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-1",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-1/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": null,
+          "network_address": "netgdx-10.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.110.10",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-10-eth1.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.240.10",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-10-eth2.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.190.10",
+          "driver": null
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "netgdx-10",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-10/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-10/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-10",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-10/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": null,
+          "network_address": "netgdx-11.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.110.11",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-11-eth1.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.240.11",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-11-eth2.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.190.11",
+          "driver": null
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "netgdx-11",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-11/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-11/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-11",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-11/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": null,
+          "network_address": "netgdx-12.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.110.12",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-12-eth1.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.240.12",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-12-eth2.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.190.12",
+          "driver": null
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "netgdx-12",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-12/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-12/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-12",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-12/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": null,
+          "network_address": "netgdx-13.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.110.13",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-13-eth1.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.240.13",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-13-eth2.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.190.13",
+          "driver": null
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "netgdx-13",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-13/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-13/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-13",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-13/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": null,
+          "network_address": "netgdx-14.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.110.14",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-14-eth1.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.240.14",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-14-eth2.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.190.14",
+          "driver": null
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "netgdx-14",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-14/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-14/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-14",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-14/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": null,
+          "network_address": "netgdx-15.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.110.15",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-15-eth1.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.240.15",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-15-eth2.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.190.15",
+          "driver": null
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "netgdx-15",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-15/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-15/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-15",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-15/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": null,
+          "network_address": "netgdx-16.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.110.16",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-16-eth1.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.240.16",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-16-eth2.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.190.16",
+          "driver": null
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "netgdx-16",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-16/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-16/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-16",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-16/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": null,
+          "network_address": "netgdx-17.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.110.17",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-17-eth1.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.240.17",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-17-eth2.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.190.17",
+          "driver": null
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "netgdx-17",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-17/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-17/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-17",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-17/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": null,
+          "network_address": "netgdx-18.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.110.18",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-18-eth1.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.240.18",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-18-eth2.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.190.18",
+          "driver": null
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "netgdx-18",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-18/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-18/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-18",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-18/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": null,
+          "network_address": "netgdx-19.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.110.19",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-19-eth1.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.240.19",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-19-eth2.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.190.19",
+          "driver": null
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "netgdx-19",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-19/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-19/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-19",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-19/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": null,
+          "network_address": "netgdx-2.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.110.2",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-2-eth1.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.240.2",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-2-eth2.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.190.2",
+          "driver": null
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "netgdx-2",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-2/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-2/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-2",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-2/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": null,
+          "network_address": "netgdx-20.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.110.20",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-20-eth1.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.240.20",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-20-eth2.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.190.20",
+          "driver": null
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "netgdx-20",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-20/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-20/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-20",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-20/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": null,
+          "network_address": "netgdx-21.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.110.21",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-21-eth1.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.240.21",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-21-eth2.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.190.21",
+          "driver": null
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "netgdx-21",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-21/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-21/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-21",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-21/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": null,
+          "network_address": "netgdx-22.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.110.22",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-22-eth1.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.240.22",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-22-eth2.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.190.22",
+          "driver": null
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "netgdx-22",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-22/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-22/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-22",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-22/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": null,
+          "network_address": "netgdx-23.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.110.23",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-23-eth1.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.240.23",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-23-eth2.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.190.23",
+          "driver": null
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "netgdx-23",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-23/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-23/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-23",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-23/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": null,
+          "network_address": "netgdx-24.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.110.24",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-24-eth1.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.240.24",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-24-eth2.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.190.24",
+          "driver": null
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "netgdx-24",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-24/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-24/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-24",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-24/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": null,
+          "network_address": "netgdx-25.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.110.25",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-25-eth1.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.240.25",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-25-eth2.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.190.25",
+          "driver": null
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "netgdx-25",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-25/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-25/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-25",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-25/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": null,
+          "network_address": "netgdx-26.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.110.26",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-26-eth1.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.240.26",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-26-eth2.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.190.26",
+          "driver": null
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "netgdx-26",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-26/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-26/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-26",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-26/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": null,
+          "network_address": "netgdx-27.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.110.27",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-27-eth1.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.240.27",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-27-eth2.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.190.27",
+          "driver": null
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "netgdx-27",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-27/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-27/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-27",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-27/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": null,
+          "network_address": "netgdx-28.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.110.28",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-28-eth1.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.240.28",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-28-eth2.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.190.28",
+          "driver": null
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "netgdx-28",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-28/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-28/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-28",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-28/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": null,
+          "network_address": "netgdx-29.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.110.29",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-29-eth1.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.240.29",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-29-eth2.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.190.29",
+          "driver": null
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "netgdx-29",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-29/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-29/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-29",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-29/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": null,
+          "network_address": "netgdx-3.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.110.3",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-3-eth1.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.240.3",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-3-eth2.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.190.3",
+          "driver": null
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "netgdx-3",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-3/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-3/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-3",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-3/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": null,
+          "network_address": "netgdx-30.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.110.30",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-30-eth1.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.240.30",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-30-eth2.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.190.30",
+          "driver": null
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "netgdx-30",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-30/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-30/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-30",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-30/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": null,
+          "network_address": "netgdx-4.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.110.4",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-4-eth1.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.240.4",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-4-eth2.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.190.4",
+          "driver": null
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "netgdx-4",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-4/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-4/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-4",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-4/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": null,
+          "network_address": "netgdx-5.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.110.5",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-5-eth1.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.240.5",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-5-eth2.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.190.5",
+          "driver": null
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "netgdx-5",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-5/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-5/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-5",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-5/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": null,
+          "network_address": "netgdx-6.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.110.6",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-6-eth1.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.240.6",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-6-eth2.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.190.6",
+          "driver": null
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "netgdx-6",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-6/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-6/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-6",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-6/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": null,
+          "network_address": "netgdx-7.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.110.7",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-7-eth1.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.240.7",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-7-eth2.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.190.7",
+          "driver": null
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "netgdx-7",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-7/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-7/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-7",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-7/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": null,
+          "network_address": "netgdx-8.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.110.8",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-8-eth1.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.240.8",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-8-eth2.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.190.8",
+          "driver": null
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "netgdx-8",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-8/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-8/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-8",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-8/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": null,
+          "network_address": "netgdx-9.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.110.9",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-9-eth1.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.240.9",
+          "driver": null
+        },
+        {
+          "switch": null,
+          "network_address": "netgdx-9-eth2.orsay.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.24.190.9",
+          "driver": null
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "netgdx-9",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-9/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-9/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-9",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/netgdx-9/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    }
+  ],
+  "total": 30,
+  "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+  "links": [
+    {
+      "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+      "title": "version",
+      "rel": "member",
+      "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes/versions",
+      "title": "versions",
+      "rel": "collection",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/orsay/clusters/netgdx/nodes",
+      "rel": "self",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    }
+  ],
+  "offset": 0
+}

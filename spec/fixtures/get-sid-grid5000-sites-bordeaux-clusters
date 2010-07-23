@@ -1,0 +1,176 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jul 2010 08:33:39 GMT
+Server: Apache/2.2.9 (Debian) Phusion_Passenger/2.2.3 mod_ssl/2.2.9 OpenSSL/0.9.8g
+X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.3
+Vary: Accept,Accept-Encoding
+ETag: "870bfd002c4e3961854a6461faeb67407b2a4e92"
+Allow: GET
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=60, s-maxage=60
+Last-Modified: Thu, 22 Jul 2010 13:39:20 GMT
+Content-Length: 5561
+Status: 200
+Content-Type: application/vnd.fr.grid5000.api.collection+json;level=1
+X-Cache: HIT from api-proxy.rennes.grid5000.fr
+X-Cache-Lookup: HIT from api-proxy.rennes.grid5000.fr:3128
+Via: 1.0 api-server.orsay.grid5000.fr, 1.0 api-proxy.rennes.grid5000.fr:3128 (squid/2.6.STABLE18)
+Via: 1.1 api-proxy.rennes.grid5000.fr:4444
+Via: 1.1 api.grid5000.fr
+
+{
+  "items": [
+    {
+      "model": "Dell PowerEdge 1855",
+      "created_at": null,
+      "misc": "Motherboard Bios version: A05 ;IPMI version 1.5: Firware revision 1.6",
+      "uid": "bordeplage",
+      "type": "cluster",
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes",
+          "title": "nodes",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Site+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/status",
+          "title": "status",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        }
+      ]
+    },
+    {
+      "model": "IBM System x3455",
+      "created_at": "Mon, 01 Oct 2007 12:00:00 GMT",
+      "misc": "IPMI 2.0, BIOS Version 1.32",
+      "uid": "bordereau",
+      "type": "cluster",
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/nodes",
+          "title": "nodes",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Site+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordereau/status",
+          "title": "status",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        }
+      ]
+    },
+    {
+      "model": "IBM System x3755",
+      "created_at": "Mon, 01 Oct 2007 12:00:00 GMT",
+      "misc": "IPMI 2.0",
+      "uid": "borderline",
+      "type": "cluster",
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/nodes",
+          "title": "nodes",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Site+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/borderline/status",
+          "title": "status",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        }
+      ]
+    }
+  ],
+  "total": 3,
+  "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+  "links": [
+    {
+      "href": "/sid/grid5000/sites/bordeaux/clusters/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+      "title": "version",
+      "rel": "member",
+      "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/bordeaux/clusters/versions",
+      "title": "versions",
+      "rel": "collection",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/bordeaux/clusters",
+      "rel": "self",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    }
+  ],
+  "offset": 0
+}

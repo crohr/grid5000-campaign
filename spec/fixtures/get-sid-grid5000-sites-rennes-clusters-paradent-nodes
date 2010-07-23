@@ -1,0 +1,5804 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jul 2010 09:07:10 GMT
+Server: Apache/2.2.9 (Debian) Phusion_Passenger/2.2.3 mod_ssl/2.2.9 OpenSSL/0.9.8g
+X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.3
+Vary: Accept,Accept-Encoding
+ETag: "7750aa7889ae794a967991a38a31bac8ba6d4947"
+Allow: GET
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=60, s-maxage=60
+Last-Modified: Thu, 22 Jul 2010 13:39:20 GMT
+Content-Length: 171973
+Status: 200
+Content-Type: application/vnd.fr.grid5000.api.collection+json;level=1
+X-Cache: MISS from api-proxy.rennes.grid5000.fr
+X-Cache-Lookup: MISS from api-proxy.rennes.grid5000.fr:3128
+Via: 1.0 api-server.toulouse.grid5000.fr, 1.0 api-proxy.rennes.grid5000.fr:3128 (squid/2.6.STABLE18)
+Via: 1.1 api-proxy.rennes.grid5000.fr:4444
+Via: 1.1 api.grid5000.fr
+
+{
+  "items": [
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-1.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.101",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-1",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-1/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-1/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-1",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-1/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-10.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.110",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-10",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-10/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-10/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-10",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-10/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-11.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.111",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-11",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-11/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-11/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-11",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-11/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-12.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.112",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-12",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-12/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-12/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-12",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-12/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-13.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.113",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-13",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-13/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-13/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-13",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-13/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-14.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.114",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-14",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-14/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-14/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-14",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-14/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-15.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.115",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-15",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-15/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-15/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-15",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-15/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-16.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.116",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-16",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-16/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-16/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-16",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-16/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-17.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.117",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-17",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-17/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-17/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-17",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-17/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-18.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.118",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-18",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-18/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-18/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-18",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-18/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-19.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.119",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-19",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-19/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-19/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-19",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-19/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-2.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.102",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-2",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-2/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-2/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-2",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-2/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-20.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.120",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-20",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-20/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-20/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-20",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-20/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-21.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.121",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-21",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-21/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-21/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-21",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-21/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-22.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.122",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-22",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-22/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-22/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-22",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-22/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-23.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.123",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-23",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-23/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-23/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-23",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-23/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-24.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.124",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-24",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-24/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-24/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-24",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-24/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-25.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.125",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-25",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-25/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-25/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-25",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-25/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-26.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.126",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-26",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-26/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-26/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-26",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-26/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-27.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.127",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-27",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-27/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-27/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-27",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-27/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-28.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.128",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-28",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-28/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-28/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-28",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-28/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-29.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.129",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-29",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-29/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-29/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-29",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-29/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-3.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.103",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-3",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-3/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-3/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-3",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-3/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-30.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.130",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-30",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-30/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-30/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-30",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-30/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-31.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.131",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-31",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-31/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-31/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-31",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-31/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-32.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.132",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-32",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-32/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-32/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-32",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-32/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-33.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.133",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-33",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-33/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-33/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-33",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-33/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-34.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.134",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-34",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-34/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-34/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-34",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-34/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-35.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.135",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-35",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-35/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-35/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-35",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-35/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-36.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.136",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-36",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-36/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-36/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-36",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-36/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-37.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.137",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-37",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-37/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-37/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-37",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-37/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-38.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.138",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-38",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-38/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-38/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-38",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-38/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-39.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.139",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-39",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-39/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-39/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-39",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-39/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-4.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.104",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-4",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-4/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-4/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-4",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-4/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-40.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.140",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-40",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-40/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-40/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-40",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-40/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-41.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.141",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-41",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-41/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-41/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-41",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-41/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-42.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.142",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-42",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-42/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-42/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-42",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-42/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-43.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.143",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-43",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-43/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-43/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-43",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-43/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-44.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.144",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-44",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-44/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-44/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-44",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-44/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-45.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.145",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-45",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-45/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-45/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-45",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-45/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-46.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.146",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-46",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-46/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-46/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-46",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-46/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-47.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.147",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-47",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-47/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-47/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-47",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-47/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-48.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.148",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-48",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-48/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-48/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-48",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-48/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-49.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.149",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-49",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-49/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-49/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-49",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-49/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-5.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.105",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-5",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-5/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-5/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-5",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-5/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-50.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.150",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-50",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-50/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-50/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-50",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-50/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-51.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.151",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-51",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-51/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-51/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-51",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-51/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-52.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.152",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-52",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-52/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-52/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-52",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-52/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-53.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.153",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-53",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-53/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-53/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-53",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-53/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-54.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.154",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-54",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-54/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-54/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-54",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-54/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-55.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.155",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-55",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-55/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-55/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-55",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-55/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-56.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.156",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-56",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-56/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-56/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-56",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-56/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-57.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.157",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-57",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-57/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-57/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-57",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-57/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-58.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.158",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-58",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-58/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-58/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-58",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-58/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-59.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.159",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-59",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-59/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-59/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-59",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-59/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-6.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.106",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-6",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-6/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-6/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-6",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-6/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-60.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.160",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-60",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-60/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-60/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-60",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-60/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-61.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.161",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-61",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-61/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-61/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-61",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-61/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-62.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.162",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-62",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-62/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-62/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-62",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-62/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-63.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.163",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-63",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-63/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-63/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-63",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-63/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-64.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.164",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-64",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-64/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-64/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-64",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-64/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-7.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.107",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-7",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-7/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-7/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-7",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-7/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-8.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.108",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-8",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-8/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-8/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-8",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-8/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "paradent-9.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.109",
+          "driver": "e1000e"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000e"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "paradent-9",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": "ata_piix"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-9/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-9/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-9",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/paradent-9/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "L5420",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 34359738368,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    }
+  ],
+  "total": 64,
+  "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+  "links": [
+    {
+      "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+      "title": "version",
+      "rel": "member",
+      "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes/versions",
+      "title": "versions",
+      "rel": "collection",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/rennes/clusters/paradent/nodes",
+      "rel": "self",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    }
+  ],
+  "offset": 0
+}

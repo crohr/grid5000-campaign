@@ -1,0 +1,3138 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jul 2010 09:06:55 GMT
+Server: Apache/2.2.9 (Debian) Phusion_Passenger/2.2.3 mod_ssl/2.2.9 OpenSSL/0.9.8g
+X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.3
+Vary: Accept,Accept-Encoding
+ETag: "cb5813e14df4fdaa522097fdf56bd97c01fd6dcc"
+Allow: GET
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=60, s-maxage=60
+Last-Modified: Thu, 22 Jul 2010 13:39:20 GMT
+Content-Length: 94114
+Status: 200
+Content-Type: application/vnd.fr.grid5000.api.collection+json;level=1
+X-Cache: MISS from api-proxy.rennes.grid5000.fr
+X-Cache-Lookup: MISS from api-proxy.rennes.grid5000.fr:3128
+Via: 1.0 api-server.nancy.grid5000.fr, 1.0 api-proxy.rennes.grid5000.fr:3128 (squid/2.6.STABLE18)
+Via: 1.1 api-proxy.rennes.grid5000.fr:4444
+Via: 1.1 api.grid5000.fr
+
+{
+  "items": [
+    {
+      "network_adapters": [
+        {
+          "network_address": "genepi-1-ib.grenoble.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MHGH29-XTC",
+          "ip": "172.16.18.1",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "genepi-1.grenoble.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.16.1"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "genepi-1",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-1/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-1/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-1",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-1/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "E5420 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "genepi-10-ib.grenoble.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MHGH29-XTC",
+          "ip": "172.16.18.10",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "genepi-10.grenoble.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.16.10"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "genepi-10",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-10/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-10/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-10",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-10/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "E5420 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "genepi-11-ib.grenoble.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MHGH29-XTC",
+          "ip": "172.16.18.11",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "genepi-11.grenoble.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.16.11"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "genepi-11",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-11/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-11/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-11",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-11/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "E5420 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "genepi-12-ib.grenoble.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MHGH29-XTC",
+          "ip": "172.16.18.12",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "genepi-12.grenoble.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.16.12"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "genepi-12",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-12/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-12/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-12",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-12/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "E5420 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "genepi-13-ib.grenoble.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MHGH29-XTC",
+          "ip": "172.16.18.13",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "genepi-13.grenoble.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.16.13"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "genepi-13",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-13/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-13/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-13",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-13/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "E5420 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "genepi-14-ib.grenoble.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MHGH29-XTC",
+          "ip": "172.16.18.14",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "genepi-14.grenoble.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.16.14"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "genepi-14",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-14/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-14/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-14",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-14/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "E5420 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "genepi-15-ib.grenoble.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MHGH29-XTC",
+          "ip": "172.16.18.15",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "genepi-15.grenoble.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.16.15"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "genepi-15",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-15/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-15/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-15",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-15/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "E5420 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "genepi-16-ib.grenoble.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MHGH29-XTC",
+          "ip": "172.16.18.16",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "genepi-16.grenoble.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.16.16"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "genepi-16",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-16/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-16/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-16",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-16/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "E5420 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "genepi-17-ib.grenoble.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MHGH29-XTC",
+          "ip": "172.16.18.17",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "genepi-17.grenoble.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.16.17"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "genepi-17",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-17/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-17/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-17",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-17/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "E5420 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "genepi-18-ib.grenoble.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MHGH29-XTC",
+          "ip": "172.16.18.18",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "genepi-18.grenoble.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.16.18"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "genepi-18",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-18/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-18/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-18",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-18/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "E5420 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "genepi-19-ib.grenoble.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MHGH29-XTC",
+          "ip": "172.16.18.19",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "genepi-19.grenoble.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.16.19"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "genepi-19",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-19/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-19/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-19",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-19/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "E5420 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "genepi-2-ib.grenoble.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MHGH29-XTC",
+          "ip": "172.16.18.2",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "genepi-2.grenoble.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.16.2"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "genepi-2",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-2/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-2/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-2",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-2/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "E5420 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "genepi-20-ib.grenoble.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MHGH29-XTC",
+          "ip": "172.16.18.20",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "genepi-20.grenoble.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.16.20"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "genepi-20",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-20/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-20/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-20",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-20/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "E5420 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "genepi-21-ib.grenoble.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MHGH29-XTC",
+          "ip": "172.16.18.21",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "genepi-21.grenoble.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.16.21"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "genepi-21",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-21/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-21/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-21",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-21/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "E5420 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "genepi-22-ib.grenoble.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MHGH29-XTC",
+          "ip": "172.16.18.22",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "genepi-22.grenoble.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.16.22"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "genepi-22",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-22/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-22/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-22",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-22/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "E5420 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "genepi-23-ib.grenoble.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MHGH29-XTC",
+          "ip": "172.16.18.23",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "genepi-23.grenoble.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.16.23"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "genepi-23",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-23/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-23/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-23",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-23/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "E5420 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "genepi-24-ib.grenoble.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MHGH29-XTC",
+          "ip": "172.16.18.24",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "genepi-24.grenoble.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.16.24"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "genepi-24",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-24/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-24/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-24",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-24/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "E5420 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "genepi-25-ib.grenoble.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MHGH29-XTC",
+          "ip": "172.16.18.25",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "genepi-25.grenoble.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.16.25"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "genepi-25",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-25/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-25/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-25",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-25/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "E5420 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "genepi-26-ib.grenoble.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MHGH29-XTC",
+          "ip": "172.16.18.26",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "genepi-26.grenoble.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.16.26"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "genepi-26",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-26/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-26/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-26",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-26/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "E5420 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "genepi-27-ib.grenoble.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MHGH29-XTC",
+          "ip": "172.16.18.27",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "genepi-27.grenoble.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.16.27"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "genepi-27",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-27/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-27/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-27",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-27/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "E5420 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "genepi-28-ib.grenoble.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MHGH29-XTC",
+          "ip": "172.16.18.28",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "genepi-28.grenoble.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.16.28"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "genepi-28",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-28/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-28/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-28",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-28/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "E5420 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "genepi-29-ib.grenoble.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MHGH29-XTC",
+          "ip": "172.16.18.29",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "genepi-29.grenoble.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.16.29"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "genepi-29",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-29/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-29/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-29",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-29/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "E5420 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "genepi-3-ib.grenoble.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MHGH29-XTC",
+          "ip": "172.16.18.3",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "genepi-3.grenoble.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.16.3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "genepi-3",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-3/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-3/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-3",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-3/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "E5420 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "genepi-30-ib.grenoble.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MHGH29-XTC",
+          "ip": "172.16.18.30",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "genepi-30.grenoble.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.16.30"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "genepi-30",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-30/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-30/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-30",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-30/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "E5420 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "genepi-31-ib.grenoble.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MHGH29-XTC",
+          "ip": "172.16.18.31",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "genepi-31.grenoble.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.16.31"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "genepi-31",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-31/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-31/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-31",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-31/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "E5420 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "genepi-32-ib.grenoble.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MHGH29-XTC",
+          "ip": "172.16.18.32",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "genepi-32.grenoble.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.16.32"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "genepi-32",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-32/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-32/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-32",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-32/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "E5420 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "genepi-33-ib.grenoble.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MHGH29-XTC",
+          "ip": "172.16.18.33",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "genepi-33.grenoble.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.16.33"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "genepi-33",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-33/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-33/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-33",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-33/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "E5420 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "genepi-34-ib.grenoble.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MHGH29-XTC",
+          "ip": "172.16.18.34",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "genepi-34.grenoble.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.16.34"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "genepi-34",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-34/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-34/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-34",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-34/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "E5420 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "genepi-4-ib.grenoble.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MHGH29-XTC",
+          "ip": "172.16.18.4",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "genepi-4.grenoble.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.16.4"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "genepi-4",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-4/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-4/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-4",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-4/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "E5420 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "genepi-5-ib.grenoble.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MHGH29-XTC",
+          "ip": "172.16.18.5",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "genepi-5.grenoble.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.16.5"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "genepi-5",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-5/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-5/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-5",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-5/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "E5420 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "genepi-6-ib.grenoble.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MHGH29-XTC",
+          "ip": "172.16.18.6",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "genepi-6.grenoble.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.16.6"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "genepi-6",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-6/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-6/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-6",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-6/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "E5420 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "genepi-7-ib.grenoble.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MHGH29-XTC",
+          "ip": "172.16.18.7",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "genepi-7.grenoble.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.16.7"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "genepi-7",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-7/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-7/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-7",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-7/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "E5420 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "genepi-8-ib.grenoble.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MHGH29-XTC",
+          "ip": "172.16.18.8",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "genepi-8.grenoble.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.16.8"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "genepi-8",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-8/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-8/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-8",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-8/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "E5420 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "genepi-9-ib.grenoble.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MHGH29-XTC",
+          "ip": "172.16.18.9",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "genepi-9.grenoble.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.16.9"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "genepi-9",
+      "storage_devices": [
+        {
+          "size": 149011611938.477,
+          "interface": "SATA",
+          "driver": null
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-9/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-9/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-9",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/genepi-9/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2500000000.0,
+        "cache_l1d": null,
+        "version": "E5420 QC",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 8589934592,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    }
+  ],
+  "total": 34,
+  "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+  "links": [
+    {
+      "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+      "title": "version",
+      "rel": "member",
+      "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes/versions",
+      "title": "versions",
+      "rel": "collection",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/grenoble/clusters/genepi/nodes",
+      "rel": "self",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    }
+  ],
+  "offset": 0
+}

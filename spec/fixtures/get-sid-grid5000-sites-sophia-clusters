@@ -1,0 +1,216 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jul 2010 08:33:42 GMT
+Server: Apache/2.2.9 (Debian) Phusion_Passenger/2.2.3 mod_ssl/2.2.9 OpenSSL/0.9.8g
+X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.3
+Vary: Accept,Accept-Encoding
+ETag: "4ba1afbba4718f0c4076d839cd8bf82ec58ead36"
+Allow: GET
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=60, s-maxage=60
+Last-Modified: Thu, 22 Jul 2010 13:39:20 GMT
+Content-Length: 6812
+Status: 200
+Content-Type: application/vnd.fr.grid5000.api.collection+json;level=1
+X-Cache: HIT from api-proxy.rennes.grid5000.fr
+X-Cache-Lookup: HIT from api-proxy.rennes.grid5000.fr:3128
+Via: 1.0 api-server.nancy.grid5000.fr, 1.0 api-proxy.rennes.grid5000.fr:3128 (squid/2.6.STABLE18)
+Via: 1.1 api-proxy.rennes.grid5000.fr:4444
+Via: 1.1 api.grid5000.fr
+
+{
+  "items": [
+    {
+      "model": "IBM eServer 325",
+      "created_at": "Thu, 17 Feb 2005 23:00:00 GMT",
+      "uid": "azur",
+      "type": "cluster",
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes",
+          "title": "nodes",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Site+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/status",
+          "title": "status",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        }
+      ]
+    },
+    {
+      "model": "Sun Fire X4100",
+      "created_at": "Thu, 01 Jun 2006 22:00:00 GMT",
+      "uid": "helios",
+      "type": "cluster",
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes",
+          "title": "nodes",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Site+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/status",
+          "title": "status",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        }
+      ]
+    },
+    {
+      "model": "Sun Fire X2200 M2",
+      "created_at": "Thu, 22 Feb 2007 23:00:00 GMT",
+      "uid": "sol",
+      "type": "cluster",
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes",
+          "title": "nodes",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Site+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/status",
+          "title": "status",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        }
+      ]
+    },
+    {
+      "model": "Dell PowerEdge R410",
+      "created_at": "Tue, 26 Jan 2010 23:00:00 GMT",
+      "uid": "suno",
+      "type": "cluster",
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes",
+          "title": "nodes",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Site+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/status",
+          "title": "status",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        }
+      ]
+    }
+  ],
+  "total": 4,
+  "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+  "links": [
+    {
+      "href": "/sid/grid5000/sites/sophia/clusters/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+      "title": "version",
+      "rel": "member",
+      "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/sophia/clusters/versions",
+      "title": "versions",
+      "rel": "collection",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/sophia/clusters",
+      "rel": "self",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    }
+  ],
+  "offset": 0
+}

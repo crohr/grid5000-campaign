@@ -1,0 +1,5140 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jul 2010 09:07:02 GMT
+Server: Apache/2.2.9 (Debian) Phusion_Passenger/2.2.3 mod_ssl/2.2.9 OpenSSL/0.9.8g
+X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.3
+Vary: Accept,Accept-Encoding
+ETag: "32edead4cbd46813838b1cd271e5331ddbb26d90"
+Allow: GET
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=60, s-maxage=60
+Last-Modified: Thu, 22 Jul 2010 13:39:20 GMT
+Content-Length: 152516
+Status: 200
+Content-Type: application/vnd.fr.grid5000.api.collection+json;level=1
+X-Cache: MISS from api-proxy.rennes.grid5000.fr
+X-Cache-Lookup: MISS from api-proxy.rennes.grid5000.fr:3128
+Via: 1.0 api-server.rennes.grid5000.fr, 1.0 api-proxy.rennes.grid5000.fr:3128 (squid/2.6.STABLE18)
+Via: 1.1 api-proxy.rennes.grid5000.fr:4444
+Via: 1.1 api.grid5000.fr
+
+{
+  "items": [
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-1.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.1",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-1",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-1/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-1/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-1",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-1/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-10.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.10",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-10",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-10/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-10/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-10",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-10/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-11.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.11",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-11",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-11/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-11/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-11",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-11/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-12.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.12",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-12",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-12/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-12/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-12",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-12/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-13.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.13",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-13",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-13/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-13/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-13",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-13/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-14.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.14",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-14",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-14/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-14/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-14",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-14/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-15.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.15",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-15",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-15/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-15/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-15",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-15/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-16.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.16",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-16",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-16/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-16/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-16",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-16/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-17.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.17",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-17",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-17/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-17/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-17",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-17/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-18.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.18",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-18",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-18/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-18/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-18",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-18/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-19.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.19",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-19",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-19/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-19/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-19",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-19/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-2.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.2",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-2",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-2/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-2/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-2",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-2/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-20.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.20",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-20",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-20/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-20/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-20",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-20/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-21.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.21",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-21",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-21/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-21/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-21",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-21/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-22.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.22",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-22",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-22/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-22/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-22",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-22/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-23.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.23",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-23",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-23/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-23/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-23",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-23/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-24.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.24",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-24",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-24/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-24/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-24",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-24/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-25.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.25",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-25",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-25/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-25/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-25",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-25/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-26.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.26",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-26",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-26/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-26/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-26",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-26/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-27.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.27",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-27",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-27/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-27/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-27",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-27/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-28.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.28",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-28",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-28/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-28/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-28",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-28/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-29.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.29",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-29",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-29/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-29/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-29",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-29/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-3.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.3",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-3",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-3/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-3/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-3",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-3/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-30.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.30",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-30",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-30/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-30/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-30",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-30/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-31.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.31",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-31",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-31/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-31/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-31",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-31/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-32.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.32",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-32",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-32/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-32/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-32",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-32/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-33.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.33",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-33",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-33/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-33/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-33",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-33/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-34.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.34",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-34",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-34/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-34/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-34",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-34/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-35.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.35",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-35",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-35/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-35/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-35",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-35/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-36.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.36",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-36",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-36/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-36/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-36",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-36/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-37.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.37",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-37",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-37/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-37/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-37",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-37/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-38.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.38",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-38",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-38/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-38/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-38",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-38/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-39.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.39",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-39",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-39/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-39/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-39",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-39/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-4.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.4",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-4",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-4/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-4/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-4",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-4/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-40.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.40",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-40",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-40/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-40/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-40",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-40/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-41.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.41",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-41",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-41/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-41/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-41",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-41/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-42.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.42",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-42",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-42/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-42/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-42",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-42/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-43.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.43",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-43",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-43/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-43/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-43",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-43/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-44.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.44",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-44",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-44/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-44/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-44",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-44/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-45.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.45",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-45",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-45/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-45/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-45",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-45/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-46.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.46",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-46",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-46/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-46/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-46",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-46/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-47.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.47",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-47",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-47/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-47/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-47",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-47/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-48.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.48",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-48",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-48/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-48/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-48",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-48/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-49.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.49",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-49",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-49/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-49/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-49",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-49/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-5.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.5",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-5",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-5/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-5/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-5",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-5/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-50.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.50",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-50",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-50/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-50/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-50",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-50/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-51.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.51",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-51",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-51/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-51/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-51",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-51/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-52.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.52",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-52",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-52/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-52/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-52",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-52/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-53.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.53",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-53",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-53/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-53/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-53",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-53/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-54.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.54",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-54",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-54/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-54/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-54",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-54/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-55.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.55",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-55",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-55/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-55/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-55",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-55/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-56.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.56",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-56",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-56/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-56/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-56",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-56/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-6.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.6",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-6",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-6/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-6/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-6",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-6/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-7.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.7",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-7",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-7/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-7/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-7",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-7/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-8.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.8",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-8",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-8/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-8/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-8",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-8/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "little-ego",
+          "network_address": "capricorne-9.lyon.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "10.69.0.9",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "tg3"
+        }
+      ],
+      "operating_system": {
+        "name": null,
+        "version": null,
+        "release": null
+      },
+      "uid": "capricorne-9",
+      "storage_devices": [
+        {
+          "size": 74505805969.2383,
+          "interface": "IDE",
+          "driver": "amd74xx"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-9/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-9/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-9",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-9/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2000000000,
+        "cache_l1d": null,
+        "version": "246",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    }
+  ],
+  "total": 56,
+  "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+  "links": [
+    {
+      "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+      "title": "version",
+      "rel": "member",
+      "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/versions",
+      "title": "versions",
+      "rel": "collection",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes",
+      "rel": "self",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    }
+  ],
+  "offset": 0
+}

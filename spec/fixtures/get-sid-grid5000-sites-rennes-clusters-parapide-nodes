@@ -1,0 +1,2544 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jul 2010 09:07:17 GMT
+Server: Apache/2.2.9 (Debian) Phusion_Passenger/2.2.3 mod_ssl/2.2.9 OpenSSL/0.9.8g
+X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.3
+Vary: Accept,Accept-Encoding
+ETag: "0578214c9bdb518cb21ea667151405a983674b86"
+Allow: GET
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=60, s-maxage=60
+Last-Modified: Thu, 22 Jul 2010 13:39:20 GMT
+Content-Length: 75300
+Status: 200
+Content-Type: application/vnd.fr.grid5000.api.collection+json;level=1
+X-Cache: MISS from api-proxy.rennes.grid5000.fr
+X-Cache-Lookup: MISS from api-proxy.rennes.grid5000.fr:3128
+Via: 1.0 api-server.lille.grid5000.fr, 1.0 api-proxy.rennes.grid5000.fr:3128 (squid/2.6.STABLE18)
+Via: 1.1 api-proxy.rennes.grid5000.fr:4444
+Via: 1.1 api.grid5000.fr
+
+{
+  "items": [
+    {
+      "network_adapters": [
+        {
+          "network_address": "parapide-1.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.221",
+          "driver": "igb"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "igb"
+        },
+        {
+          "network_address": "parapide-1-ib0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Infiniband SDR",
+          "enabled": true,
+          "version": "MT25418",
+          "ip": "192.168.200.221",
+          "vendor": "Mellanox",
+          "driver": "mlx4_core"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "parapide-1",
+      "storage_devices": [
+        {
+          "size": 465661287307.739,
+          "interface": "SATA",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-1/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-1/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-1",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-1/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2930000000.0,
+        "cache_l1d": null,
+        "version": "X5570",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 25769803776,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "parapide-10.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.230",
+          "driver": "igb"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "igb"
+        },
+        {
+          "network_address": "parapide-10-ib0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Infiniband SDR",
+          "enabled": true,
+          "version": "MT25418",
+          "ip": "192.168.200.230",
+          "vendor": "Mellanox",
+          "driver": "mlx4_core"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "parapide-10",
+      "storage_devices": [
+        {
+          "size": 465661287307.739,
+          "interface": "SATA",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-10/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-10/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-10",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-10/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2930000000.0,
+        "cache_l1d": null,
+        "version": "X5570",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 25769803776,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "parapide-11.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.231",
+          "driver": "igb"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "igb"
+        },
+        {
+          "network_address": "parapide-11-ib0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Infiniband SDR",
+          "enabled": true,
+          "version": "MT25418",
+          "ip": "192.168.200.231",
+          "vendor": "Mellanox",
+          "driver": "mlx4_core"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "parapide-11",
+      "storage_devices": [
+        {
+          "size": 465661287307.739,
+          "interface": "SATA",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-11/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-11/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-11",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-11/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2930000000.0,
+        "cache_l1d": null,
+        "version": "X5570",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 25769803776,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "parapide-12.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.232",
+          "driver": "igb"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "igb"
+        },
+        {
+          "network_address": "parapide-12-ib0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Infiniband SDR",
+          "enabled": true,
+          "version": "MT25418",
+          "ip": "192.168.200.232",
+          "vendor": "Mellanox",
+          "driver": "mlx4_core"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "parapide-12",
+      "storage_devices": [
+        {
+          "size": 465661287307.739,
+          "interface": "SATA",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-12/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-12/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-12",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-12/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2930000000.0,
+        "cache_l1d": null,
+        "version": "X5570",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 25769803776,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "parapide-13.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.233",
+          "driver": "igb"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "igb"
+        },
+        {
+          "network_address": "parapide-13-ib0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Infiniband SDR",
+          "enabled": true,
+          "version": "MT25418",
+          "ip": "192.168.200.233",
+          "vendor": "Mellanox",
+          "driver": "mlx4_core"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "parapide-13",
+      "storage_devices": [
+        {
+          "size": 465661287307.739,
+          "interface": "SATA",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-13/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-13/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-13",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-13/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2930000000.0,
+        "cache_l1d": null,
+        "version": "X5570",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 25769803776,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "parapide-14.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.234",
+          "driver": "igb"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "igb"
+        },
+        {
+          "network_address": "parapide-14-ib0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Infiniband SDR",
+          "enabled": true,
+          "version": "MT25418",
+          "ip": "192.168.200.234",
+          "vendor": "Mellanox",
+          "driver": "mlx4_core"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "parapide-14",
+      "storage_devices": [
+        {
+          "size": 465661287307.739,
+          "interface": "SATA",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-14/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-14/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-14",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-14/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2930000000.0,
+        "cache_l1d": null,
+        "version": "X5570",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 25769803776,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "parapide-15.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.235",
+          "driver": "igb"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "igb"
+        },
+        {
+          "network_address": "parapide-15-ib0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Infiniband SDR",
+          "enabled": true,
+          "version": "MT25418",
+          "ip": "192.168.200.235",
+          "vendor": "Mellanox",
+          "driver": "mlx4_core"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "parapide-15",
+      "storage_devices": [
+        {
+          "size": 465661287307.739,
+          "interface": "SATA",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-15/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-15/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-15",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-15/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2930000000.0,
+        "cache_l1d": null,
+        "version": "X5570",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 25769803776,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "parapide-16.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.236",
+          "driver": "igb"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "igb"
+        },
+        {
+          "network_address": "parapide-16-ib0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Infiniband SDR",
+          "enabled": true,
+          "version": "MT25418",
+          "ip": "192.168.200.236",
+          "vendor": "Mellanox",
+          "driver": "mlx4_core"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "parapide-16",
+      "storage_devices": [
+        {
+          "size": 465661287307.739,
+          "interface": "SATA",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-16/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-16/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-16",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-16/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2930000000.0,
+        "cache_l1d": null,
+        "version": "X5570",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 25769803776,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "parapide-17.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.237",
+          "driver": "igb"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "igb"
+        },
+        {
+          "network_address": "parapide-17-ib0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Infiniband SDR",
+          "enabled": true,
+          "version": "MT25418",
+          "ip": "192.168.200.237",
+          "vendor": "Mellanox",
+          "driver": "mlx4_core"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "parapide-17",
+      "storage_devices": [
+        {
+          "size": 465661287307.739,
+          "interface": "SATA",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-17/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-17/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-17",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-17/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2930000000.0,
+        "cache_l1d": null,
+        "version": "X5570",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 25769803776,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "parapide-18.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.238",
+          "driver": "igb"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "igb"
+        },
+        {
+          "network_address": "parapide-18-ib0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Infiniband SDR",
+          "enabled": true,
+          "version": "MT25418",
+          "ip": "192.168.200.238",
+          "vendor": "Mellanox",
+          "driver": "mlx4_core"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "parapide-18",
+      "storage_devices": [
+        {
+          "size": 465661287307.739,
+          "interface": "SATA",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-18/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-18/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-18",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-18/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2930000000.0,
+        "cache_l1d": null,
+        "version": "X5570",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 25769803776,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "parapide-19.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.239",
+          "driver": "igb"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "igb"
+        },
+        {
+          "network_address": "parapide-19-ib0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Infiniband SDR",
+          "enabled": true,
+          "version": "MT25418",
+          "ip": "192.168.200.239",
+          "vendor": "Mellanox",
+          "driver": "mlx4_core"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "parapide-19",
+      "storage_devices": [
+        {
+          "size": 465661287307.739,
+          "interface": "SATA",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-19/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-19/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-19",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-19/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2930000000.0,
+        "cache_l1d": null,
+        "version": "X5570",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 25769803776,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "parapide-2.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.222",
+          "driver": "igb"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "igb"
+        },
+        {
+          "network_address": "parapide-2-ib0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Infiniband SDR",
+          "enabled": true,
+          "version": "MT25418",
+          "ip": "192.168.200.222",
+          "vendor": "Mellanox",
+          "driver": "mlx4_core"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "parapide-2",
+      "storage_devices": [
+        {
+          "size": 465661287307.739,
+          "interface": "SATA",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-2/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-2/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-2",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-2/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2930000000.0,
+        "cache_l1d": null,
+        "version": "X5570",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 25769803776,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "parapide-20.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.240",
+          "driver": "igb"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "igb"
+        },
+        {
+          "network_address": "parapide-20-ib0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Infiniband SDR",
+          "enabled": true,
+          "version": "MT25418",
+          "ip": "192.168.200.240",
+          "vendor": "Mellanox",
+          "driver": "mlx4_core"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "parapide-20",
+      "storage_devices": [
+        {
+          "size": 465661287307.739,
+          "interface": "SATA",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-20/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-20/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-20",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-20/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2930000000.0,
+        "cache_l1d": null,
+        "version": "X5570",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 25769803776,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "parapide-21.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.241",
+          "driver": "igb"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "igb"
+        },
+        {
+          "network_address": "parapide-21-ib0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Infiniband SDR",
+          "enabled": true,
+          "version": "MT25418",
+          "ip": "192.168.200.241",
+          "vendor": "Mellanox",
+          "driver": "mlx4_core"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "parapide-21",
+      "storage_devices": [
+        {
+          "size": 465661287307.739,
+          "interface": "SATA",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-21/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-21/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-21",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-21/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2930000000.0,
+        "cache_l1d": null,
+        "version": "X5570",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 25769803776,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "parapide-22.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.242",
+          "driver": "igb"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "igb"
+        },
+        {
+          "network_address": "parapide-22-ib0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Infiniband SDR",
+          "enabled": true,
+          "version": "MT25418",
+          "ip": "192.168.200.242",
+          "vendor": "Mellanox",
+          "driver": "mlx4_core"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "parapide-22",
+      "storage_devices": [
+        {
+          "size": 465661287307.739,
+          "interface": "SATA",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-22/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-22/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-22",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-22/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2930000000.0,
+        "cache_l1d": null,
+        "version": "X5570",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 25769803776,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "parapide-23.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.243",
+          "driver": "igb"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "igb"
+        },
+        {
+          "network_address": "parapide-23-ib0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Infiniband SDR",
+          "enabled": true,
+          "version": "MT25418",
+          "ip": "192.168.200.243",
+          "vendor": "Mellanox",
+          "driver": "mlx4_core"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "parapide-23",
+      "storage_devices": [
+        {
+          "size": 465661287307.739,
+          "interface": "SATA",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-23/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-23/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-23",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-23/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2930000000.0,
+        "cache_l1d": null,
+        "version": "X5570",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 25769803776,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "parapide-24.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.244",
+          "driver": "igb"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "igb"
+        },
+        {
+          "network_address": "parapide-24-ib0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Infiniband SDR",
+          "enabled": true,
+          "version": "MT25418",
+          "ip": "192.168.200.244",
+          "vendor": "Mellanox",
+          "driver": "mlx4_core"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "parapide-24",
+      "storage_devices": [
+        {
+          "size": 465661287307.739,
+          "interface": "SATA",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-24/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-24/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-24",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-24/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2930000000.0,
+        "cache_l1d": null,
+        "version": "X5570",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 25769803776,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "parapide-25.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.245",
+          "driver": "igb"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "igb"
+        },
+        {
+          "network_address": "parapide-25-ib0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Infiniband SDR",
+          "enabled": true,
+          "version": "MT25418",
+          "ip": "192.168.200.245",
+          "vendor": "Mellanox",
+          "driver": "mlx4_core"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "parapide-25",
+      "storage_devices": [
+        {
+          "size": 465661287307.739,
+          "interface": "SATA",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-25/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-25/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-25",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-25/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2930000000.0,
+        "cache_l1d": null,
+        "version": "X5570",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 25769803776,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "parapide-3.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.223",
+          "driver": "igb"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "igb"
+        },
+        {
+          "network_address": "parapide-3-ib0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Infiniband SDR",
+          "enabled": true,
+          "version": "MT25418",
+          "ip": "192.168.200.223",
+          "vendor": "Mellanox",
+          "driver": "mlx4_core"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "parapide-3",
+      "storage_devices": [
+        {
+          "size": 465661287307.739,
+          "interface": "SATA",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-3/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-3/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-3",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-3/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2930000000.0,
+        "cache_l1d": null,
+        "version": "X5570",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 25769803776,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "parapide-4.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.224",
+          "driver": "igb"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "igb"
+        },
+        {
+          "network_address": "parapide-4-ib0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Infiniband SDR",
+          "enabled": true,
+          "version": "MT25418",
+          "ip": "192.168.200.224",
+          "vendor": "Mellanox",
+          "driver": "mlx4_core"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "parapide-4",
+      "storage_devices": [
+        {
+          "size": 465661287307.739,
+          "interface": "SATA",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-4/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-4/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-4",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-4/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2930000000.0,
+        "cache_l1d": null,
+        "version": "X5570",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 25769803776,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "parapide-5.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.225",
+          "driver": "igb"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "igb"
+        },
+        {
+          "network_address": "parapide-5-ib0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Infiniband SDR",
+          "enabled": true,
+          "version": "MT25418",
+          "ip": "192.168.200.225",
+          "vendor": "Mellanox",
+          "driver": "mlx4_core"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "parapide-5",
+      "storage_devices": [
+        {
+          "size": 465661287307.739,
+          "interface": "SATA",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-5/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-5/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-5",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-5/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2930000000.0,
+        "cache_l1d": null,
+        "version": "X5570",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 25769803776,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "parapide-6.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.226",
+          "driver": "igb"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "igb"
+        },
+        {
+          "network_address": "parapide-6-ib0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Infiniband SDR",
+          "enabled": true,
+          "version": "MT25418",
+          "ip": "192.168.200.226",
+          "vendor": "Mellanox",
+          "driver": "mlx4_core"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "parapide-6",
+      "storage_devices": [
+        {
+          "size": 465661287307.739,
+          "interface": "SATA",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-6/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-6/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-6",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-6/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2930000000.0,
+        "cache_l1d": null,
+        "version": "X5570",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 25769803776,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "parapide-7.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.227",
+          "driver": "igb"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "igb"
+        },
+        {
+          "network_address": "parapide-7-ib0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Infiniband SDR",
+          "enabled": true,
+          "version": "MT25418",
+          "ip": "192.168.200.227",
+          "vendor": "Mellanox",
+          "driver": "mlx4_core"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "parapide-7",
+      "storage_devices": [
+        {
+          "size": 465661287307.739,
+          "interface": "SATA",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-7/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-7/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-7",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-7/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2930000000.0,
+        "cache_l1d": null,
+        "version": "X5570",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 25769803776,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "parapide-8.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.228",
+          "driver": "igb"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "igb"
+        },
+        {
+          "network_address": "parapide-8-ib0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Infiniband SDR",
+          "enabled": true,
+          "version": "MT25418",
+          "ip": "192.168.200.228",
+          "vendor": "Mellanox",
+          "driver": "mlx4_core"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "parapide-8",
+      "storage_devices": [
+        {
+          "size": 465661287307.739,
+          "interface": "SATA",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-8/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-8/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-8",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-8/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2930000000.0,
+        "cache_l1d": null,
+        "version": "X5570",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 25769803776,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "network_address": "parapide-9.rennes.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "131.254.202.229",
+          "driver": "igb"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "igb"
+        },
+        {
+          "network_address": "parapide-9-ib0.rennes.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "Infiniband SDR",
+          "enabled": true,
+          "version": "MT25418",
+          "ip": "192.168.200.229",
+          "vendor": "Mellanox",
+          "driver": "mlx4_core"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "kernel": "2.6.26",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "parapide-9",
+      "storage_devices": [
+        {
+          "size": 465661287307.739,
+          "interface": "SATA",
+          "driver": "ahci"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-9/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-9/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-9",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/parapide-9/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": "ivt",
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 2930000000.0,
+        "cache_l1d": null,
+        "version": "X5570",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": null,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 25769803776,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 8
+      }
+    }
+  ],
+  "total": 25,
+  "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+  "links": [
+    {
+      "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+      "title": "version",
+      "rel": "member",
+      "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes/versions",
+      "title": "versions",
+      "rel": "collection",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/rennes/clusters/parapide/nodes",
+      "rel": "self",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    }
+  ],
+  "offset": 0
+}

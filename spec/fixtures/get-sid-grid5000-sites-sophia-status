@@ -1,0 +1,5806 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jul 2010 09:15:29 GMT
+Server: Apache/2.2.9 (Debian) Phusion_Passenger/2.2.3 mod_ssl/2.2.9 OpenSSL/0.9.8g
+X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.3
+Vary: Accept,Accept-Encoding
+ETag: "72be6f9aaef2be5b60d466564017da8b530f23b2"
+Cache-Control: public, max-age=120
+Expires: Fri, 23 Jul 2010 09:19:29 GMT
+Allow: GET
+Content-Length: 163979
+Status: 200
+Content-Type: application/json
+X-Cache: MISS from api-proxy.rennes.grid5000.fr
+X-Cache-Lookup: MISS from api-proxy.rennes.grid5000.fr:3128
+Via: 1.0 api-server.orsay.grid5000.fr, 1.0 api-proxy.rennes.grid5000.fr:3128 (squid/2.6.STABLE18)
+Via: 1.1 api-proxy.rennes.grid5000.fr:4444
+Via: 1.1 api.grid5000.fr
+
+{
+  "items": [
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-33",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-33/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-33",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-31",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-31/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-31",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-48",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-48/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-48",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-34",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-34/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-34",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-32",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-32/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-32",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-1",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-1/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-1",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-49",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-49/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-49",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-35",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-35/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-35",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-20",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 447762,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-20/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-20",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-33",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-33/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-33",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-2",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-2/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-2",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-36",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-36/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-36",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-21",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 447762,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-21/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-21",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-34",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-34/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-34",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-60",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-60/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-60",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-3",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-3/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-3",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "suno-1",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-1/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-1",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-37",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-37/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-37",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-22",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 447762,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-22/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-22",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-35",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-35/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-35",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-61",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-61/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-61",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-4",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-4/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-4",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-2",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 447762,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-2/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-2",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-38",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-38/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-38",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-23",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 447762,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-23/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-23",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-36",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-36/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-36",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-62",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-62/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-62",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-5",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-5/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-5",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-3",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 447762,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-3/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-3",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-39",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-39/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-39",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-24",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 447762,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-24/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-24",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-37",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-37/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-37",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-63",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-63/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-63",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-6",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-6/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-6",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-4",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 447762,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-4/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-4",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-25",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 447762,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-25/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-25",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-38",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-38/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-38",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-64",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-64/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-64",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-5",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-5/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-5",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-26",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 447762,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-26/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-26",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-39",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-39/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-39",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-65",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-65/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-65",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-7",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-7/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-7",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-6",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 447762,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-6/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-6",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-27",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 447762,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-27/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-27",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-66",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-66/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-66",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-8",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-8/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-8",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-28",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 447762,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-28/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-28",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-67",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-67/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-67",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-9",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-9/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-9",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-7",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 447762,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-7/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-7",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-29",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 447762,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-29/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-29",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-68",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-68/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-68",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-1",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-1/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-1",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-8",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 447762,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-8/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-8",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "suno-9",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 447762,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-9/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-9",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-30",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-30/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-30",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-69",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-69/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-69",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-2",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-2/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-2",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-31",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-31/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-31",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-3",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-3/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-3",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-32",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-32/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-32",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-4",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-4/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-4",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-33",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-33/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-33",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-5",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-5/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-5",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-34",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-34/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-34",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-6",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-6/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-6",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-35",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-35/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-35",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-7",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-7/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-7",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-8",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-8/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-8",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-20",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-20/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-20",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-36",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-36/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-36",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-9",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-9/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-9",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-21",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-21/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-21",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-37",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-37/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-37",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-22",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-22/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-22",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-20",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-20/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-20",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-38",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-38/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-38",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-23",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-23/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-23",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-21",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-21/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-21",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-39",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-39/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-39",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-24",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-24/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-24",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-50",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-50/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-50",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-22",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-22/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-22",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-25",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-25/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-25",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-51",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-51/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-51",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-10",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-10/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-10",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-23",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-23/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-23",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-26",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-26/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-26",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-52",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-52/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-52",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-11",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-11/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-11",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-24",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-24/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-24",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-50",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-50/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-50",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-27",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-27/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-27",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-53",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-53/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-53",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-12",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-12/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-12",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-25",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-25/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-25",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-51",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-51/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-51",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-28",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-28/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-28",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-54",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-54/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-54",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-13",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-13/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-13",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-26",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-26/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-26",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-52",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-52/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-52",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-29",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-29/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-29",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-55",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-55/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-55",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-14",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-14/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-14",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-40",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 447762,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-40/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-40",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-27",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-27/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-27",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "azur-53",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-53/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-53",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-56",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-56/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-56",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-15",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-15/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-15",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-41",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 447762,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-41/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-41",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-28",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-28/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-28",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "azur-54",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-54/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-54",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-16",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-16/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-16",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-42",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 447762,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-42/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-42",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-29",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-29/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-29",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-55",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-55/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-55",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-17",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-17/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-17",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-43",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 447762,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-43/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-43",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-56",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-56/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-56",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-18",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-18/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-18",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-44",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 447762,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-44/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-44",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-57",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-57/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-57",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-19",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "vciancaglini",
+          "batch_id": 448512,
+          "start_time": 1279890000,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-19/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-19",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-45",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 447762,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-45/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-45",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-58",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-58/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-58",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-20",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-20/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-20",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-59",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-59/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-59",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-21",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-21/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-21",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-22",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-22/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-22",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-23",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-23/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-23",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-24",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-24/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-24",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-50",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-50/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-50",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-1",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-1/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-1",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-10",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-10/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-10",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-25",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-25/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-25",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-2",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-2/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-2",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-11",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-11/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-11",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-26",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-26/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-26",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-3",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-3/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-3",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-12",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-12/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-12",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-10",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-10/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-10",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-27",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-27/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-27",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-4",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-4/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-4",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-13",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-13/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-13",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-11",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-11/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-11",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-28",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-28/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-28",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-5",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-5/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-5",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-40",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-40/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-40",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-12",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-12/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-12",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-29",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-29/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-29",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-6",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-6/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-6",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-14",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-14/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-14",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-41",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-41/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-41",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-13",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-13/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-13",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-7",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-7/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-7",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-15",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-15/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-15",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-14",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-14/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-14",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-40",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-40/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-40",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-8",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-8/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-8",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-16",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-16/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-16",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-42",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-42/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-42",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-15",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-15/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-15",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-41",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-41/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-41",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-9",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-9/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-9",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-17",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-17/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-17",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-43",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-43/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-43",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-16",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-16/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-16",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-42",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-42/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-42",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-18",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-18/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-18",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-44",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-44/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-44",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-30",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 447762,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-30/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-30",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-17",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-17/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-17",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-43",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-43/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-43",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-19",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-19/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-19",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-45",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-45/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-45",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-18",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-18/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-18",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-44",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-44/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-44",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-70",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-70/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-70",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-46",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-46/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-46",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-31",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 447762,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-31/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-31",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-19",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-19/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-19",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-45",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-45/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-45",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-71",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-71/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-71",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-47",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-47/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-47",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-32",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 447762,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-32/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-32",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-46",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-46/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-46",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-72",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-72/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-72",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-48",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-48/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-48",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-33",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 447762,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-33/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-33",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-47",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-47/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-47",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-49",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-49/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-49",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-34",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 447762,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-34/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-34",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-48",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-48/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-48",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-35",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 447762,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-35/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-35",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-49",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-49/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-49",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-36",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 447762,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-36/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-36",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-10",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-10/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-10",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-37",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 447762,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-37/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-37",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-11",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-11/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-11",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-38",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 447762,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-38/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-38",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-12",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-12/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-12",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "suno-39",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "tgarcia",
+          "batch_id": 447762,
+          "start_time": 1279908000,
+          "walltime": 216000
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-39/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/suno/nodes/suno-39",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-13",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-13/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-13",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-40",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-40/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-40",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-14",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-14/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-14",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-41",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-41/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-41",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-15",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-15/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-15",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-42",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-42/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-42",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-16",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-16/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-16",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-43",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-43/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-43",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-17",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-17/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-17",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-44",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-44/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-44",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-18",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-18/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-18",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-45",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-45/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-45",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-30",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-30/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-30",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-19",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-19/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-19",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-46",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-46/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-46",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-31",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-31/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-31",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "helios-32",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "gmarkomanolis",
+          "batch_id": 448543,
+          "start_time": 1279955400,
+          "walltime": 169200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-32/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-32",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "azur-30",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-30/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/azur/nodes/azur-30",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sol-47",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ichatzidrossos",
+          "batch_id": 448395,
+          "start_time": 1279904461,
+          "walltime": 46800
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-47/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/sol/nodes/sol-47",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    }
+  ],
+  "generated_at": 1279876529,
+  "total": 223,
+  "links": [
+    {
+      "href": "/sid/grid5000/sites/sophia/status",
+      "rel": "self",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    }
+  ],
+  "offset": 0
+}

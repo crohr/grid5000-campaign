@@ -1,0 +1,6540 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jul 2010 09:07:20 GMT
+Server: Apache/2.2.9 (Debian) Phusion_Passenger/2.2.3 mod_ssl/2.2.9 OpenSSL/0.9.8g
+X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.3
+Vary: Accept,Accept-Encoding
+ETag: "7ff034a5d73edf445dddc913f78d9bea81743fd1"
+Allow: GET
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=60, s-maxage=60
+Last-Modified: Thu, 22 Jul 2010 13:39:20 GMT
+Content-Length: 184318
+Status: 200
+Content-Type: application/vnd.fr.grid5000.api.collection+json;level=1
+X-Cache: MISS from api-proxy.rennes.grid5000.fr
+X-Cache-Lookup: MISS from api-proxy.rennes.grid5000.fr:3128
+Via: 1.0 api-server.orsay.grid5000.fr, 1.0 api-proxy.rennes.grid5000.fr:3128 (squid/2.6.STABLE18)
+Via: 1.1 api-proxy.rennes.grid5000.fr:4444
+Via: 1.1 api.grid5000.fr
+
+{
+  "items": [
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-1.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.1",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-1",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-1/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-1/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-1",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-1/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-10.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.10",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-10",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-10/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-10/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-10",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-10/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-11.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.11",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-11",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-11/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-11/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-11",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-11/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-12.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.12",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-12",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-12/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-12/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-12",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-12/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-13.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.13",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-13",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-13/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-13/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-13",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-13/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-14.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.14",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-14",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-14/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-14/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-14",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-14/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-15.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.15",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-15",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-15/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-15/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-15",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-15/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-16.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.16",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-16",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-16/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-16/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-16",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-16/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-17.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.17",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-17",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-17/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-17/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-17",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-17/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-18.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.18",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-18",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-18/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-18/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-18",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-18/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-19.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.19",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-19",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-19/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-19/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-19",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-19/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-2.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.2",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-2",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-2/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-2/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-2",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-2/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-20.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.20",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-20",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-20/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-20/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-20",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-20/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-21.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.21",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-21",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-21/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-21/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-21",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-21/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-22.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.22",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-22",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-22/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-22/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-22",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-22/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-23.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.23",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-23",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-23/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-23/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-23",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-23/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-24.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.24",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-24",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-24/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-24/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-24",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-24/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-25.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.25",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-25",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-25/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-25/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-25",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-25/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-26.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.26",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-26",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-26/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-26/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-26",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-26/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-27.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.27",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-27",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-27/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-27/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-27",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-27/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-28.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.28",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-28",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-28/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-28/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-28",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-28/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-29.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.29",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-29",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-29/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-29/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-29",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-29/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-3.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.3",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-3",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-3/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-3/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-3",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-3/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-30.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.30",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-30",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-30/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-30/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-30",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-30/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-31.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.31",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-31",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-31/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-31/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-31",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-31/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-32.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.32",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-32",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-32/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-32/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-32",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-32/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-33.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.33",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-33",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-33/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-33/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-33",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-33/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-34.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.34",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-34",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-34/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-34/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-34",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-34/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-35.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.35",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-35",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-35/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-35/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-35",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-35/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-36.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.36",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-36",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-36/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-36/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-36",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-36/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-37.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.37",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-37",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-37/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-37/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-37",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-37/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-38.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.38",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-38",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-38/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-38/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-38",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-38/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-39.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.39",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-39",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-39/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-39/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-39",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-39/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-4.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.4",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-4",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-4/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-4/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-4",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-4/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-40.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.40",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-40",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-40/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-40/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-40",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-40/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-41.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.41",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-41",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-41/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-41/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-41",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-41/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-42.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.42",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-42",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-42/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-42/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-42",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-42/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-43.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.43",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-43",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-43/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-43/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-43",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-43/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-44.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.44",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-44",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-44/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-44/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-44",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-44/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-45.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.45",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-45",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-45/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-45/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-45",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-45/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-46.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.46",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-46",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-46/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-46/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-46",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-46/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-47.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.47",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-47",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-47/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-47/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-47",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-47/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-48.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.48",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-48",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-48/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-48/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-48",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-48/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-49.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.49",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-49",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-49/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-49/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-49",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-49/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-5.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.5",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-5",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-5/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-5/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-5",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-5/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-50.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.50",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-50",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-50/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-50/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-50",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-50/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-51.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.51",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-51",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-51/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-51/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-51",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-51/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-52.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.52",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-52",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-52/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-52/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-52",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-52/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-53.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.53",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-53",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-53/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-53/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-53",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-53/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-54.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.54",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-54",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-54/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-54/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-54",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-54/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-55.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.55",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-55",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-55/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-55/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-55",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-55/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-56.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.56",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-56",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-56/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-56/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-56",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-56/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-6.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.6",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-6",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-6/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-6/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-6",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-6/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-7.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.7",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-7",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-7/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-7/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-7",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-7/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-8.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.8",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-8",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-8/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-8/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-8",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-8/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "edgeiron48gs",
+          "network_address": "helios-9.sophia.grid5000.fr",
+          "rate": 2000000000,
+          "interface": "Myri-2000",
+          "enabled": true,
+          "version": "M3F-PCIXF-2",
+          "ip": "138.96.21.9",
+          "vendor": "Myrinet"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian",
+        "version": null,
+        "release": "5.0"
+      },
+      "uid": "helios-9",
+      "storage_devices": [
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        },
+        {
+          "size": 67986547946.9299,
+          "raid": "0",
+          "interface": "SAS",
+          "driver": "mptsas"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-9/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-9/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-9",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/helios-9/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "AMD Opteron",
+        "clock_speed": 2200000000.0,
+        "cache_l1d": null,
+        "version": "275",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "AMD",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 4294967296,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 4
+      }
+    }
+  ],
+  "total": 56,
+  "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+  "links": [
+    {
+      "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+      "title": "version",
+      "rel": "member",
+      "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes/versions",
+      "title": "versions",
+      "rel": "collection",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/sophia/clusters/helios/nodes",
+      "rel": "self",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    }
+  ],
+  "offset": 0
+}

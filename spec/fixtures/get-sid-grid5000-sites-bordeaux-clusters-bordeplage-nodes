@@ -1,0 +1,5195 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jul 2010 09:07:30 GMT
+Server: Apache/2.2.9 (Debian) Phusion_Passenger/2.2.3 mod_ssl/2.2.9 OpenSSL/0.9.8g
+X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.3
+Vary: Accept,Accept-Encoding
+ETag: "8d776d0bb3cb5e4a3341f1bbad2584eb8d4e8cc6"
+Allow: GET
+Cache-Control: public, must-revalidate, proxy-revalidate, max-age=60, s-maxage=60
+Last-Modified: Thu, 22 Jul 2010 13:39:20 GMT
+Content-Length: 157785
+Status: 200
+Content-Type: application/vnd.fr.grid5000.api.collection+json;level=1
+X-Cache: MISS from api-proxy.rennes.grid5000.fr
+X-Cache-Lookup: MISS from api-proxy.rennes.grid5000.fr:3128
+Via: 1.0 api-server.rennes.grid5000.fr, 1.0 api-proxy.rennes.grid5000.fr:3128 (squid/2.6.STABLE18)
+Via: 1.1 api-proxy.rennes.grid5000.fr:4444
+Via: 1.1 api.grid5000.fr
+
+{
+  "items": [
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-1.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.1",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-1.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.51",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-1",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-1/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-1/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-1",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-1/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-10.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.10",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-10.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.60",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-10",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-10/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-10/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-10",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-10/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-11.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.11",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-11.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.61",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-11",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-11/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-11/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-11",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-11/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-12.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.12",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-12.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.62",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-12",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-12/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-12/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-12",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-12/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-13.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.13",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-13.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.63",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-13",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-13/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-13/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-13",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-13/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-14.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.14",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-14.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.64",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-14",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-14/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-14/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-14",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-14/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-15.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.15",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-15.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.65",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-15",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-15/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-15/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-15",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-15/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-16.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.16",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-16.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.66",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-16",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-16/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-16/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-16",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-16/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-17.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.17",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-17.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.67",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-17",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-17/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-17/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-17",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-17/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-18.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.18",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-18.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.68",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-18",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-18/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-18/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-18",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-18/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-19.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.19",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-19.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.69",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-19",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-19/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-19/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-19",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-19/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-2.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.2",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-2.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.52",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-2",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-2/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-2/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-2",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-2/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-20.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.20",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-20.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.70",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-20",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-20/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-20/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-20",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-20/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-21.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.21",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-21.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.71",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-21",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-21/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-21/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-21",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-21/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-22.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.22",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-22.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.72",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-22",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-22/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-22/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-22",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-22/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-23.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.23",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-23.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.73",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-23",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-23/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-23/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-23",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-23/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-24.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.24",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-24.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.74",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-24",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-24/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-24/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-24",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-24/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-25.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.25",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-25.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.75",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-25",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-25/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-25/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-25",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-25/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-26.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.26",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-26.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.76",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-26",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-26/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-26/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-26",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-26/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-27.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.27",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-27.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.77",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-27",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-27/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-27/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-27",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-27/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-28.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.28",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-28.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.78",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-28",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-28/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-28/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-28",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-28/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-29.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.29",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-29.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.79",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-29",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-29/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-29/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-29",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-29/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-3.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.3",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-3.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.53",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-3",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-3/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-3/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-3",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-3/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-30.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.30",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-30.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.80",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-30",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-30/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-30/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-30",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-30/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-31.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.31",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-31.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.81",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-31",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-31/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-31/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-31",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-31/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-32.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.32",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-32.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.82",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-32",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-32/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-32/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-32",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-32/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-33.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.33",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-33.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.83",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-33",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-33/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-33/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-33",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-33/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-34.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.34",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-34.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.84",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-34",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-34/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-34/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-34",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-34/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-35.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.35",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-35.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.85",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-35",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-35/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-35/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-35",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-35/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-36.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.36",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-36.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.86",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-36",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-36/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-36/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-36",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-36/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-37.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.37",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-37.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.87",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-37",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-37/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-37/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-37",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-37/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-38.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.38",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-38.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.88",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-38",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-38/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-38/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-38",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-38/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-39.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.39",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-39.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.89",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-39",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-39/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-39/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-39",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-39/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-4.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.4",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-4.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.54",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-4",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-4/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-4/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-4",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-4/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-40.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.40",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-40.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.90",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-40",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-40/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-40/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-40",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-40/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-41.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.41",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-41.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.91",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-41",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-41/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-41/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-41",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-41/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-42.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.42",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-42.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.92",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-42",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-42/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-42/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-42",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-42/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-43.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.43",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-43.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.93",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-43",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-43/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-43/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-43",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-43/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-44.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.44",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-44.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.94",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-44",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-44/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-44/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-44",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-44/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-45.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.45",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-45.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.95",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-45",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-45/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-45/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-45",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-45/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-46.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.46",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-46.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.96",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-46",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-46/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-46/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-46",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-46/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-47.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.47",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-47.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.97",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-47",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-47/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-47/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-47",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-47/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-48.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.48",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-48.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.98",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-48",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-48/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-48/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-48",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-48/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-49.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.49",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-49.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.99",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-49",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-49/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-49/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-49",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-49/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-5.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.5",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-5.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.55",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-5",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-5/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-5/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-5",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-5/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-50.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.50",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-50.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.100",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-50",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-50/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-50/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-50",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-50/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-51.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.51",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-51.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.101",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-51",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-51/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-51/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-51",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-51/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-6.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.6",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-6.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.56",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-6",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-6/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-6/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-6",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-6/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-7.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.7",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-7.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.57",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-7",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-7/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-7/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-7",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-7/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-8.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.8",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-8.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.58",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-8",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-8/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-8/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-8",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-8/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    },
+    {
+      "network_adapters": [
+        {
+          "switch": "sbdp",
+          "network_address": "bordeplage-9.bordeaux.grid5000.fr",
+          "rate": 10000000000,
+          "interface": "InfiniBand SDR",
+          "enabled": true,
+          "version": "InfiniHost MT25208",
+          "ip": "192.168.132.9",
+          "vendor": "Mellanox"
+        },
+        {
+          "network_address": "bordeplage-9.bordeaux.grid5000.fr",
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": true,
+          "ip": "172.16.1.59",
+          "driver": "e1000"
+        },
+        {
+          "rate": 1000000000,
+          "interface": "Ethernet",
+          "enabled": false,
+          "driver": "e1000"
+        }
+      ],
+      "operating_system": {
+        "name": "Debian Sid",
+        "kadeploy_version": "2",
+        "kadeploy_name": "debian-x64-5-prod",
+        "version": null,
+        "release": null
+      },
+      "uid": "bordeplage-9",
+      "storage_devices": [
+        {
+          "size": 65192580223.0835,
+          "interface": "SCSI",
+          "driver": "mptspi"
+        }
+      ],
+      "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+      "type": "node",
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-9/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+          "title": "version",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-9/versions",
+          "title": "versions",
+          "rel": "collection",
+          "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-9",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Cluster+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/bordeplage-9/status",
+          "title": "status",
+          "rel": "member",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        }
+      ],
+      "supported_job_types": {
+        "virtual": false,
+        "besteffort": true,
+        "deploy": true
+      },
+      "processor": {
+        "model": "Intel Xeon",
+        "clock_speed": 3000000000,
+        "cache_l1d": 16384,
+        "version": "EM64T",
+        "other_description": "",
+        "cache_l1": null,
+        "cache_l2": 1048576,
+        "vendor": "Intel",
+        "instruction_set": "",
+        "cache_l1i": null
+      },
+      "main_memory": {
+        "ram_size": 2147483648,
+        "virtual_size": null
+      },
+      "architecture": {
+        "smp_size": 2,
+        "platform_type": "x86_64",
+        "smt_size": 2
+      }
+    }
+  ],
+  "total": 51,
+  "version": "c822f20a54d38d926be7d0315256d440d2c0db27",
+  "links": [
+    {
+      "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/versions/c822f20a54d38d926be7d0315256d440d2c0db27",
+      "title": "version",
+      "rel": "member",
+      "type": "application/vnd.fr.grid5000.api.Version+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes/versions",
+      "title": "versions",
+      "rel": "collection",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    },
+    {
+      "href": "/sid/grid5000/sites/bordeaux/clusters/bordeplage/nodes",
+      "rel": "self",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    }
+  ],
+  "offset": 0
+}

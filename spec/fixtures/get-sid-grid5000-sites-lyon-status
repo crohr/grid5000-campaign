@@ -1,0 +1,3877 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jul 2010 09:15:29 GMT
+Server: Apache/2.2.9 (Debian) Phusion_Passenger/2.2.3 mod_ssl/2.2.9 OpenSSL/0.9.8g
+X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.3
+Vary: Accept,Accept-Encoding
+ETag: "a57541f43683f8a1a5185f474e57196d8021e252"
+Cache-Control: public, max-age=120
+Expires: Fri, 23 Jul 2010 09:19:29 GMT
+Allow: GET
+Content-Length: 113160
+Status: 200
+Content-Type: application/json
+X-Cache: MISS from api-proxy.rennes.grid5000.fr
+X-Cache-Lookup: MISS from api-proxy.rennes.grid5000.fr:3128
+Via: 1.0 api-server.sophia.grid5000.fr, 1.0 api-proxy.rennes.grid5000.fr:3128 (squid/2.6.STABLE18)
+Via: 1.1 api-proxy.rennes.grid5000.fr:4444
+Via: 1.1 api.grid5000.fr
+
+{
+  "items": [
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-24",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382997,
+          "start_time": 1279875244,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-24/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-24",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-6",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382951,
+          "start_time": 1279851064,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-6/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-6",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "sagittaire-7",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 382996,
+          "start_time": 1279874477,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-7/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-7",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "sagittaire-25",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 382996,
+          "start_time": 1279874477,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-25/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-25",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "capricorne-29",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382960,
+          "start_time": 1279852953,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-29/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-29",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-53",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382952,
+          "start_time": 1279851085,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-53/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-53",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-8",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382926,
+          "start_time": 1279850409,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-8/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-8",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "sagittaire-26",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 382996,
+          "start_time": 1279874477,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-26/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-26",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-54",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382952,
+          "start_time": 1279851085,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-54/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-54",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sagittaire-9",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-9/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-9",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "capricorne-1",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382997,
+          "start_time": 1279875244,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-1/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-1",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "sagittaire-27",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 382996,
+          "start_time": 1279874477,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-27/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-27",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-55",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382952,
+          "start_time": 1279851085,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-55/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-55",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-28",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382955,
+          "start_time": 1279851149,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-28/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-28",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "capricorne-30",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382960,
+          "start_time": 1279852953,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-30/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-30",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-56",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382951,
+          "start_time": 1279851064,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-56/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-56",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "capricorne-2",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382962,
+          "start_time": 1279852996,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-2/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-2",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "capricorne-31",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382960,
+          "start_time": 1279852953,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-31/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-31",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-57",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382951,
+          "start_time": 1279851064,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-57/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-57",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "capricorne-3",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382960,
+          "start_time": 1279852953,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-3/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-3",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-29",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382955,
+          "start_time": 1279851149,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-29/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-29",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "capricorne-32",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382960,
+          "start_time": 1279852953,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-32/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-32",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-58",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382951,
+          "start_time": 1279851064,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-58/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-58",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "capricorne-4",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382995,
+          "start_time": 1279874479,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-4/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-4",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "capricorne-33",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382960,
+          "start_time": 1279852953,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-33/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-33",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-59",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382951,
+          "start_time": 1279851064,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-59/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-59",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "capricorne-5",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 382996,
+          "start_time": 1279874477,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-5/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-5",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-30",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382997,
+          "start_time": 1279875244,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-30/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-30",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "capricorne-34",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382960,
+          "start_time": 1279852953,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-34/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-34",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "capricorne-6",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 382988,
+          "start_time": 1279865549,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-6/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-6",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "capricorne-35",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382995,
+          "start_time": 1279874479,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-35/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-35",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "capricorne-7",
+      "uid": 1279876529,
+      "hardware_state": "suspected",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-7/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-7",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "capricorne-36",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382995,
+          "start_time": 1279874479,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-36/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-36",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-60",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382951,
+          "start_time": 1279851064,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-60/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-60",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "capricorne-8",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 382996,
+          "start_time": 1279874477,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-8/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-8",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-31",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382997,
+          "start_time": 1279875244,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-31/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-31",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "capricorne-37",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382995,
+          "start_time": 1279874479,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-37/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-37",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-61",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382951,
+          "start_time": 1279851064,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-61/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-61",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-32",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382955,
+          "start_time": 1279851149,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-32/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-32",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sagittaire-62",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-62/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-62",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "capricorne-9",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 382996,
+          "start_time": 1279874477,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-9/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-9",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-33",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382955,
+          "start_time": 1279851149,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-33/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-33",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "capricorne-38",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382995,
+          "start_time": 1279874479,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-38/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-38",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-63",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382950,
+          "start_time": 1279851043,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-63/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-63",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-34",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382955,
+          "start_time": 1279851149,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-34/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-34",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "capricorne-39",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382995,
+          "start_time": 1279874479,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-39/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-39",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-35",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382955,
+          "start_time": 1279851149,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-35/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-35",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-64",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382950,
+          "start_time": 1279851043,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-64/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-64",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "capricorne-10",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382997,
+          "start_time": 1279875244,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-10/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-10",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-36",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382954,
+          "start_time": 1279851128,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-36/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-36",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-65",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382950,
+          "start_time": 1279851043,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-65/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-65",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "capricorne-11",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382962,
+          "start_time": 1279852996,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-11/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-11",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-37",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382954,
+          "start_time": 1279851128,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-37/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-37",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-66",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382950,
+          "start_time": 1279851043,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-66/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-66",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "capricorne-12",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 382996,
+          "start_time": 1279874477,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-12/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-12",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-38",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382954,
+          "start_time": 1279851128,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-38/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-38",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "capricorne-40",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 382996,
+          "start_time": 1279874477,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-40/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-40",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-67",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382950,
+          "start_time": 1279851043,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-67/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-67",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "capricorne-13",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 382996,
+          "start_time": 1279874477,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-13/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-13",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-39",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382954,
+          "start_time": 1279851128,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-39/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-39",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "capricorne-41",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382995,
+          "start_time": 1279874479,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-41/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-41",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-68",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382950,
+          "start_time": 1279851043,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-68/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-68",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "capricorne-14",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 382996,
+          "start_time": 1279874477,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-14/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-14",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "capricorne-42",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 382996,
+          "start_time": 1279874477,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-42/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-42",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-69",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382950,
+          "start_time": 1279851043,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-69/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-69",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "capricorne-15",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382962,
+          "start_time": 1279852996,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-15/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-15",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "capricorne-43",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 382996,
+          "start_time": 1279874477,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-43/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-43",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "sagittaire-10",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 382987,
+          "start_time": 1279865525,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-10/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-10",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "capricorne-16",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 382996,
+          "start_time": 1279874477,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-16/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-16",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sagittaire-40",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-40/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-40",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "capricorne-44",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 382996,
+          "start_time": 1279874477,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-44/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-44",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "sagittaire-11",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 382985,
+          "start_time": 1279865525,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-11/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-11",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-41",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382954,
+          "start_time": 1279851128,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-41/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-41",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "capricorne-45",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 382996,
+          "start_time": 1279874477,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-45/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-45",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "sagittaire-12",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 382983,
+          "start_time": 1279865525,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-12/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-12",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "capricorne-17",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382962,
+          "start_time": 1279852996,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-17/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-17",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sagittaire-70",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-70/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-70",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "capricorne-46",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 382996,
+          "start_time": 1279874477,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-46/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-46",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "sagittaire-13",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 382981,
+          "start_time": 1279865525,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-13/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-13",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "sagittaire-71",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 382996,
+          "start_time": 1279874477,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-71/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-71",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-42",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382954,
+          "start_time": 1279851128,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-42/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-42",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "capricorne-47",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 382996,
+          "start_time": 1279874477,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-47/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-47",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "sagittaire-14",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 382979,
+          "start_time": 1279865525,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-14/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-14",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "capricorne-18",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382962,
+          "start_time": 1279852996,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-18/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-18",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-72",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382926,
+          "start_time": 1279850409,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-72/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-72",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-43",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382953,
+          "start_time": 1279851106,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-43/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-43",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "capricorne-48",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-48/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-48",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "sagittaire-15",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 382977,
+          "start_time": 1279865519,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-15/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-15",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "capricorne-19",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382962,
+          "start_time": 1279852996,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-19/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-19",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sagittaire-73",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-73/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-73",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-44",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382953,
+          "start_time": 1279851106,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-44/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-44",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "capricorne-49",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 382996,
+          "start_time": 1279874477,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-49/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-49",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "sagittaire-16",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 382975,
+          "start_time": 1279865519,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-16/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-16",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-74",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382926,
+          "start_time": 1279850409,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-74/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-74",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-45",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382953,
+          "start_time": 1279851106,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-45/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-45",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "sagittaire-17",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 382973,
+          "start_time": 1279865519,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-17/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-17",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-46",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382953,
+          "start_time": 1279851106,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-46/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-46",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "sagittaire-18",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 382971,
+          "start_time": 1279865519,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-18/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-18",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "capricorne-20",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382962,
+          "start_time": 1279852996,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-20/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-20",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-75",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382926,
+          "start_time": 1279850409,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-75/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-75",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-47",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382953,
+          "start_time": 1279851106,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-47/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-47",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "sagittaire-19",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 382969,
+          "start_time": 1279865516,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-19/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-19",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "capricorne-21",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382961,
+          "start_time": 1279852975,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-21/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-21",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sagittaire-76",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-76/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-76",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-48",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382953,
+          "start_time": 1279851106,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-48/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-48",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "capricorne-50",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 382996,
+          "start_time": 1279874477,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-50/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-50",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "capricorne-22",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 382996,
+          "start_time": 1279874477,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-22/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-22",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-77",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382926,
+          "start_time": 1279850409,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-77/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-77",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-49",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382953,
+          "start_time": 1279851106,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-49/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-49",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "capricorne-51",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 382996,
+          "start_time": 1279874477,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-51/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-51",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "capricorne-23",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382961,
+          "start_time": 1279852975,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-23/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-23",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-78",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382926,
+          "start_time": 1279850409,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-78/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-78",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "sagittaire-1",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-1/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-1",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "capricorne-52",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 382996,
+          "start_time": 1279874477,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-52/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-52",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "capricorne-24",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382961,
+          "start_time": 1279852975,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-24/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-24",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-79",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382926,
+          "start_time": 1279850409,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-79/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-79",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "capricorne-53",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 382992,
+          "start_time": 1279865549,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-53/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-53",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "sagittaire-20",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 382965,
+          "start_time": 1279865514,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-20/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-20",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "capricorne-25",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382961,
+          "start_time": 1279852975,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-25/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-25",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "sagittaire-2",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 382967,
+          "start_time": 1279865516,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-2/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-2",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-50",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382952,
+          "start_time": 1279851085,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-50/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-50",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "capricorne-54",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382997,
+          "start_time": 1279875244,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-54/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-54",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "sagittaire-21",
+      "uid": 1279876529,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-21/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-21",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "capricorne-26",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382961,
+          "start_time": 1279852975,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-26/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-26",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-3",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382955,
+          "start_time": 1279851149,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-3/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-3",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-51",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382952,
+          "start_time": 1279851085,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-51/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-51",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "capricorne-55",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 382990,
+          "start_time": 1279865549,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-55/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-55",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "sagittaire-22",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "ttnguyen",
+          "batch_id": 382867,
+          "start_time": 1280041200,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-22/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-22",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "capricorne-27",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382961,
+          "start_time": 1279852975,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-27/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-27",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-4",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382954,
+          "start_time": 1279851128,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-4/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-4",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "capricorne-56",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "crezvoy",
+          "batch_id": 382996,
+          "start_time": 1279874477,
+          "walltime": 14400
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-56/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-56",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-23",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382997,
+          "start_time": 1279875244,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-23/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-23",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "capricorne-28",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382961,
+          "start_time": 1279852975,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-28/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/capricorne/nodes/capricorne-28",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-5",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382952,
+          "start_time": 1279851085,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-5/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-5",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "sagittaire-52",
+      "uid": 1279876529,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 382952,
+          "start_time": 1279851085,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-52/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lyon/clusters/sagittaire/nodes/sagittaire-52",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    }
+  ],
+  "generated_at": 1279876529,
+  "total": 135,
+  "links": [
+    {
+      "href": "/sid/grid5000/sites/lyon/status",
+      "rel": "self",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    }
+  ],
+  "offset": 0
+}

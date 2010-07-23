@@ -1,0 +1,4062 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Jul 2010 09:15:28 GMT
+Server: Apache/2.2.9 (Debian) Phusion_Passenger/2.2.3 mod_ssl/2.2.9 OpenSSL/0.9.8g
+X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.3
+Vary: Accept,Accept-Encoding
+ETag: "8aa09cce8d204430c22eb0fae5cf1a22bdfda5ca"
+Cache-Control: public, max-age=120
+Expires: Fri, 23 Jul 2010 09:19:28 GMT
+Allow: GET
+Content-Length: 116980
+Status: 200
+Content-Type: application/json
+X-Cache: MISS from api-proxy.rennes.grid5000.fr
+X-Cache-Lookup: MISS from api-proxy.rennes.grid5000.fr:3128
+Via: 1.0 api-server.lille.grid5000.fr, 1.0 api-proxy.rennes.grid5000.fr:3128 (squid/2.6.STABLE18)
+Via: 1.1 api-proxy.rennes.grid5000.fr:4444
+Via: 1.1 api.grid5000.fr
+
+{
+  "items": [
+    {
+      "system_state": "besteffort",
+      "node_uid": "chinqchint-12",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "vgabillon",
+          "batch_id": 1038227,
+          "start_time": 1279871732,
+          "walltime": 21600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-12/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-12",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chicon-15",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038189,
+          "start_time": 1279865240,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-15/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-15",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "chinqchint-40",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "tcghislainlandry",
+          "batch_id": 1038221,
+          "start_time": 1279871436,
+          "walltime": 32364
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-40/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-40",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chinqchint-13",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "vgabillon",
+          "batch_id": 1038227,
+          "start_time": 1279871732,
+          "walltime": 21600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-13/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-13",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chicon-16",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038189,
+          "start_time": 1279865240,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-16/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-16",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "chinqchint-41",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "tcghislainlandry",
+          "batch_id": 1038221,
+          "start_time": 1279871436,
+          "walltime": 32364
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-41/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-41",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "chuque-30",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-30/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-30",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chinqchint-14",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "vgabillon",
+          "batch_id": 1038227,
+          "start_time": 1279871732,
+          "walltime": 21600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-14/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-14",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chicon-17",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038189,
+          "start_time": 1279865240,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-17/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-17",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "chinqchint-42",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "tcghislainlandry",
+          "batch_id": 1038221,
+          "start_time": 1279871436,
+          "walltime": 32364
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-42/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-42",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chuque-1",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038188,
+          "start_time": 1279850747,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-1/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-1",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "chuque-31",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-31/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-31",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chti-20",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038187,
+          "start_time": 1279850741,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-20/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-20",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chicon-18",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038189,
+          "start_time": 1279865240,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-18/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-18",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "chinqchint-43",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "tcghislainlandry",
+          "batch_id": 1038221,
+          "start_time": 1279871436,
+          "walltime": 32364
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-43/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-43",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chuque-2",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038186,
+          "start_time": 1279850419,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-2/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-2",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chinqchint-15",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "vgabillon",
+          "batch_id": 1038227,
+          "start_time": 1279871732,
+          "walltime": 21600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-15/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-15",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "chuque-32",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-32/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-32",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chuque-3",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038186,
+          "start_time": 1279850419,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-3/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-3",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chicon-19",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038189,
+          "start_time": 1279865240,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-19/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-19",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "chinqchint-44",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "tcghislainlandry",
+          "batch_id": 1038221,
+          "start_time": 1279871436,
+          "walltime": 32364
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-44/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-44",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chinqchint-16",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "vgabillon",
+          "batch_id": 1038227,
+          "start_time": 1279871732,
+          "walltime": 21600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-16/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-16",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chuque-4",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038186,
+          "start_time": 1279850419,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-4/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-4",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "chuque-33",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-33/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-33",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "chinqchint-45",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "tcghislainlandry",
+          "batch_id": 1038221,
+          "start_time": 1279871436,
+          "walltime": 32364
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-45/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-45",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chinqchint-17",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "vgabillon",
+          "batch_id": 1038227,
+          "start_time": 1279871732,
+          "walltime": 21600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-17/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-17",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "chuque-5",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 1038217,
+          "start_time": 1279865529,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-5/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-5",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "chuque-34",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-34/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-34",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "chinqchint-46",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "tcghislainlandry",
+          "batch_id": 1038221,
+          "start_time": 1279871436,
+          "walltime": 32364
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-46/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-46",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chinqchint-18",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "vgabillon",
+          "batch_id": 1038227,
+          "start_time": 1279871732,
+          "walltime": 21600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-18/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-18",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "chuque-6",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 1038209,
+          "start_time": 1279865510,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-6/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-6",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "chuque-35",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-35/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-35",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chinqchint-19",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "vgabillon",
+          "batch_id": 1038227,
+          "start_time": 1279871732,
+          "walltime": 21600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-19/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-19",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "chuque-7",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 1038207,
+          "start_time": 1279865510,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-7/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-7",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "chuque-36",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-36/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-36",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chicon-20",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038189,
+          "start_time": 1279865240,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-20/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-20",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "chuque-8",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 1038205,
+          "start_time": 1279865510,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-8/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-8",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chicon-21",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038189,
+          "start_time": 1279865240,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-21/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-21",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chuque-9",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038186,
+          "start_time": 1279850419,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-9/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-9",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "chuque-37",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-37/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-37",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chicon-22",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038189,
+          "start_time": 1279865240,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-22/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-22",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "chuque-38",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-38/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-38",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chicon-23",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038189,
+          "start_time": 1279865240,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-23/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-23",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chinqchint-20",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "vgabillon",
+          "batch_id": 1038227,
+          "start_time": 1279871732,
+          "walltime": 21600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-20/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-20",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "chuque-39",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-39/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-39",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chicon-24",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038188,
+          "start_time": 1279850747,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-24/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-24",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chinqchint-21",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "vgabillon",
+          "batch_id": 1038227,
+          "start_time": 1279871732,
+          "walltime": 21600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-21/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-21",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chuque-10",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038188,
+          "start_time": 1279850747,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-10/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-10",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chicon-25",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038188,
+          "start_time": 1279850747,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-25/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-25",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chinqchint-22",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "vgabillon",
+          "batch_id": 1038227,
+          "start_time": 1279871732,
+          "walltime": 21600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-22/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-22",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chuque-11",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038188,
+          "start_time": 1279850747,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-11/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-11",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chicon-26",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038188,
+          "start_time": 1279850747,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-26/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-26",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chinqchint-23",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "vgabillon",
+          "batch_id": 1038227,
+          "start_time": 1279871732,
+          "walltime": 21600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-23/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-23",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "chuque-40",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-40/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-40",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chinqchint-24",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "vgabillon",
+          "batch_id": 1038227,
+          "start_time": 1279871732,
+          "walltime": 21600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-24/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-24",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chuque-12",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038188,
+          "start_time": 1279850747,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-12/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-12",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "chuque-41",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-41/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-41",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chinqchint-25",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "vgabillon",
+          "batch_id": 1038227,
+          "start_time": 1279871732,
+          "walltime": 21600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-25/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-25",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chuque-13",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038188,
+          "start_time": 1279850747,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-13/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-13",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "chuque-42",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-42/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-42",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chinqchint-26",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "vgabillon",
+          "batch_id": 1038227,
+          "start_time": 1279871732,
+          "walltime": 21600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-26/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-26",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chicon-1",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038189,
+          "start_time": 1279865240,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-1/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-1",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chuque-14",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038188,
+          "start_time": 1279850747,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-14/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-14",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chuque-43",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038186,
+          "start_time": 1279850419,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-43/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-43",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chinqchint-27",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "vgabillon",
+          "batch_id": 1038227,
+          "start_time": 1279871732,
+          "walltime": 21600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-27/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-27",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chicon-2",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038189,
+          "start_time": 1279865240,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-2/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-2",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chuque-44",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038186,
+          "start_time": 1279850419,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-44/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-44",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chinqchint-28",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "vgabillon",
+          "batch_id": 1038227,
+          "start_time": 1279871732,
+          "walltime": 21600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-28/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-28",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chicon-3",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038188,
+          "start_time": 1279850747,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-3/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-3",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chuque-15",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038188,
+          "start_time": 1279850747,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-15/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-15",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chuque-45",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038186,
+          "start_time": 1279850419,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-45/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-45",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chinqchint-29",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "vgabillon",
+          "batch_id": 1038227,
+          "start_time": 1279871732,
+          "walltime": 21600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-29/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-29",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chicon-4",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038188,
+          "start_time": 1279850747,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-4/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-4",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "chuque-16",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-16/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-16",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chuque-46",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038186,
+          "start_time": 1279850419,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-46/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-46",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "chinqchint-1",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "vgabillon",
+          "batch_id": 1038222,
+          "start_time": 1279904460,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-1/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-1",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chti-1",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038187,
+          "start_time": 1279850741,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-1/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-1",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chicon-5",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038188,
+          "start_time": 1279850747,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-5/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-5",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chuque-17",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038186,
+          "start_time": 1279850419,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-17/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-17",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chuque-47",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038186,
+          "start_time": 1279850419,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-47/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-47",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chti-2",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038187,
+          "start_time": 1279850741,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-2/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-2",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chicon-6",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038188,
+          "start_time": 1279850747,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-6/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-6",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chuque-18",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038186,
+          "start_time": 1279850419,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-18/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-18",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chinqchint-2",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "vgabillon",
+          "batch_id": 1038227,
+          "start_time": 1279871732,
+          "walltime": 21600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-2/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-2",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chicon-7",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038188,
+          "start_time": 1279850747,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-7/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-7",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "chuque-19",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-19/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-19",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chinqchint-3",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "vgabillon",
+          "batch_id": 1038227,
+          "start_time": 1279871732,
+          "walltime": 21600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-3/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-3",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chuque-48",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038186,
+          "start_time": 1279850419,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-48/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-48",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chinqchint-30",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "vgabillon",
+          "batch_id": 1038227,
+          "start_time": 1279871732,
+          "walltime": 21600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-30/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-30",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chicon-8",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038187,
+          "start_time": 1279850741,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-8/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-8",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "chinqchint-4",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "tcghislainlandry",
+          "batch_id": 1038221,
+          "start_time": 1279871436,
+          "walltime": 32364
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-4/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-4",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "chti-3",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 1038203,
+          "start_time": 1279865510,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-3/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-3",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chuque-49",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038186,
+          "start_time": 1279850419,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-49/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-49",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chinqchint-31",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "vgabillon",
+          "batch_id": 1038227,
+          "start_time": 1279871732,
+          "walltime": 21600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-31/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-31",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chicon-9",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038187,
+          "start_time": 1279850741,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-9/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-9",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "chinqchint-5",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "tcghislainlandry",
+          "batch_id": 1038221,
+          "start_time": 1279871436,
+          "walltime": 32364
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-5/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-5",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "chti-4",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 1038201,
+          "start_time": 1279865510,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-4/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-4",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chinqchint-32",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "vgabillon",
+          "batch_id": 1038227,
+          "start_time": 1279871732,
+          "walltime": 21600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-32/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-32",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chuque-20",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038186,
+          "start_time": 1279850419,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-20/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-20",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "chinqchint-6",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "tcghislainlandry",
+          "batch_id": 1038221,
+          "start_time": 1279871436,
+          "walltime": 32364
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-6/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-6",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "chti-5",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 1038199,
+          "start_time": 1279865510,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-5/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-5",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chinqchint-33",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "vgabillon",
+          "batch_id": 1038227,
+          "start_time": 1279871732,
+          "walltime": 21600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-33/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-33",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chuque-21",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038186,
+          "start_time": 1279850419,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-21/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-21",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chti-10",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038187,
+          "start_time": 1279850741,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-10/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-10",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "chinqchint-7",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-7/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-7",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "chti-6",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 1038197,
+          "start_time": 1279865510,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-6/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-6",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "chuque-50",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-50/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-50",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chinqchint-34",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "vgabillon",
+          "batch_id": 1038227,
+          "start_time": 1279871732,
+          "walltime": 21600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-34/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-34",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "chuque-22",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-22/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-22",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chti-11",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038187,
+          "start_time": 1279850741,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-11/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-11",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "chinqchint-8",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "tcghislainlandry",
+          "batch_id": 1038221,
+          "start_time": 1279871436,
+          "walltime": 32364
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-8/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-8",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "chti-7",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 1038195,
+          "start_time": 1279865510,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-7/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-7",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "chuque-51",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 1038215,
+          "start_time": 1279865529,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-51/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-51",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chinqchint-35",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "vgabillon",
+          "batch_id": 1038227,
+          "start_time": 1279871732,
+          "walltime": 21600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-35/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-35",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "chuque-23",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-23/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-23",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chti-12",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038187,
+          "start_time": 1279850741,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-12/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-12",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "chinqchint-9",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "tcghislainlandry",
+          "batch_id": 1038221,
+          "start_time": 1279871436,
+          "walltime": 32364
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-9/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-9",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "chti-8",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 1038193,
+          "start_time": 1279865510,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-8/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-8",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "chuque-52",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 1038213,
+          "start_time": 1279865510,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-52/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-52",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "chuque-24",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-24/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-24",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chti-13",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038187,
+          "start_time": 1279850741,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-13/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-13",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "chti-9",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 1038191,
+          "start_time": 1279865510,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-9/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-9",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chinqchint-36",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "vgabillon",
+          "batch_id": 1038227,
+          "start_time": 1279871732,
+          "walltime": 21600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-36/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-36",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "chuque-53",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 1038211,
+          "start_time": 1279865510,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-53/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-53",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "chuque-25",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-25/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-25",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chti-14",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038187,
+          "start_time": 1279850741,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-14/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-14",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chinqchint-37",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "vgabillon",
+          "batch_id": 1038227,
+          "start_time": 1279871732,
+          "walltime": 21600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-37/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-37",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chti-15",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038187,
+          "start_time": 1279850741,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-15/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-15",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chinqchint-38",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "vgabillon",
+          "batch_id": 1038227,
+          "start_time": 1279871732,
+          "walltime": 21600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-38/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-38",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chicon-10",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038189,
+          "start_time": 1279865240,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-10/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-10",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "chuque-26",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-26/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-26",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chti-16",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038187,
+          "start_time": 1279850741,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-16/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-16",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chinqchint-39",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "vgabillon",
+          "batch_id": 1038227,
+          "start_time": 1279871732,
+          "walltime": 21600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-39/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-39",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chicon-11",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038189,
+          "start_time": 1279865240,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-11/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-11",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "chuque-27",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-27/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-27",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chti-17",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038187,
+          "start_time": 1279850741,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-17/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-17",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "busy",
+      "node_uid": "chicon-12",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "default",
+          "user": "frochajimenezvieira",
+          "batch_id": 1038219,
+          "start_time": 1279865529,
+          "walltime": 30600
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-12/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-12",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "chuque-28",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-28/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-28",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "chinqchint-10",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "vgabillon",
+          "batch_id": 1038222,
+          "start_time": 1279904460,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-10/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-10",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chti-18",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038187,
+          "start_time": 1279850741,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-18/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-18",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chicon-13",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038189,
+          "start_time": 1279865240,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-13/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-13",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "unknown",
+      "node_uid": "chuque-29",
+      "uid": 1279876528,
+      "hardware_state": "dead",
+      "type": "node_status",
+      "reservations": [
+
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-29/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chuque/nodes/chuque-29",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "free",
+      "node_uid": "chinqchint-11",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Waiting",
+          "queue": "default",
+          "user": "vgabillon",
+          "batch_id": 1038222,
+          "start_time": 1279904460,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-11/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chinqchint/nodes/chinqchint-11",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chti-19",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038187,
+          "start_time": 1279850741,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-19/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chti/nodes/chti-19",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    },
+    {
+      "system_state": "besteffort",
+      "node_uid": "chicon-14",
+      "uid": 1279876528,
+      "hardware_state": "alive",
+      "type": "node_status",
+      "reservations": [
+        {
+          "state": "Running",
+          "queue": "besteffort",
+          "user": "oteytaud",
+          "batch_id": 1038189,
+          "start_time": 1279865240,
+          "walltime": 43200
+        }
+      ],
+      "links": [
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-14/status",
+          "rel": "self",
+          "type": "application/vnd.fr.grid5000.api.NodeStatus+json;level=1"
+        },
+        {
+          "href": "/sid/grid5000/sites/lille/clusters/chicon/nodes/chicon-14",
+          "rel": "parent",
+          "type": "application/vnd.fr.grid5000.api.Node+json;level=1"
+        }
+      ]
+    }
+  ],
+  "generated_at": 1279876528,
+  "total": 145,
+  "links": [
+    {
+      "href": "/sid/grid5000/sites/lille/status",
+      "rel": "self",
+      "type": "application/vnd.fr.grid5000.api.Collection+json;level=1"
+    }
+  ],
+  "offset": 0
+}

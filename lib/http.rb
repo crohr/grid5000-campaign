@@ -84,7 +84,6 @@ class Http
   
   def uri_for(path)
     uri = URI.join(config[:api_uri], path.to_s)
-    Grid5000.logger.debug [:uri, uri]
     uri
   end
   
