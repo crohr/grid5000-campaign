@@ -20,11 +20,34 @@ class Numeric
     end
   end
   
+  def seconds
+    self
+  end
+  
+  def minutes
+    seconds*60
+  end
+  
+  def hours
+    minutes*60
+  end
+  
+  def days
+    hours*24
+  end
 end
 
 class Fixnum  
-  def nodes
+  def instances
     self
+  end
+end
+
+class Hash
+  def symbolize_keys
+    Hash[map{ |key,value| 
+      [(key.to_sym rescue key) || key, value] 
+    }]
   end
 end
 

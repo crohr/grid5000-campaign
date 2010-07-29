@@ -8,85 +8,94 @@ require "http/resource"
 require "http/collection"
 
 class Http
-  attr_reader :config
+  
+  class Error < StandardError; end
+  
+  VERSION = "0.1"
+  
+  attr_reader :config, :logger
 
   def initialize(config = {})
-    @config = config
-    [:api_uri].each do |property|
+    @config = Hash[config.map{ |key,value| 
+      [(key.to_sym rescue key) || key, value] 
+    }]
+    [:api_base_uri].each do |property|
       raise ArgumentError, ":#{property} property must be set." unless config[property]
     end
+    @logger = config[:logger] || Logger.new(STDERR)
   end # def initialize
   
+  
+  # <tt>uri</tt>:: URI or String
   def get(uri, options = {})
-    uri = uri_for(uri).to_s
     options[:head] = default_headers.merge(options[:head] || {})
-    response = EventMachine::HttpRequest.new(uri).get(options)
-    handle_status(uri, response)
+    response = EventMachine::HttpRequest.new(uri.to_s).get(options)
+    handle_response(response, uri)
   end # def get
   
-  def aget(uri, options = {})
-    options[:head] = default_headers.merge(options[:head] || {})
-    EventMachine::HttpRequest.new(uri_for(uri).to_s).aget(options)
-  end
+  # def aget(uri, options = {})
+  #   options[:head] = default_headers.merge(options[:head] || {})
+  #   EventMachine::HttpRequest.new(uri.to_s).aget(options)
+  # end
   
   def root
-    get(uri_for(config[:api_root] || "/"))
-  end
+    get uri_for(config[:api_root_uri] || "/")
+  end # def root
   
-  def handle_status(uri, response)
+  # <tt>uri</tt>:: URI
+  def handle_response(response, uri)
     status = response.response_header.status
     case status
     when 200
       body = JSON.parse response.response
-      if collection?(body)
+      if collection?(response)
         Collection.new(self, uri, body)
       else
         Resource.new(self, uri, body)
       end
     when 201, 202  
       # follow Location
-      self.get(URI.join(uri, response.response_header.location).to_s)
+      get URI.join(uri.to_s, response.response_header.location)
     when 204
       true
     when 404
       nil
     else
-      raise Error, "Request failed with status: #{status}."
+      raise Error, "Request failed with status: #{status.inspect}."
     end
   end # def handle_status
   
   def default_headers
     @default_headers ||= {
       "Accept" => "application/json",
-      "User-Agent" => "em-restfully/0.1"
+      "User-Agent" => "em-restfully/#{VERSION}"
     }
   end # def default_headers
   
   
-  def link(resource, rel)
-    link = resource["links"] && resource["links"].find{|link|
-      link["rel"] == rel.to_s || link["title"] == rel.to_s
-    }
-    if link
-      link["href"] = URI.join(config[:api_uri], link["href"]).to_s
-      link
-    else
-      nil
-    end
+  # def link(resource, rel)
+  #   link = resource["links"] && resource["links"].find{|link|
+  #     link["rel"] == rel.to_s || link["title"] == rel.to_s
+  #   }
+  #   if link
+  #     link["href"] = URI.join(config[:api_uri], link["href"]).to_s
+  #     link
+  #   else
+  #     nil
+  #   end
+  # end
+  
+  def collection?(response)
+    response.response_header.accept =~ /collection/i
   end
   
-  def collection?(response_body)
-    response_body.has_key?("items") && 
-      response_body["items"].kind_of?(Array) &&
-      response_body.has_key?("links") &&
-      response_body.has_key?("total")
-  end
-  
+  # <tt>path</tt>:: URI or String
+  # @returns: URI
   def uri_for(path)
-    uri = URI.join(config[:api_uri], path.to_s)
+    uri = URI.join(config[:api_base_uri], path.to_s)
+    logger.debug [:uri, uri]
     uri
   end
   
-  class Error < StandardError; end
 
 end # module Http

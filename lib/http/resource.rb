@@ -4,9 +4,30 @@ class Http
     
     def initialize(http, uri, properties)
       @http = http
-      @uri = uri.to_s
+      @uri = uri
       @properties = properties        
     end # def initialize
+    
+    def method_missing
+      # TODO: deal with associations
+    end
+    
+    def links
+      self["links"] || []
+    end
+    
+    # Returns URI or nil
+    def uri_to(rel_or_title)
+      match = rel_or_title.to_s
+      link = links.find{|link|
+        link["rel"] == match || link["title"] == match
+      }
+      if link.nil?
+        nil
+      else
+        URI.join(uri.to_s, link["href"])
+      end
+    end
     
     def [](key)
       key = key.to_s
@@ -17,9 +38,9 @@ class Http
       @properties[key.to_s] = value
     end # def []=
     
-    def get(rel, *args)
-      http.get(http.link(self, rel)["href"], *args)
+    # TODO: deal with depth, and includes
+    def load(options = {})
+      
     end
-    
   end # class Resource
 end # class Http

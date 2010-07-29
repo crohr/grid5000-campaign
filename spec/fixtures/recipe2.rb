@@ -1,45 +1,82 @@
-# set :ssh_public_key, "~/.ssh/id_rsa.pub"
-# set :ssh_private_key, ""
+require "logger"
+require "grid5000/campaign"
 
-set :gateway, "access.rennes.grid5000.fr"
+logger = Logger.new(STDERR)
+logger.level = Logger::DEBUG
 
-set :besteffort, true
-set :idempotent, true
-
-set :project, "Awesome project"
-set :name, "really awesome name"
-
-set :api_uri, "https://api.grid5000.fr"
-set :api_root, "/sid/grid5000"
-
-set :max_retries, 3
-set :max_error_rate, 10/100
-
-sequential do # not required here, since sequential is the default
-  rsync("local:~/my-data", "remote:~/campaign/my-data", :on => [:rennes, :grenoble])
+Grid5000::Campaign.new({
+  :gateway         => "access.bordeaux.grid5000",
+  :project         => "Revolutionary Project",
+  :name            => "Take #1",
+  :api_base_uri    => "https://api.grid5000.fr",
+  :api_root_uri    => "/sid/grid5000",
+  :ssh_public_key  => "~/.ssh/id_rsa.pub",
+  :ssh_private_key => "~/.ssh/id_rsa",
+  :logger          => logger
+}) do |camp|
   
-  export("remote:~/campaign/my-data", :via => :http, :port => 4567, :on => [:rennes, :grenoble])
-  
-  parallel do
-    set1 = launch(
-      40.instances, 
-      :environment => "lenny-x64-base", 
-      :having => [
-        :architecture.with(:smp_size.gt 2)
-      ],
-      :notify => "xmpp:crohr@jabber.grid5000.fr"
+  # not required here, since sequential is the default
+  camp.sequential do
+
+    camp.rsync(
+      "local:~/my-data", 
+      "remote:~/camp/my-data", 
+      :on => [:rennes, :grenoble]
+    )
+
+    camp.export(
+      "remote:~/camp/my-data", 
+      :via => :http, 
+      :port => 4567, 
+      :on => [:rennes, :grenoble]
+    )
+
+    camp.parallel do
+      camp.launch(
+        40.instances, 
+        :environment => "lenny-x64-base", 
+        :having      => [
+          :architecture.with(:smp_size.gt 4),
+          :network_adapters.with(:interface.like(/infiniband/i))
+        ],
+        :notify      => "xmpp:crohr@jabber.grid5000.fr",
+        :for         => 2.hours,
+        :retry       => 3.times,
+        :id          => :multicpu
+      )
+
+      camp.launch(
+        20.instances, 
+        :environment  => :default,
+        :on           => [:rennes, :lille],
+        :distribution => [10, 10],
+        :having       => [
+          :processor.with(:clock_speed.gt 2.8.G)
+        ],
+        :for          => 2.hours,
+        :retry        => 2.times,
+        :id           => :fast
+      )
+    end
+
+    camp.execute(
+      "hostname", 
+      :on => camp[:multicpu].instances+camp[:fast].instances
+    )    
+
+    # Display campaign info and status
+    camp.logger.info camp.to_s
+    
+    camp.wait {
+      camp[:multicpu].finished? && camp[:fast].finished?
+    }
+
+    camp.graph(
+      camp[:multicpu].instances+camp[:fast].instances, 
+      :metrics => [:mem_free, :bytes_in, :bytes_out, :cpu_idle], 
+      :resolution => 15
     )
     
-    set2 = launch(
-      20.instances, 
-      :environment => :default,
-      :on => [:rennes, :lille],
-      :distribution => [10, 10],
-      :having => [
-        :processor.with(:clock_speed.gt 2.G)
-      ]
-    )
   end
   
-  execute("hostname", :on => set1+set2)
-end
+end.run!
