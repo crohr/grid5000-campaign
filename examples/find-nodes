@@ -22,7 +22,7 @@ find(40.nodes).on(:rennes, :lille).
     :network_adapters.with(:enabled.eq(true)).
       and(:rate.gt(10.G)).
       and(:interface.like(/infiniband/i, /ethernet/i))
-  ) do |resources|
+  ).launch do |resources|
     resources.each do |site, nodes|
       puts site
       p nodes.map{|n| n["uid"]}

@@ -24,6 +24,8 @@ set :api_root, "/sid/grid5000"
 find(40.nodes).
   on(:lille, :rennes, :grenoble).
   distributed(4,5,10).
+  from(Time.now).
+  to(Time.now+10.hours).
   having(
     :processor.with(:clock_speed.gt(2.G)),
     :network_adapters.with(:enabled.eq(true)).

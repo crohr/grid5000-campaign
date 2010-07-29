@@ -62,6 +62,10 @@ module Grid5000
         distribution
       end
     
+      def distribution_by_site
+        Hash[locations.zip(distribution)]
+      end
+    
       # Attempts to find a match between the requirements 
       # and the available nodes
       def match
@@ -74,7 +78,6 @@ module Grid5000
           raise MatchingError, "At least one location requirement cannot be satisfied (#{locations.inspect})."
         else
           compute_status_conditions
-          distribution_by_site = Hash[locations.zip(distribution)]
           sites.pget(:status) do |site, status|
             site['status'] = status
           end
@@ -104,6 +107,17 @@ module Grid5000
 
       end
       
+      def launch(&block)
+        match.each do |site_uid, nodes|
+          properties = nodes.map{|node| "-p \"cluster='#{node["cluster_uid"]}'\""}.uniq
+          site.post({
+            :nodes => distribution_by_site[site_uid.to_s],
+            :properties => properties.join(" "),
+            :walltime => walltime,
+            :command => "~/grid5000-campaign/#{campaign.uid}/launch"
+          })
+        end
+      end
       
       # Returns true if the 
       def match?(hash)
