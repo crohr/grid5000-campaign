@@ -20,11 +20,13 @@ module Grid5000
       @mode = :sequential
       @operations = []
       @registry = {}
+      @running = false
       block.call(self) if block
     end
     
     # Run the campaign
     def run!
+      @running = true
       EM.synchrony do
         @operations.each do |operation|
           case operation
@@ -39,20 +41,21 @@ module Grid5000
           end
         end
         EM.stop
+        @running = false
         self
       end
     end # def run!
 
     def sequential(&block)
       @mode = :sequential
-      block.call(self)
+      block.call#(self)
       self
     end # def sequential
     
     def parallel(&block)
       @mode = :parallel
       @operations << []
-      block.call(self)
+      block.call#(self)
       @mode = :sequential
       self
     end # def parallel
@@ -78,29 +81,44 @@ module Grid5000
       add_operation Operation::Execute.new(self, options)
     end # def execute
     
-    def wait(seconds, &block)
+    def wait(seconds = nil, options = {}, &block)
       options[:wait] ||= seconds
       add_operation Operation::Wait.new(self, &block)
     end # def wait
     
-    def add_operation(operation)
-      logger.info "Planning #{mode.to_s} execution of #{operation.to_s}..."
-      case mode
-      when :parallel
-        @operations.last << operation
-      else
-        @operations << operation
-      end
-      operation
-    end # def add_operation
-    
     def [](id)
-      @registry[id.to_sym]
-    end
+      if !running?
+        proxy = Proc.new{
+          @registry[id.to_sym]
+        }
+        class << proxy
+          attr_accessor :campaign, :stacked_methods
+          def method_missing(method, *args)
+            p [:method_missing, method, args]
+            stacked_methods ||= []
+            stacked_methods.push([method, args])
+            if campaign.running?
+              result = call
+              while !stacked_methods.empty? do
+                m, arguments = stacked_methods.shift
+                result.send(method, *arguments)
+              end
+              stacked_methods
+              result
+            end
+          end
+        end
+        proxy.campaign = self
+        p proxy
+        proxy
+      else
+        @registry[id.to_sym]
+      end
+    end # def []
     
     def []=(id, operation)
       @registry[id.to_sym] = operation
-    end
+    end # def []=
     
     def api      
       @http ||= Http.new(
@@ -111,6 +129,24 @@ module Grid5000
         :logger   => config[:logger]
       )
     end # def api
+    
+    def running?
+      @running == true
+    end # def running?
+    
+    protected
+    def add_operation(operation)
+      logger.info "Planning #{mode.to_s} execution of #{operation.to_s}..."
+      case mode
+      when :parallel
+        @operations.last << operation
+      else
+        @operations << operation
+      end
+      # register the operation
+      self[operation.id] = operation
+      operation
+    end # def add_operation
     
   end # class Campaign
   

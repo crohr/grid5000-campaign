@@ -39,6 +39,9 @@ end
 
 class Fixnum  
   def instances
+    nodes
+  end
+  def nodes
     self
   end
 end
@@ -53,89 +56,114 @@ end
 
 class Symbol
   
-  def eq(value)
-    procify(value, :==)
-  end
-  
-  def gt(value)
-    procify(value, :>=)
-  end
-  
-  def lt(value)
-    procify(value, :<=)
-  end
-  
-  def in(range_or_array)
-    case range_or_array
-    when Range
-      procify(range_or_array, :include?)
-    when Array
-      range_or_array = [range_or_array].flatten
-      procify(range_or_array, :include?)
-    else
-      raise ArgumentError, "#{range_or_array.inspect} is a #{range_or_array.class}. Expected Range or Array."
+  class Requirement
+    attr_reader :symbol
+    
+    def initialize(symbol)
+      @symbol = symbol
     end
-  end
-  
-  def like(*regexps)
-    regexps = [regexps].flatten
-    non_regexp = regexps.find{|r| !r.kind_of?(Regexp)}
-    if non_regexp.nil?
-      Proc.new { |hash| 
-        hash.has_key?(key) && regexps.find{|regexp|
-          regexp.match(hash[key])
+    
+    def eq(value)
+      procify(value, :==)
+    end
+
+    def gt(value)
+      procify(value, :>=)
+    end
+
+    def lt(value)
+      procify(value, :<=)
+    end
+
+    def in(*range_or_array)
+      if range_or_array.length == 1 && range_or_array[0].kind_of?(Range)
+        procify(range_or_array.pop, :include?)
+      else
+        procify(range_or_array.flatten, :include?)
+      end
+    end
+
+    # TODO: reuse :procify
+    def like(*regexps)
+      regexps = [regexps].flatten
+      non_regexp = regexps.find{|r| !r.kind_of?(Regexp)}
+      if non_regexp.nil?
+        conditions.push Proc.new { |hash| 
+          hash.has_key?(key) && regexps.find{|regexp|
+            regexp.match(hash[key])
+          }
         }
-      }
-    else
-      raise ArgumentError, "#{non_regexp.inspect} is not a regular expression."
+        self
+      else
+        raise ArgumentError, "#{non_regexp.inspect} is not a regular expression."
+      end
     end
-  end
-  
-  def conditions
-    @conditions ||= []
-  end
-  
-  def with(expression)
-    @conditions = []
-    @conditions << add_condition(expression)
-    self
-  end
-  
-  def and(expression)
-    if conditions.empty?
-      raise ArgumentError, "You must call :with at least once before :and."
-    else
-      @conditions << add_condition(expression)
+
+    def conditions
+      @conditions ||= []
+    end
+
+    def with(expression)
+      @conditions = []
+      @conditions.push add_condition(*expression.conditions)
       self
     end
-  end
-  
-  def key
-    @key ||= self.to_s
-  end
-  
-  private
-  def procify(value, method)
-    Proc.new { |hash| 
-      if hash.has_key?(key)
-        property = hash[key]
-        case value
-        when Range, Array
-          value.send(method, property)
-        else
-          property.send(method, value)
-        end
-      else
-        false
-      end
-    }
-  end
-  
-  def add_condition(expression)
-    Proc.new { |node| 
-      node.has_key?(key) && [node[key]].flatten.find{ |value|
-        expression.call(value)
+
+    def matched?(hash)
+      conditions.all?{|condition|
+        condition.call(hash)
       }
-    }
+    end
+
+    def and(expression)
+      if conditions.empty?
+        raise ArgumentError, "You must call :with at least once before :and."
+      else
+        @conditions.push add_condition(*expression.conditions)
+        self
+      end
+    end
+
+    def key
+      symbol.to_s
+    end
+
+    private
+    def procify(value, method)
+      conditions.push Proc.new { |hash| 
+        if hash.has_key?(key)
+          property = hash[key]
+          p [:value, value]
+          case value
+          when Range, Array
+            p [:key, key, property, value]
+            value.send(method, property)
+          else
+            property.send(method, value)
+          end
+        else
+          false
+        end
+      }
+      self
+    end
+
+    def add_condition(*expressions)
+      Proc.new { |node| 
+        node.has_key?(key) && [node[key]].flatten.find{ |value|
+          expressions.all?{|expression|
+            expression.call(value)
+          }
+        }
+      }
+    end
+    
+  end # class Parasite
+
+  
+  def method_missing(method, *args)
+    Requirement.new(self).send(method, *args)
   end
+  
+  
 end
